@@ -1,0 +1,1 @@
+Pon aquí static/img/<personaje>/cerrada.png, media.png y abierta.png (ver docs/GUIA_RECURSOS.md). Si no existen, se usan los retratos ilustrados.

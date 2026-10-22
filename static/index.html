@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Voces de la Historia</title>
+  <meta name="description" content="Conversa por voz con personajes históricos del Perú. ¡Ellos te responden!">
+  <meta name="theme-color" content="#3B1FA8">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" href="/icons/icono.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/icons/icono-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="preload" href="/fonts/baloo2.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/nunito.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main id="app">
+
+  <!-- 1 · Inicio -->
+  <section id="pantalla-inicio" class="pantalla activa" aria-label="Inicio">
+    <div class="inicio-grupo" aria-hidden="true">
+      <div class="inicio-cara cara-a"><div class="avatar" data-pinta="arguedas"></div></div>
+      <div class="inicio-cara cara-b"><div class="avatar" data-pinta="grau"></div></div>
+      <div class="inicio-cara cara-c"><div class="avatar" data-pinta="garcilaso"></div></div>
+      <div class="inicio-hola">¡Hola!</div>
+    </div>
+    <div class="inicio-texto">
+      <h1 id="titulo-app" class="inicio-titulo">Voces de la Historia</h1>
+      <p class="inicio-sub">Habla con personajes del Perú.<br>¡Ellos te responden!</p>
+    </div>
+    <div class="espacio"></div>
+    <div class="inicio-acciones">
+      <button id="btn-empezar" class="btn-grande late">
+        <svg viewBox="0 0 24 24" width="38" height="38" fill="currentColor" aria-hidden="true"><path d="M8 5l11 7-11 7z"/></svg>
+        ¡Toca para empezar!
+      </button>
+      <p class="nota-ia">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/></svg>
+        <span id="nota-personajes">Personajes del Perú te esperan</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- 2 · Elegir personaje -->
+  <section id="pantalla-elegir" class="pantalla" aria-label="Elegir personaje">
+    <div class="elegir-cabeza">
+      <div>
+        <h1 class="titulo">¿Con quién quieres hablar?</h1>
+        <p class="subtitulo">Toca a un personaje</p>
+      </div>
+      <button class="btn-holo" id="btn-holo-elegir" aria-label="Abrir modo holograma">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M12 3L3 19h18z"/><path d="M12 3v16M3 19l9-5 9 5"/></svg>
+        <span>Holograma</span>
+      </button>
+    </div>
+    <div class="filtros" id="filtros" role="tablist" aria-label="Filtrar personajes" hidden></div>
+    <div id="lista-personajes" class="lista-personajes"></div>
+    <div class="espacio"></div>
+    <div class="elegir-voz">
+      <button id="btn-elegir-voz" class="btn-redondo" aria-label="Decir el nombre del personaje">
+        <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/></svg>
+      </button>
+      <div id="texto-elegir-voz">…o dime su nombre<br><span>“Quiero hablar con Grau”</span></div>
+    </div>
+  </section>
+
+  <!-- 3-6 · Conversación (listo, escuchando, pensando, hablando) -->
+  <section id="pantalla-charla" class="pantalla" aria-label="Conversación" data-fase="listo">
+    <header class="barra">
+      <button class="btn-volver" data-volver="elegir" aria-label="Volver">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
+      <div class="barra-derecha">
+        <button class="btn-sonido" id="btn-sonido" aria-label="Silenciar sonido ambiente">
+          <svg class="on" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg>
+          <svg class="off" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4z"/><path d="M22 9l-6 6M16 9l6 6"/></svg>
+        </button>
+        <button class="btn-holo btn-holo-chico" id="btn-holo-charla" aria-label="Ver en modo holograma">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M12 3L3 19h18z"/><path d="M12 3v16M3 19l9-5 9 5"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <div class="charla-izq">
+      <h1 class="charla-nombre" id="charla-nombre"></h1>
+      <p class="charla-epoca" id="charla-epoca"></p>
+      <div class="escena">
+        <div class="avatar-marco">
+          <div class="avatar avatar-principal" id="avatar-principal"></div>
+        </div>
+        <div class="nube-pensar" aria-hidden="true"><span></span><span></span><span></span></div>
+        <div class="nube-pensar-chica" aria-hidden="true"></div>
+      </div>
+    </div>
+
+    <div class="charla-der">
+      <div class="pastilla-estado" id="pastilla-estado" role="status" aria-live="polite"></div>
+
+      <div class="burbuja-usuario" id="burbuja-usuario" hidden>
+        <div class="burbuja-usuario-texto" id="texto-usuario"></div>
+        <div class="burbuja-quien">Tú</div>
+      </div>
+
+      <div class="burbuja-personaje" id="burbuja-personaje">
+        <div class="burbuja-cabeza" id="burbuja-cabeza">
+          <span class="barritas" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span id="quien-habla"></span>
+        </div>
+        <p id="subtitulo" aria-live="polite"></p>
+      </div>
+
+      <div class="sugerencias" id="sugerencias">
+        <div class="sugerencias-titulo">¿No sabes qué preguntar? Toca una idea:</div>
+        <div class="sugerencias-lista" id="sugerencias-lista"></div>
+      </div>
+
+      <form class="teclado" id="form-teclado" hidden>
+        <input id="input-pregunta" type="text" maxlength="300" autocomplete="off" placeholder="Escribe tu pregunta…" aria-label="Escribe tu pregunta">
+        <button type="submit" aria-label="Enviar pregunta">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+      </form>
+
+      <div class="espacio"></div>
+
+      <div class="controles">
+        <button class="btn-lateral" id="btn-izquierda"></button>
+        <div class="mic-zona">
+          <div class="mic-ondas" aria-hidden="true"><i></i><i></i></div>
+          <button class="btn-mic" id="btn-mic"></button>
+          <div class="mic-texto" id="mic-texto"></div>
+        </div>
+        <button class="btn-lateral" id="btn-derecha"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7 · Lecturas -->
+  <section id="pantalla-lecturas" class="pantalla" aria-label="Lecturas">
+    <header class="barra barra-lecturas">
+      <button class="btn-volver" data-volver="charla" aria-label="Volver">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
+      <div class="avatar avatar-mini" id="avatar-lecturas"></div>
+      <div class="lecturas-quien" id="lecturas-quien"></div>
+    </header>
+    <div class="lecturas-cuerpo">
+      <div class="lecturas-col">
+        <h1 class="titulo">¿Qué te leo hoy?</h1>
+        <p class="subtitulo">Son partes de verdad de mis libros.</p>
+        <div class="lista-lecturas" id="lista-lecturas"></div>
+      </div>
+      <div class="lector" id="lector" hidden>
+        <div class="lector-cabeza">
+          <span id="lector-estado">Leyendo…</span>
+          <span id="lector-parte"></span>
+        </div>
+        <div class="lector-barras" id="lector-barras" aria-hidden="true"></div>
+        <p class="lector-texto" id="lector-texto"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8 · No te puedo oír -->
+  <section id="pantalla-error" class="pantalla" aria-label="No te puedo oír">
+    <header class="barra">
+      <button class="btn-volver" data-volver="charla" aria-label="Volver">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
+    </header>
+    <div class="error-cuerpo">
+      <div class="error-icono" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="64" height="64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/><path d="M3 3l18 18" stroke-width="2.8"/></svg>
+      </div>
+      <h1 class="titulo centro">¡Ups! No te puedo oír</h1>
+      <ol class="pasos">
+        <li><span>1</span>Pide ayuda a un adulto</li>
+        <li><span>2</span>Toquen “Permitir” micrófono, o abran la app en Chrome</li>
+      </ol>
+      <button class="btn-medio" id="btn-reintentar">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>
+        Intentar otra vez
+      </button>
+      <div class="error-mientras">Mientras tanto, toca una pregunta:</div>
+      <div class="baldosas" id="baldosas"></div>
+      <button class="btn-texto" id="btn-escribir-error">…o escribe tu pregunta</button>
+    </div>
+  </section>
+
+  <!-- 9 · Holograma -->
+  <section id="pantalla-holo" class="pantalla" aria-label="Modo holograma" data-fase="listo">
+    <div class="holo-toque" id="holo-toque" role="button" tabindex="0" aria-label="Toca en cualquier parte para hablar">
+      <div class="holo-vista holo-arriba"><div class="holo-halo"></div><div class="avatar holo-avatar"></div></div>
+      <div class="holo-vista holo-derecha"><div class="holo-halo"></div><div class="avatar holo-avatar"></div></div>
+      <div class="holo-vista holo-abajo"><div class="holo-halo"></div><div class="avatar holo-avatar"></div></div>
+      <div class="holo-vista holo-izquierda"><div class="holo-halo"></div><div class="avatar holo-avatar"></div></div>
+      <div class="holo-centro" aria-hidden="true"></div>
+      <div class="holo-nombre" id="holo-nombre" aria-live="polite"></div>
+    </div>
+
+    <!-- Panel para quien opera la feria: se abre al entrar o manteniendo presionado 2 segundos -->
+    <div class="holo-panel" id="holo-panel">
+      <div class="holo-panel-caja">
+        <h2>Modo holograma</h2>
+        <p class="holo-ayuda">Pon la pirámide con la punta hacia abajo, justo sobre la cruz del centro. Sube el brillo al máximo y busca un lugar con poca luz.</p>
+
+        <div class="holo-fila-titulo">Personaje</div>
+        <div class="holo-personajes" id="holo-personajes"></div>
+
+        <div class="holo-fila-titulo">Tamaño (ajústalo a tu pirámide)</div>
+        <div class="holo-tamano">
+          <button id="holo-menos" aria-label="Más pequeño">−</button>
+          <input id="holo-tam" type="range" min="16" max="40" step="1" aria-label="Tamaño del personaje">
+          <button id="holo-mas" aria-label="Más grande">+</button>
+        </div>
+
+        <div class="holo-fila-titulo">Sonido ambiente (mar, río, viento…)</div>
+        <div class="holo-tamano">
+          <input id="holo-ambiente" type="range" min="0" max="100" step="5" aria-label="Volumen del sonido ambiente">
+        </div>
+
+        <label class="holo-opcion"><input type="checkbox" id="holo-continuo" checked> Conversación continua (escucha sola después de cada respuesta)</label>
+        <label class="holo-opcion"><input type="checkbox" id="holo-sonidos" checked> Sonido al empezar y terminar de escuchar</label>
+        <label class="holo-opcion"><input type="checkbox" id="holo-guia"> Mostrar cruz de guía para centrar la pirámide</label>
+
+        <div class="holo-como">
+          <b>Cómo se usa:</b> un toque en cualquier parte = el personaje escucha. Mientras habla, un toque lo detiene.
+          Desliza a los lados para cambiar de personaje. Mantén presionado 2 segundos para volver a este panel.
+          Con teclado: <kbd>Espacio</kbd> hablar · <kbd>←</kbd><kbd>→</kbd> personaje · <kbd>Esc</kbd> panel.
+        </div>
+
+        <div class="holo-botones">
+          <button class="btn-medio" id="holo-empezar">Empezar</button>
+          <button class="btn-texto" id="holo-salir">Salir del holograma</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="aviso" id="aviso" role="alert" hidden></div>
+  <div class="sello-demo" id="sello-demo" hidden>DEMO</div>
+</main>
+
+<script src="/avatares.js"></script>
+<script src="/ambiente.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>

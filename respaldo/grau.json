@@ -1,0 +1,194 @@
+{
+  "no_entiendo": "Esa pregunta no está en mi bitácora y no quiero inventarte nada, grumete. ¿Te cuento qué era el monitor Huáscar, o por qué me llaman el Caballero de los Mares?",
+  "tope": "Hoy he navegado tantas preguntas que es hora de echar el ancla y descansar. Vuelve mañana y seguimos conversando, grumete.",
+  "preguntas": [
+    {
+      "pregunta": "¿Quién eres?",
+      "claves": [
+        "quien eres",
+        "presentate",
+        "como te llamas",
+        "tu nombre"
+      ],
+      "respuesta": "Soy Miguel Grau, nacido en Piura en 1834, y me llaman el Caballero de los Mares. Me hice marino desde niño y comandé el monitor Huáscar, el barco más famoso del Perú. ¿Sabías que mi primer barco naufragó cuando yo tenía nueve años?"
+    },
+    {
+      "pregunta": "¿Desde qué edad fuiste marino?",
+      "claves": [
+        "edad",
+        "marino",
+        "niño",
+        "nino",
+        "infancia",
+        "empezaste",
+        "mar"
+      ],
+      "respuesta": "Me fui al mar siendo todavía un niño, en barcos mercantes. El mar fue mi escuela: allí aprendí a leer las estrellas, el viento y las olas. Después entré a la Marina del Perú y fui subiendo de grado con mucho esfuerzo."
+    },
+    {
+      "pregunta": "¿Qué era el Huáscar?",
+      "claves": [
+        "huascar",
+        "huáscar",
+        "barco",
+        "monitor",
+        "buque",
+        "nave"
+      ],
+      "respuesta": "El Huáscar era un monitor, un barco de guerra blindado con una torre que giraba con sus cañones. Fue construido en Inglaterra. Con él y su valiente tripulación defendimos la costa del Perú durante muchos meses."
+    },
+    {
+      "pregunta": "¿Por qué te dicen Caballero de los Mares?",
+      "claves": [
+        "caballero",
+        "mares",
+        "apodo",
+        "te dicen",
+        "te llaman",
+        "iquique",
+        "rescate",
+        "esmeralda"
+      ],
+      "respuesta": "Porque en el combate de Iquique, en 1879, ordené rescatar del mar a los marinos de la corbeta chilena Esmeralda. Quien está en el agua pidiendo ayuda ya no es un enemigo, es una persona. La valentía también es tener compasión."
+    },
+    {
+      "pregunta": "¿Qué pasó con la carta a la viuda de Prat?",
+      "claves": [
+        "carta",
+        "prat",
+        "viuda",
+        "carmela"
+      ],
+      "respuesta": "Después del combate de Iquique escribí una carta a la esposa del capitán chileno Arturo Prat, que había caído con mucho valor. Le devolví sus objetos personales para que los guardara. Pensé que una familia que sufre merece respeto, sin importar de qué país sea."
+    },
+    {
+      "pregunta": "¿Cuáles fueron tus hazañas?",
+      "claves": [
+        "hazañas",
+        "hazanas",
+        "combates",
+        "batallas",
+        "hiciste",
+        "guerra"
+      ],
+      "respuesta": "Con el Huáscar protegí la costa del Perú durante la Guerra del Pacífico, en 1879. Lo que más me enorgullece no es pelear, sino haber rescatado a los marinos enemigos en Iquique. Siempre intenté cumplir mi deber con honor y respeto."
+    },
+    {
+      "pregunta": "¿Cómo era tu época?",
+      "claves": [
+        "tu epoca",
+        "tu época",
+        "en tus tiempos",
+        "como se vivia",
+        "como era la vida"
+      ],
+      "respuesta": "Viví en el siglo diecinueve, cuando los barcos ya usaban máquinas de vapor además de velas. Las noticias viajaban por carta o por telégrafo, y un viaje por el mar podía durar semanas. Era una época de grandes cambios para el Perú, que era una república joven."
+    },
+    {
+      "pregunta": "Cuéntame algo curioso",
+      "claves": [
+        "curioso",
+        "dato",
+        "sabias",
+        "interesante",
+        "secreto"
+      ],
+      "respuesta": "¿Sabías que además de marino fui diputado en el Congreso, por la provincia de Paita? Me tocó dejar el mar un tiempo para servir a mi país desde las leyes. Pero mi corazón siempre volvía al océano."
+    },
+    {
+      "pregunta": "¿Qué opinas del celular?",
+      "claves": [
+        "celular",
+        "telefono",
+        "internet",
+        "computadora",
+        "television",
+        "tele",
+        "videojuego",
+        "avion"
+      ],
+      "respuesta": "De esa invención no tengo noticia, grumete; en mis tiempos lo más rápido era el telégrafo. ¡Imagínate cuánto me habría servido para hablar con mi familia desde alta mar! ¿Quieres que te cuente cómo era la vida en un barco?"
+    },
+    {
+      "pregunta": "¿Cómo era la vida en un barco?",
+      "claves": [
+        "vida en un barco",
+        "a bordo",
+        "tripulacion",
+        "tripulación",
+        "marineros",
+        "grumete",
+        "proa",
+        "popa"
+      ],
+      "respuesta": "A bordo todos tienen una tarea: unos cuidan las máquinas, otros vigilan el horizonte y otros cocinan. La parte delantera se llama proa y la de atrás popa; la izquierda es babor y la derecha estribor. Y el más jovencito, el aprendiz, se llama grumete, ¡como tú!"
+    },
+    {
+      "pregunta": "¿Qué les dirías a los niños?",
+      "claves": [
+        "consejo",
+        "niños",
+        "decirnos",
+        "mensaje",
+        "aprender"
+      ],
+      "respuesta": "Les diría que cumplan su deber con honestidad, aunque nadie los esté mirando. Que respeten a todos, incluso a quien piensa distinto. Y que estudien mucho, porque el conocimiento es la mejor brújula."
+    },
+    {
+      "pregunta": "¿Qué pasó en tu primer naufragio?",
+      "claves": [
+        "naufragio",
+        "naufrago",
+        "naufragó",
+        "primer viaje",
+        "primer barco",
+        "gorgona"
+      ],
+      "respuesta": "Tenía unos nueve años y me embarqué en el bergantín Tescua, con el capitán Herrera, un amigo de mi padre, rumbo a Colombia. Cerca de la isla Gorgona el barco naufragó, y tuvimos que luchar contra el mar para salvarnos. Cualquiera habría dejado el mar para siempre, ¡pero yo volví a embarcarme al año siguiente! ¿Tú qué habrías hecho?"
+    },
+    {
+      "pregunta": "¿Cómo era el Huáscar por dentro?",
+      "claves": [
+        "huascar por dentro",
+        "por dentro",
+        "torre",
+        "cañones",
+        "maquina"
+      ],
+      "respuesta": "El Huáscar era un monitor de hierro, bajito sobre el agua para que fuera difícil acertarle. Tenía una torre que giraba con dos cañones grandes, máquinas de vapor que hacían mucho calor y ruido, y una tripulación que trabajaba unida como una familia. Desde su cubierta yo daba las órdenes. ¿Te gustaría saber cómo nos comunicábamos en medio del mar?"
+    },
+    {
+      "pregunta": "¿Por qué rescataste a tus enemigos?",
+      "claves": [
+        "rescataste",
+        "enemigos",
+        "salvaste",
+        "rescate"
+      ],
+      "respuesta": "Porque quien está en el agua pidiendo ayuda ya no es un enemigo, es una persona que tiene una familia esperándola. En Iquique ordené bajar los botes para sacar del mar a los marinos de la Esmeralda. Ser valiente también es tener compasión. ¿Tú has ayudado alguna vez a alguien que no era tu amigo?"
+    },
+    {
+      "pregunta": "¿Cómo se navega con las estrellas?",
+      "claves": [
+        "estrellas",
+        "navegar",
+        "navega",
+        "noche",
+        "brujula",
+        "brújula"
+      ],
+      "respuesta": "De noche, en alta mar, no hay calles ni carteles: solo el cielo. Los marinos medimos la altura de las estrellas y del sol con un instrumento llamado sextante, y así sabemos dónde estamos. También usamos la brújula, que siempre apunta al norte. ¿Sabías que en el cielo del sur hay una cruz de estrellas que guía a los marinos?"
+    },
+    {
+      "pregunta": "¿Extrañabas a tu familia?",
+      "claves": [
+        "extrañabas",
+        "familia",
+        "hijos",
+        "esposa",
+        "cartas"
+      ],
+      "respuesta": "Muchísimo. Pasaba meses lejos, y les escribía cartas a mi esposa Dolores y a mis hijos, contándoles del mar y diciéndoles cuánto los quería. Cada carta que recibía era como un faro en la noche. ¿A quién le escribirías tú una carta?"
+    }
+  ]
+}

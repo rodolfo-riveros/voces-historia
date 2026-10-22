@@ -1,0 +1,15 @@
+SONIDOS PROPIOS (OPCIONAL)
+
+Sin archivos aquí, la app genera sola el ambiente de cada personaje:
+  Grau      -> olas, gaviotas y crujido del barco; entrada: campana de barco
+  Arguedas  -> río, arpa tocando un huayno y pájaros; entrada: zumbayllu y arpa
+  Garcilaso -> viento de cordillera, campanas lejanas y pluma escribiendo; entrada: campanas
+
+Si quieres usar grabaciones reales, crea una carpeta por personaje:
+
+  static/sonidos/grau/fondo.mp3      (se repite en bucle, de 30 s a 2 min, volumen suave)
+  static/sonidos/grau/entrada.mp3    (cortina corta al entrar, 1 a 3 segundos)
+
+Igual para "arguedas" y "garcilaso". Formatos: mp3, ogg, wav o m4a.
+Usa sonidos con licencia libre (por ejemplo CC0 en freesound.org o los de pixabay.com).
+Recarga la página para que la app los detecte.

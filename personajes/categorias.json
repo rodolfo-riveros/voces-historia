@@ -1,0 +1,22 @@
+[
+  {
+    "id": "escritores",
+    "nombre": "Escritores y poetas",
+    "descripcion": "Contaron el Perú con palabras"
+  },
+  {
+    "id": "heroes",
+    "nombre": "Héroes y heroínas",
+    "descripcion": "Lo dieron todo por el Perú"
+  },
+  {
+    "id": "incas",
+    "nombre": "Incas y Perú antiguo",
+    "descripcion": "Los pueblos que construyeron los Andes"
+  },
+  {
+    "id": "sabios",
+    "nombre": "Sabios y científicos",
+    "descripcion": "Descubrieron los secretos del Perú"
+  }
+]

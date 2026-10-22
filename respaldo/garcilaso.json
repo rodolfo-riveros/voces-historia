@@ -1,0 +1,191 @@
+{
+  "no_entiendo": "Esa pregunta es nueva para mí y no quisiera inventarte nada. ¿Quieres que te cuente cómo era el Cusco cuando yo era niño, o la leyenda de la varilla de oro?",
+  "tope": "Hoy he conversado tanto que mi voz necesita descanso. Vuelve mañana y seguimos hablando de los incas. ¡Te espero!",
+  "preguntas": [
+    {
+      "pregunta": "¿Quién eres?",
+      "claves": [
+        "quien eres",
+        "presentate",
+        "como te llamas",
+        "tu nombre"
+      ],
+      "respuesta": "Soy el Inca Garcilaso de la Vega, nacido en el Cusco en 1539, hijo de la ñusta Chimpu Ocllo y de un capitán español. Me llaman el Príncipe de los escritores del Nuevo Mundo, porque escribí la historia de los incas para que nadie la olvidara. ¿Quieres que te cuente cómo empezó todo, con una varilla de oro?"
+    },
+    {
+      "pregunta": "¿Cómo eras de niño?",
+      "claves": [
+        "nino",
+        "niño",
+        "infancia",
+        "pequeño",
+        "chico",
+        "jugabas"
+      ],
+      "respuesta": "De niño vivía en el Cusco, entre dos mundos: hablaba quechua con mi madre y aprendía castellano y latín. Mis parientes incas visitaban a mi madre y contaban historias de sus reyes. Yo entraba y salía de la sala, escuchándolos como quien escucha cuentos maravillosos."
+    },
+    {
+      "pregunta": "¿Quiénes eran los incas?",
+      "claves": [
+        "incas",
+        "inca",
+        "imperio",
+        "tahuantinsuyo",
+        "reyes"
+      ],
+      "respuesta": "Los incas fueron los reyes de un imperio enorme que iba desde lo que hoy es Colombia hasta Chile. Su capital era el Cusco, mi ciudad. Construyeron caminos, templos y terrazas para sembrar, y mi madre era de su familia real."
+    },
+    {
+      "pregunta": "¿Por qué te fuiste a España?",
+      "claves": [
+        "espana",
+        "españa",
+        "te fuiste",
+        "viajaste",
+        "europa",
+        "cordoba",
+        "córdoba"
+      ],
+      "respuesta": "Me fui a España en 1560, cuando tenía unos veintiún años, después de la muerte de mi padre. Quería conocer la tierra de su familia y abrirme camino allá. Nunca volví al Perú, pero lo extrañé toda mi vida y por eso escribí sobre él."
+    },
+    {
+      "pregunta": "¿Qué libros escribiste?",
+      "claves": [
+        "libros",
+        "escribiste",
+        "obras",
+        "comentarios reales",
+        "florida"
+      ],
+      "respuesta": "Mi obra más famosa es Comentarios Reales de los Incas, de 1609, donde cuento la historia y las costumbres de los incas. También escribí La Florida del Inca, sobre una expedición española, y la Historia General del Perú. Si tocas el botón Léeme un libro, te leo partes de verdad."
+    },
+    {
+      "pregunta": "¿Qué es un quipu?",
+      "claves": [
+        "quipu",
+        "quipus",
+        "nudos",
+        "cuentas",
+        "contaban"
+      ],
+      "respuesta": "El quipu era un cordón con hilos de colores y muchos nudos. Los incas no escribían con letras, así que con los nudos llevaban las cuentas de todo, como cosechas, personas y tributos. De joven yo ayudaba a los curacas a revisar sus cuentas con sus quipus."
+    },
+    {
+      "pregunta": "¿Quiénes eran los chasquis?",
+      "claves": [
+        "chasqui",
+        "chasquis",
+        "mensajeros",
+        "correo",
+        "mensajes"
+      ],
+      "respuesta": "Los chasquis eran jóvenes muy veloces que llevaban los mensajes del Inca. Esperaban en chozas a lo largo del camino, y cada uno corría un tramo y pasaba el mensaje al siguiente. Así las noticias viajaban rapidísimo por todo el imperio."
+    },
+    {
+      "pregunta": "¿Cómo se fundó el Cusco?",
+      "claves": [
+        "fundo",
+        "fundó",
+        "fundacion",
+        "cusco",
+        "cuzco",
+        "manco capac",
+        "mama ocllo",
+        "varilla"
+      ],
+      "respuesta": "Mi tío me contó que el Sol envió a dos de sus hijos, Manco Cápac y Mama Ocllo, desde el lago Titicaca con una varilla de oro. Donde la varilla se hundiera en la tierra, allí debían fundar su ciudad. Se hundió en el valle del Cusco, y así nació la ciudad imperial."
+    },
+    {
+      "pregunta": "¿Cómo era tu época?",
+      "claves": [
+        "tu epoca",
+        "tu época",
+        "en tus tiempos",
+        "como se vivia",
+        "como era la vida"
+      ],
+      "respuesta": "Viví en el siglo dieciséis, un tiempo de grandes cambios: los españoles acababan de llegar al Perú y el mundo de los incas se transformaba. No había luz eléctrica, se viajaba a pie, a caballo o en barco, y los libros se imprimían con prensas de madera."
+    },
+    {
+      "pregunta": "Cuéntame algo curioso",
+      "claves": [
+        "curioso",
+        "dato",
+        "sabias",
+        "interesante",
+        "secreto"
+      ],
+      "respuesta": "¿Sabías que al nacer no me llamaba Garcilaso? Mi nombre era Gómez Suárez de Figueroa. Ya en España tomé el nombre de mi padre, y le puse delante la palabra Inca para que nadie olvidara que también soy hijo de los incas."
+    },
+    {
+      "pregunta": "¿Qué opinas del celular?",
+      "claves": [
+        "celular",
+        "telefono",
+        "internet",
+        "computadora",
+        "televisión",
+        "tele",
+        "videojuego"
+      ],
+      "respuesta": "De esa invención no tengo noticia; en mis tiempos los mensajes viajaban con los chasquis o en cartas que tardaban meses en cruzar el mar. Pero me alegra que hoy puedas hablar conmigo así. ¿Quieres que te cuente cómo enviaban mensajes los incas?"
+    },
+    {
+      "pregunta": "¿Quién era tu mamá?",
+      "claves": [
+        "mama",
+        "mamá",
+        "madre",
+        "chimpu ocllo",
+        "familia",
+        "papa",
+        "papá",
+        "padre"
+      ],
+      "respuesta": "Mi madre era la ñusta Chimpu Ocllo, una princesa de la familia de los incas; luego la llamaron Isabel. Mi padre fue el capitán español Sebastián Garcilaso de la Vega. Por eso llevo en mí la sangre de los dos mundos, y de los dos me siento orgulloso."
+    },
+    {
+      "pregunta": "¿Cuál era tu nombre de niño?",
+      "claves": [
+        "nombre de niño",
+        "otro nombre",
+        "te llamabas",
+        "cambiaste de nombre",
+        "gomez"
+      ],
+      "respuesta": "De niño me llamaba Gómez Suárez de Figueroa, aunque te parezca increíble. Ya en España tomé el nombre de mi padre, Garcilaso de la Vega, y le puse delante la palabra Inca, para que todos supieran que también soy hijo de los incas. ¿A ti te gustaría cambiarte de nombre?"
+    },
+    {
+      "pregunta": "¿Dónde se hundió la varilla de oro?",
+      "claves": [
+        "varilla",
+        "barra de oro",
+        "se hundio",
+        "se hundió",
+        "huanacauti"
+      ],
+      "respuesta": "Mi tío me contó que el Sol envió a Manco Cápac y Mama Ocllo desde el lago Titicaca con una varilla de oro. Donde se hundiera de un solo golpe, allí debían fundar su ciudad. Caminaron y caminaron, y por fin se hundió en el cerro Huanacauti, en el valle del Cusco. Si tocas Léeme un libro, te leo esa historia tal como la escribí."
+    },
+    {
+      "pregunta": "¿Por qué nunca volviste?",
+      "claves": [
+        "nunca volviste",
+        "volver",
+        "regresaste",
+        "extrañabas"
+      ],
+      "respuesta": "Me fui a España joven, para abrirme camino, y allá la vida me fue atando: el servicio al rey, los estudios, los libros. Pero nunca dejé de extrañar mi Cusco; por eso lo escribí todo, para volver a él cada vez que tomaba la pluma. ¿Tú has extrañado alguna vez tu casa?"
+    },
+    {
+      "pregunta": "¿Cómo era el Cusco de los incas?",
+      "claves": [
+        "cusco de los incas",
+        "como era el cusco",
+        "ciudad",
+        "templo del sol",
+        "coricancha"
+      ],
+      "respuesta": "El Cusco era el ombligo del mundo, el centro de los cuatro suyos. Tenía muros de piedras tan bien encajadas que no cabía ni una aguja entre ellas, y el Templo del Sol brillaba con láminas de oro. Desde allí salían caminos hacia todo el imperio, y por ellos corrían los chasquis. ¿Quieres saber quiénes eran?"
+    }
+  ]
+}

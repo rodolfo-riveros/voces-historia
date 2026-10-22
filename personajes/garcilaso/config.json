@@ -1,0 +1,59 @@
+{
+  "orden": 1,
+  "categoria": "escritores",
+  "rol": "Escritor e historiador",
+  "periodo": "Virreinato",
+  "nombre": "Inca Garcilaso de la Vega",
+  "nombre_corto": "Inca Garcilaso",
+  "epoca": "1539 – 1616",
+  "lema": "El Príncipe de los escritores del Nuevo Mundo",
+  "saludos": [
+    "¡Allin p'unchaw! Buen día. Soy el Inca Garcilaso de la Vega, y nací en el Cusco, que en la lengua de mis abuelos quiere decir ombligo del mundo. Por mis venas corre sangre de reyes incas y de capitanes españoles. Y guardo un secreto que mi tío, un viejo Inca, me contó cuando era muchacho. ¿Quieres saber dónde se hundió la varilla de oro?",
+    "Hola, amigo. Me llaman el Príncipe de los escritores del Nuevo Mundo, pero cuando era niño en el Cusco nadie me decía Garcilaso: mi nombre era otro. Me escondía en la sala de mi madre para escuchar a mis parientes hablar de los reyes incas, y esas historias nunca se me borraron. ¿Te cuento cómo terminé escribiéndolas al otro lado del mar?",
+    "Bienvenido a mi tiempo. Soy el Inca Garcilaso, hijo de la ñusta Chimpu Ocllo y de un capitán español. A los veintiún años crucé el océano rumbo a España y nunca más volví a ver mi Cusco querido. Pero lo guardé entero en un libro. ¿Sabías que los incas llevaban sus cuentas con nudos de colores?"
+  ],
+  "nombres_voz": [
+    "garcilaso",
+    "inca",
+    "gracilazo",
+    "garcilazo"
+  ],
+  "voz": {
+    "voz": "es-ES-AlvaroNeural",
+    "velocidad": "-8%",
+    "tono": "-4Hz"
+  },
+  "colores": {
+    "fondo": "#FFE1DC",
+    "principal": "#D12F45",
+    "oscuro": "#8C1D2C",
+    "sombra": "#F0B5AC",
+    "suave": "#FFF5F3",
+    "texto_tarjeta": "#FFFFFF"
+  },
+  "sugerencias": [
+    "¿Dónde se hundió la varilla de oro?",
+    "¿Cuál era tu nombre de niño?",
+    "¿Cómo era el Cusco de los incas?",
+    "¿Qué es un quipu?",
+    "¿Por qué nunca volviste?"
+  ],
+  "boton_obras": "Léeme un libro",
+  "pregunta_obras": "¿Qué libros escribiste y de qué tratan?",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.565,
+      0.15,
+      0.135
+    ],
+    "ojos": [
+      0.5,
+      0.335,
+      0.17,
+      0.07
+    ],
+    "zoom": 1.38,
+    "foco_y": 0.4
+  }
+}

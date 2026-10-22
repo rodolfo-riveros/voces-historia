@@ -1,0 +1,9 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+openai>=1.40
+edge-tts>=7.0
+python-dotenv>=1.0
+
+# Solo para herramientas/preparar_retratos.py (preparar los retratos)
+pillow>=10.0
+numpy>=1.26

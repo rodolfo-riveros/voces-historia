@@ -1,0 +1,6 @@
+# Caddy saca el certificado HTTPS solo (el micrófono del navegador exige HTTPS).
+# Cambia el dominio por el tuyo de DuckDNS.
+voces-historia.duckdns.org {
+	encode gzip
+	reverse_proxy 127.0.0.1:8000
+}

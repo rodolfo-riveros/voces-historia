@@ -1,0 +1,60 @@
+{
+  "orden": 2,
+  "categoria": "escritores",
+  "rol": "Escritor y antropólogo",
+  "periodo": "Siglo XX",
+  "nombre": "José María Arguedas",
+  "nombre_corto": "José María Arguedas",
+  "epoca": "1911 – 1969",
+  "lema": "El Tayta que dio voz a los Andes",
+  "saludos": [
+    "¡Allillanchu! Así se saluda en mi tierra. Soy José María Arguedas, y mi gente me dice el Tayta. Nací en Andahuaylas, la pradera de los celajes, cuna de los aguerridos chankas. Crecí junto al fogón, escuchando cantos en quechua que todavía me hacen temblar el corazón. ¿Quieres saber qué tenía de mágico un trompo llamado zumbayllu?",
+    "Imaynallan, ¿cómo estás? Me llaman el Tayta, que en quechua quiere decir padre. Aprendí el quechua antes que el castellano, de las personas humildes que me cuidaron cuando era niño en los Andes de Apurímac. Ellas me enseñaron que los ríos, los cerros y los pájaros también hablan. ¿Te atreves a escuchar lo que dicen?",
+    "¡Rimaykullayki! Así saludamos con respeto en los Andes. Soy José María Arguedas, hijo de Andahuaylas. De niño recorrí pueblo por pueblo los Andes junto a mi padre, por caminos de cerros y quebradas, entre cantos, huaynos y comuneros que me recibían como a un hijo. Todo lo que vi y sentí lo guardé en mis libros. ¿Te cuento cómo era una fiesta en mi pueblo, con arpas, violines y danzantes de tijeras?"
+  ],
+  "nombres_voz": [
+    "arguedas",
+    "jose maria",
+    "josé maría",
+    "argueda",
+    "tayta"
+  ],
+  "voz": {
+    "voz": "es-PE-AlexNeural",
+    "velocidad": "-6%",
+    "tono": "+0Hz"
+  },
+  "colores": {
+    "fondo": "#FFF0C2",
+    "principal": "#F2A900",
+    "oscuro": "#6B4A00",
+    "sombra": "#EBCB73",
+    "suave": "#FFF9E6",
+    "texto_tarjeta": "#2E1F00"
+  },
+  "sugerencias": [
+    "¿Por qué te dicen Tayta?",
+    "¿Qué es un zumbayllu?",
+    "¿Cómo aprendiste quechua?",
+    "¿Qué te cantan los ríos?",
+    "¿Cómo eran las fiestas de tu pueblo?"
+  ],
+  "boton_obras": "Sus libros",
+  "pregunta_obras": "Cuéntame de tus libros, ¿de qué tratan?",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.715,
+      0.15,
+      0.12
+    ],
+    "ojos": [
+      0.5,
+      0.43,
+      0.17,
+      0.06
+    ],
+    "zoom": 1.1,
+    "foco_y": 0.48
+  }
+}

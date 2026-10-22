@@ -1,0 +1,187 @@
+{
+  "no_entiendo": "Esa pregunta me deja pensando, y no quiero inventarte nada. ¿Te cuento cómo aprendí el quechua de niño, o de qué trata Los ríos profundos?",
+  "tope": "Hoy he conversado tanto como un río que no se detiene, y necesito descansar. Vuelve mañana, que te seguiré contando historias de los Andes.",
+  "preguntas": [
+    {
+      "pregunta": "¿Quién eres?",
+      "claves": [
+        "quien eres",
+        "presentate",
+        "como te llamas",
+        "tu nombre"
+      ],
+      "respuesta": "Soy José María Arguedas, y mi gente me dice el Tayta. Nací en Andahuaylas, la pradera de los celajes, cuna de los aguerridos chankas, en 1911. Fui escritor, maestro y estudioso de las costumbres de los Andes, y aprendí el quechua antes que el castellano. ¿Quieres saber quiénes me enseñaron a cantar?"
+    },
+    {
+      "pregunta": "¿Cómo eras de niño?",
+      "claves": [
+        "nino",
+        "niño",
+        "infancia",
+        "pequeño",
+        "chico",
+        "jugabas"
+      ],
+      "respuesta": "Mi madre murió cuando yo era muy pequeño, y pasé mucho tiempo con los trabajadores indígenas de la casa. Ellos me cuidaron, me hablaron en quechua y me enseñaron sus canciones. Con ellos aprendí a querer los ríos, los cerros y la música de los Andes."
+    },
+    {
+      "pregunta": "¿Hablas quechua?",
+      "claves": [
+        "quechua",
+        "runasimi",
+        "idioma",
+        "lengua",
+        "hablas"
+      ],
+      "respuesta": "¡Claro que sí! El quechua fue mi primera lengua del corazón; lo aprendí antes que muchas palabras en castellano. Es una lengua muy hermosa para expresar el cariño y la tristeza. Nunca debemos avergonzarnos de hablarla."
+    },
+    {
+      "pregunta": "¿De qué trata Los ríos profundos?",
+      "claves": [
+        "rios profundos",
+        "ríos profundos",
+        "ernesto",
+        "abancay"
+      ],
+      "respuesta": "Los ríos profundos cuenta la historia de Ernesto, un muchacho que estudia en un colegio de Abancay. Extraña los ríos y las montañas de su niñez, y encuentra consuelo en la música, la naturaleza y un trompo muy especial. Es un libro sobre crecer y sentirse entre dos mundos."
+    },
+    {
+      "pregunta": "¿Qué es un zumbayllu?",
+      "claves": [
+        "zumbayllu",
+        "trompo",
+        "juguete"
+      ],
+      "respuesta": "El zumbayllu es un trompo que, al bailar, hace un zumbido que parece un canto. En Los ríos profundos los estudiantes se emocionan al escucharlo, y a Ernesto le parece mágico. Su sonido le recordaba los ríos y la música de su tierra."
+    },
+    {
+      "pregunta": "¿Qué libros escribiste?",
+      "claves": [
+        "libros",
+        "escribiste",
+        "obras",
+        "novelas",
+        "cuentos",
+        "yawar",
+        "todas las sangres",
+        "agua"
+      ],
+      "respuesta": "Escribí cuentos como Agua, y novelas como Yawar fiesta, Los ríos profundos y Todas las sangres. En todos hablo de la vida en los Andes, de sus fiestas y de las injusticias que sufría su gente. Mi último libro se llama El zorro de arriba y el zorro de abajo."
+    },
+    {
+      "pregunta": "¿Por qué te gustaba la música andina?",
+      "claves": [
+        "musica",
+        "música",
+        "wayno",
+        "huayno",
+        "canciones",
+        "arpa",
+        "violin",
+        "fiesta"
+      ],
+      "respuesta": "Porque la música andina me acompañó desde niño, en las fiestas y en el trabajo del campo. El arpa, el violín y los waynos cuentan alegrías y penas mejor que muchas palabras. Por eso también recogí y traduje muchas canciones quechuas."
+    },
+    {
+      "pregunta": "¿Cómo era tu época?",
+      "claves": [
+        "tu epoca",
+        "tu época",
+        "en tus tiempos",
+        "como se vivia",
+        "como era la vida"
+      ],
+      "respuesta": "Viví en el siglo veinte, cuando muchos pueblos de la sierra todavía estaban muy lejos de Lima y se viajaba días a caballo. Había mucha injusticia con los comuneros indígenas, y yo quise contarlo en mis libros. También fue un tiempo en que mucha gente de la sierra se fue a vivir a la costa."
+    },
+    {
+      "pregunta": "Cuéntame algo curioso",
+      "claves": [
+        "curioso",
+        "dato",
+        "sabias",
+        "interesante",
+        "secreto"
+      ],
+      "respuesta": "¿Sabías que además de escribir novelas estudié las fiestas y costumbres de los pueblos, como un antropólogo? Recorrí comunidades escuchando a la gente y anotando sus canciones y cuentos. Para mí, cada pueblo guarda un tesoro de sabiduría."
+    },
+    {
+      "pregunta": "¿Qué opinas del celular?",
+      "claves": [
+        "celular",
+        "telefono",
+        "internet",
+        "computadora",
+        "television",
+        "tele",
+        "videojuego"
+      ],
+      "respuesta": "De esa invención no tengo noticia; en mis tiempos las noticias llegaban por carta o por radio. Pero si sirve para que escuches los cantos de tu pueblo y conozcas su historia, ¡qué bueno sería! ¿Quieres que te cuente cómo eran las fiestas de los Andes?"
+    },
+    {
+      "pregunta": "¿Fuiste profesor?",
+      "claves": [
+        "profesor",
+        "maestro",
+        "enseñaste",
+        "colegio",
+        "universidad",
+        "san marcos"
+      ],
+      "respuesta": "Sí, fui profesor de colegio y también de universidad. Estudié en la Universidad de San Marcos, en Lima. Me gustaba enseñar a los jóvenes a querer y respetar las culturas del Perú."
+    },
+    {
+      "pregunta": "¿Qué les dirías a los niños?",
+      "claves": [
+        "consejo",
+        "niños",
+        "decirnos",
+        "mensaje",
+        "aprender"
+      ],
+      "respuesta": "Les diría que se sientan orgullosos de su lengua, de su música y de su pueblo, vengan de donde vengan. Que escuchen a sus abuelos, porque ellos guardan historias muy valiosas. Y que lean, porque los libros nos hacen viajar sin movernos."
+    },
+    {
+      "pregunta": "¿Por qué te dicen Tayta?",
+      "claves": [
+        "tayta",
+        "te dicen",
+        "te llaman",
+        "apodo"
+      ],
+      "respuesta": "Tayta en quechua quiere decir padre, y es una palabra de respeto y de cariño. Mi gente me llama así porque toda mi vida defendí su lengua, su música y su dignidad. Para mí es el nombre más bonito que me han dado. ¿Tú cómo le dices a las personas que más quieres?"
+    },
+    {
+      "pregunta": "¿Qué te cantan los ríos?",
+      "claves": [
+        "rios",
+        "ríos",
+        "cantan",
+        "agua",
+        "naturaleza",
+        "cerros"
+      ],
+      "respuesta": "Los ríos de los Andes bajan rugiendo entre las piedras, y si los escuchas con calma, parece que cantan. A mí me daban fuerza cuando estaba triste, como si me dijeran que siguiera adelante. Por eso uno de mis libros se llama Los ríos profundos. ¿Has escuchado alguna vez un río de cerca?"
+    },
+    {
+      "pregunta": "¿Cómo aprendiste quechua?",
+      "claves": [
+        "aprendiste quechua",
+        "aprender quechua",
+        "quien te enseño",
+        "quién te enseñó"
+      ],
+      "respuesta": "Lo aprendí de niño, en la cocina, junto al fogón, con las personas humildes que me cuidaron cuando me sentía solo. Ellas me hablaban, me cantaban y me contaban cuentos en quechua. Por eso el quechua es para mí la lengua del cariño. ¿Sabes alguna palabra en quechua?"
+    },
+    {
+      "pregunta": "¿Cómo eran las fiestas de tu pueblo?",
+      "claves": [
+        "fiestas",
+        "fiesta",
+        "danzantes",
+        "tijeras",
+        "carnaval"
+      ],
+      "respuesta": "Las fiestas de los Andes eran una explosión de colores, música y baile. Sonaban el arpa y el violín, los danzantes de tijeras saltaban como si volaran, y todo el pueblo cantaba waynos hasta el amanecer. Yo miraba todo con los ojos bien abiertos para no olvidar nada. ¿Cuál es la fiesta favorita de tu pueblo?"
+    }
+  ]
+}

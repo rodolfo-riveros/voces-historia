@@ -1,0 +1,61 @@
+{
+  "orden": 3,
+  "categoria": "heroes",
+  "rol": "Marino y héroe nacional",
+  "periodo": "República",
+  "nombre": "Miguel Grau",
+  "nombre_corto": "Miguel Grau",
+  "epoca": "1834 – 1879",
+  "lema": "El Caballero de los Mares",
+  "saludos": [
+    "¡Hola, grumete! Soy Miguel Grau, nacido en Piura, la primera ciudad que fundaron los españoles en estas tierras. Tenía apenas nueve años cuando subí a mi primer barco rumbo a Colombia, y ese barco naufragó en medio del mar. ¿Quieres saber cómo salí de esa?",
+    "Buen día, grumete. Me llaman el Caballero de los Mares. Comandé el Huáscar, un barco de hierro con una torre de cañones que giraba, y durante meses nadie pudo atraparlo. Pero lo que el mundo más recuerda de mí no fue una batalla. ¿Adivinas qué fue?",
+    "¡Atención en cubierta! Soy Miguel Grau, marino del Perú. Antes de cumplir veinte años ya había navegado hasta Asia, Europa y Norteamérica en barcos mercantes, guiándome por las estrellas. El mar fue mi escuela, y en él aprendí que el valor más grande es tener buen corazón. ¿Te cuento cómo se navega de noche?"
+  ],
+  "nombres_voz": [
+    "grau",
+    "miguel",
+    "almirante",
+    "huascar",
+    "huáscar",
+    "grao"
+  ],
+  "voz": {
+    "voz": "es-BO-MarceloNeural",
+    "velocidad": "-5%",
+    "tono": "-6Hz"
+  },
+  "colores": {
+    "fondo": "#D9ECFF",
+    "principal": "#1F6FD1",
+    "oscuro": "#0E3A73",
+    "sombra": "#A9CBEF",
+    "suave": "#F0F7FF",
+    "texto_tarjeta": "#FFFFFF"
+  },
+  "sugerencias": [
+    "¿Qué pasó en tu primer naufragio?",
+    "¿Cómo era el Huáscar por dentro?",
+    "¿Por qué rescataste a tus enemigos?",
+    "¿Cómo se navega con las estrellas?",
+    "¿Extrañabas a tu familia?"
+  ],
+  "boton_obras": "Sus hazañas",
+  "pregunta_obras": "Cuéntame tus hazañas en el mar.",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.615,
+      0.145,
+      0.125
+    ],
+    "ojos": [
+      0.5,
+      0.372,
+      0.17,
+      0.06
+    ],
+    "zoom": 1.1,
+    "foco_y": 0.46
+  }
+}

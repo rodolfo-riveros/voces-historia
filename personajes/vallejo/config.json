@@ -40,5 +40,21 @@
     "¿Qué extrañabas de tu pueblo?"
   ],
   "boton_obras": "Sus libros",
-  "pregunta_obras": "¿Qué libros escribiste y de qué tratan?"
+  "pregunta_obras": "¿Qué libros escribiste y de qué tratan?",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.545,
+      0.115,
+      0.075
+    ],
+    "ojos": [
+      0.5,
+      0.366,
+      0.15,
+      0.05
+    ],
+    "zoom": 1.25,
+    "foco_y": 0.45
+  }
 }

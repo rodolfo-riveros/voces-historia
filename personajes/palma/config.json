@@ -18,9 +18,9 @@
     "tradiciones"
   ],
   "voz": {
-    "voz": "es-US-AlonsoNeural",
-    "velocidad": "-6%",
-    "tono": "-8Hz"
+    "voz": "es-PE-AlexNeural",
+    "velocidad": "-10%",
+    "tono": "-12Hz"
   },
   "colores": {
     "fondo": "#F7D4E2",
@@ -38,5 +38,21 @@
     "¿Te gustaba leer de niño?"
   ],
   "boton_obras": "Sus libros",
-  "pregunta_obras": "¿Qué libros escribiste y de qué tratan?"
+  "pregunta_obras": "¿Qué libros escribiste y de qué tratan?",
+  "retrato": {
+    "boca": [
+      0.505,
+      0.585,
+      0.17,
+      0.085
+    ],
+    "ojos": [
+      0.505,
+      0.405,
+      0.16,
+      0.055
+    ],
+    "zoom": 1.22,
+    "foco_y": 0.47
+  }
 }

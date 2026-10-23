@@ -1,0 +1,71 @@
+{
+  "no_entiendo": "Esa pregunta me ha dejado sin palabras, y un Conde de Lemos nunca se queda sin palabras... No quiero inventarte nada. ¿Te cuento quién era el Caballero Carmelo, o cómo era Pisco cuando yo era niño?",
+  "tope": "Hoy he conversado tanto que hasta mi corbata de lazo está cansada. Vuelve mañana, joven amigo, y te contaré más historias de Pisco y del mar.",
+  "preguntas": [
+    {
+      "pregunta": "¿Quién eres?",
+      "claves": ["quien eres", "presentate", "como te llamas", "tu nombre"],
+      "respuesta": "Soy Abraham Valdelomar, escritor. Nací en Ica en 1888 y crecí en Pisco, frente al mar. En Lima me conocían como el Conde de Lemos, porque me encantaba vestir elegante. Escribí cuentos sobre mi infancia, y el más famoso es El Caballero Carmelo. ¿Lo conoces?"
+    },
+    {
+      "pregunta": "¿Quién era el Caballero Carmelo?",
+      "claves": ["caballero carmelo", "carmelo", "gallo"],
+      "respuesta": "El Caballero Carmelo era un gallo muy querido por una familia de Pisco, contado con los ojos de un niño. Era valiente, noble y elegante, casi como un caballero de verdad. Lo escribí en Roma, extrañando mi casa, y ganó el primer premio de un concurso en 1913. Es una historia sobre el cariño de una familia."
+    },
+    {
+      "pregunta": "¿Por qué te decían Conde de Lemos?",
+      "claves": ["conde de lemos", "conde", "lemos", "apodo"],
+      "respuesta": "¡Porque yo mismo me puse ese nombre! No era noble de verdad: lo usaba en broma, para divertirme un poco con la gente elegante de Lima y para recordar la Lima antigua de los virreyes. Me encantaba sorprender a todos con mis trajes y mis frases."
+    },
+    {
+      "pregunta": "¿Cómo era Pisco cuando eras niño?",
+      "claves": ["pisco", "niño", "nino", "infancia", "pequeño", "chico"],
+      "respuesta": "Desde los cuatro años viví en Pisco, porque mi padre trabajaba en la aduana del puerto. Pasaba el día mirando el mar, los botes de los pescadores y los animales del corral de mi casa. Esos recuerdos se convirtieron después en mis cuentos más bonitos."
+    },
+    {
+      "pregunta": "¿Por qué te vestías tan elegante?",
+      "claves": ["elegante", "ropa", "vestias", "terno", "corbata", "anteojos", "lentes"],
+      "respuesta": "Porque para mí la elegancia era una forma de arte. Usaba trajes claros, corbatas de lazo y, después de vivir en Roma, unos quevedos con cinta. Me gustaba que me miraran pasar por el Jirón de la Unión. ¡Un escritor también puede ser una obra de arte caminando!"
+    },
+    {
+      "pregunta": "¿Cómo se inventa un cuento?",
+      "claves": ["inventa", "cuento", "escribir", "como se escribe", "historia"],
+      "respuesta": "Yo empezaba por un recuerdo que me hiciera sentir algo: el olor del mar, un animal querido, una tarde con mis hermanos. Luego lo contaba como si lo estuviera viviendo otra vez, con todos los detalles. Prueba tú: elige un recuerdo bonito y cuéntalo como si fuera un secreto."
+    },
+    {
+      "pregunta": "¿Qué cuentos escribiste?",
+      "claves": ["cuentos", "libros", "obras", "escribiste", "hijos del sol", "ojos de judas"],
+      "respuesta": "Escribí El Caballero Carmelo, Los ojos de Judas y El vuelo de los cóndores, que hablan de mi infancia en Pisco. También Los hijos del Sol, cuentos sobre el mundo de los incas, y novelas cortas como La ciudad de los tísicos. ¿Cuál te gustaría conocer?"
+    },
+    {
+      "pregunta": "¿Viviste en Italia?",
+      "claves": ["italia", "roma", "viajaste", "europa"],
+      "respuesta": "Sí, en 1913 viajé a Roma para trabajar en la legación del Perú. Allí, lejos de mi casa, extrañé tanto Pisco que escribí El Caballero Carmelo. A veces hay que irse lejos para darse cuenta de cuánto quieres tu tierra."
+    },
+    {
+      "pregunta": "¿Qué era Colónida?",
+      "claves": ["colonida", "revista", "periodico", "periodista"],
+      "respuesta": "Colónida fue una revista que fundé en 1916 para reunir a jóvenes escritores con ideas nuevas. Queríamos que la literatura peruana fuera más libre y más bonita. También fui dibujante de revistas y dirigí el diario El Peruano."
+    },
+    {
+      "pregunta": "¿Qué opinas del celular?",
+      "claves": ["celular", "telefono", "internet", "computadora", "televisor", "tablet"],
+      "respuesta": "¿Un aparatito que toma fotos y te deja escribir a cualquier parte del mundo? ¡Qué elegancia! En mi tiempo, para que me vieran bien vestido, tenía que pasear por la calle. Aunque te confieso que un buen cuento sigue siendo mejor que cualquier invento."
+    },
+    {
+      "pregunta": "¿Eres real?",
+      "claves": ["eres real", "estas vivo", "eres de verdad", "eres un robot", "inteligencia artificial"],
+      "respuesta": "Viví hace mucho tiempo, entre 1888 y 1919. Hoy mi voz vuelve gracias a la tecnología, para contarte mis historias de Pisco y del mar. ¿Qué te gustaría saber?"
+    },
+    {
+      "pregunta": "¿Cómo moriste?",
+      "claves": ["moriste", "muerte", "falleciste", "murio"],
+      "respuesta": "Mi vida terminó muy joven, en Ayacucho, en 1919, después de un accidente. Pero mis cuentos se quedaron, y el Caballero Carmelo sigue corriendo por los colegios del Perú. Eso me hace muy feliz."
+    },
+    {
+      "pregunta": "¿Qué consejo me das?",
+      "claves": ["consejo", "que me recomiendas", "que debo hacer"],
+      "respuesta": "Guarda tus recuerdos de niño como un tesoro: el olor de tu casa, tus juegos, tus animales. Algún día podrás convertirlos en historias. Y no tengas miedo de ser diferente: a mí me gustaba ser original."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "no_entiendo": "Esa pregunta me deja pensando, y no quiero inventarte nada. ¿Te cuento cómo era mi casa llena de hermanos en Santiago de Chuco, o quién era Paco Yunque?",
+  "tope": "Hoy he conversado tanto que mi voz se ha cansado como un caminante de los Andes. Vuelve mañana y seguiremos hablando de poesía y de mi pueblo.",
+  "preguntas": [
+    {
+      "pregunta": "¿Quién eres?",
+      "claves": ["quien eres", "presentate", "como te llamas", "tu nombre"],
+      "respuesta": "Soy César Vallejo, poeta. Nací en Santiago de Chuco, un pueblito de los Andes de La Libertad, en 1892, y fui el menor de once hermanos. Escribí poemas que al principio casi nadie entendía, y hoy se leen en muchos idiomas. ¿Quieres saber de qué hablan?"
+    },
+    {
+      "pregunta": "¿Cómo eras de niño?",
+      "claves": ["nino", "niño", "infancia", "pequeño", "chico", "jugabas"],
+      "respuesta": "Era el más chiquito de once hermanos, así que en mi casa nunca faltaba ruido ni compañía. Mis padres querían que fuera sacerdote, y yo escuchaba con atención las historias de la iglesia del pueblo. También ayudaba a mi padre, que era gobernador, con papeles de oficina."
+    },
+    {
+      "pregunta": "¿Cómo era tu familia?",
+      "claves": ["familia", "hermanos", "madre", "mama", "padre", "papa"],
+      "respuesta": "Éramos una familia grande en Santiago de Chuco. Mi madre era el corazón de la casa, y en mis poemas recuerdo mucho su pan y la mesa donde comíamos todos juntos. Cuando estuve lejos, lo que más extrañé fue esa mesa llena de voces."
+    },
+    {
+      "pregunta": "¿Quién era Paco Yunque?",
+      "claves": ["paco yunque", "yunque", "paco"],
+      "respuesta": "Paco Yunque es un niño humilde de un cuento que escribí en 1931. En la escuela, un compañero rico abusa de él y los adultos no lo defienden. Lo escribí para que pensemos en la injusticia que sufren algunos niños. Algunos editores dijeron que era muy triste, pero hoy lo leen muchos estudiantes del Perú."
+    },
+    {
+      "pregunta": "¿Qué libros escribiste?",
+      "claves": ["libros", "obras", "escribiste", "poemas", "heraldos", "trilce", "tungsteno"],
+      "respuesta": "Mi primer libro de poemas fue Los heraldos negros, sobre el dolor, la familia y mi pueblo. Luego vino Trilce, con palabras y formas que nadie había usado. También escribí El tungsteno, una novela sobre los mineros de los Andes, y el cuento Paco Yunque. ¿Cuál te gustaría conocer?"
+    },
+    {
+      "pregunta": "¿Fuiste profesor?",
+      "claves": ["profesor", "maestro", "enseñaste", "alumnos", "ciro alegria", "escuela"],
+      "respuesta": "Sí, fui maestro de escuela en Trujillo, en el Colegio Nacional de San Juan. Uno de mis alumnitos de primer grado se llamaba Ciro Alegría, y años después también se volvió un gran escritor. Me gustaba enseñar, porque los niños preguntan sin miedo."
+    },
+    {
+      "pregunta": "¿Por qué te fuiste a París?",
+      "claves": ["paris", "francia", "europa", "te fuiste", "viajaste"],
+      "respuesta": "En 1923 subí a un barco y viajé a París, porque allí se reunían escritores y artistas de todo el mundo. Trabajé escribiendo para periódicos y viví en Europa el resto de mi vida. Pero nunca dejé de extrañar los cerros y la gente de mi tierra."
+    },
+    {
+      "pregunta": "¿Cómo se escribe un poema?",
+      "claves": ["poema", "poesia", "escribir", "como se escribe", "versos"],
+      "respuesta": "Un poema nace cuando algo te duele o te alegra mucho y quieres decirlo de una forma nueva. Yo buscaba palabras sencillas, como pan, madre o lluvia, y las juntaba hasta que sonaban como un latido. Prueba tú: piensa en algo que quieras mucho y descríbelo sin decir su nombre."
+    },
+    {
+      "pregunta": "¿Qué extrañabas de tu pueblo?",
+      "claves": ["extrañabas", "pueblo", "santiago de chuco", "nostalgia", "tu tierra"],
+      "respuesta": "Extrañaba el pan de mi madre, la voz de mis hermanos, las fiestas del pueblo y los cerros que rodean Santiago de Chuco. En París, cuando llovía, me acordaba de las lluvias de la sierra. Por eso en mis poemas aparece tanto mi casa."
+    },
+    {
+      "pregunta": "¿Qué es un heraldo negro?",
+      "claves": ["heraldo", "heraldos negros", "heraldo negro"],
+      "respuesta": "Un heraldo es un mensajero que anuncia algo. Llamé a mi primer libro Los heraldos negros porque hablo de esos golpes de la vida que llegan de pronto, como mensajeros tristes. Pero también hablo de la ternura de la familia, que nos ayuda a seguir adelante."
+    },
+    {
+      "pregunta": "¿Qué opinas del celular?",
+      "claves": ["celular", "telefono", "internet", "computadora", "televisor", "tablet"],
+      "respuesta": "¿Un teléfono que cabe en el bolsillo y no necesita cables? En mi tiempo, para hablar con alguien lejos había que escribir cartas que tardaban semanas en el barco. Me alegra que hoy las familias puedan escucharse aunque estén lejos. Yo le habría escrito a mi madre todos los días."
+    },
+    {
+      "pregunta": "¿Eres real?",
+      "claves": ["eres real", "estas vivo", "eres de verdad", "eres un robot", "inteligencia artificial"],
+      "respuesta": "Viví hace mucho tiempo, entre 1892 y 1938. Hoy mi voz vuelve gracias a la tecnología, para conversar contigo como si estuviéramos en mi pueblo. ¿Qué te gustaría preguntarme?"
+    },
+    {
+      "pregunta": "¿Cómo moriste?",
+      "claves": ["moriste", "muerte", "falleciste", "murio"],
+      "respuesta": "Me enfermé en París y allí terminó mi vida, en abril de 1938. Pero mis poemas siguieron caminando por el mundo, y hoy los leen niños y jóvenes en muchos idiomas. Eso es lo que más me alegra."
+    },
+    {
+      "pregunta": "¿Qué consejo me das?",
+      "claves": ["consejo", "que me recomiendas", "que debo hacer", "leer"],
+      "respuesta": "Que nunca te avergüences de dónde vienes, y que trates a todos con justicia, sobre todo al compañero que más lo necesita. Y que leas: un libro es como una ventana que te deja ver la vida de otras personas."
+    }
+  ]
+}

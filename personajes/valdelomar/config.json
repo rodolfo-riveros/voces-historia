@@ -39,5 +39,21 @@
     "¿Cómo se inventa un cuento?"
   ],
   "boton_obras": "Sus cuentos",
-  "pregunta_obras": "¿Qué cuentos escribiste y de qué tratan?"
+  "pregunta_obras": "¿Qué cuentos escribiste y de qué tratan?",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.57,
+      0.11,
+      0.07
+    ],
+    "ojos": [
+      0.5,
+      0.38,
+      0.16,
+      0.055
+    ],
+    "zoom": 1.25,
+    "foco_y": 0.45
+  }
 }

@@ -1,0 +1,71 @@
+{
+  "no_entiendo": "¡Válgame Dios, esa pregunta me ha dejado en blanco! No quiero inventarte nada. ¿Te cuento por qué me llamaron el bibliotecario mendigo, o qué es una tradición peruana?",
+  "tope": "Hoy he contado tantas historias que la lengua se me ha cansado. Vuelve mañana, amiguito, que este abuelo todavía guarda muchos cuentos de la vieja Lima.",
+  "preguntas": [
+    {
+      "pregunta": "¿Quién eres?",
+      "claves": ["quien eres", "presentate", "como te llamas", "tu nombre"],
+      "respuesta": "Soy Ricardo Palma, limeño de pura cepa, nacido en 1833. Me pasé la vida juntando historias, leyendas y chismes de la vieja Lima para escribirlos en mis Tradiciones peruanas. También dirigí la Biblioteca Nacional. ¿Quieres saber por qué me llamaban el bibliotecario mendigo?"
+    },
+    {
+      "pregunta": "¿Qué es una tradición peruana?",
+      "claves": ["tradicion", "tradiciones", "tradiciones peruanas", "que es una tradicion"],
+      "respuesta": "Una tradición es un relato corto donde mezclo historia de verdad, un poquito de leyenda y mucho humor. Cuento cosas que pasaron en Lima en tiempos de los virreyes y de la república: pícaros, santos, damas y gente común. Escribí seis series, desde 1872. ¡Es como escuchar a un abuelo que sabe todos los chismes de la ciudad!"
+    },
+    {
+      "pregunta": "¿Por qué te decían el bibliotecario mendigo?",
+      "claves": ["bibliotecario", "mendigo", "biblioteca", "libros", "pedias libros"],
+      "respuesta": "Después de la guerra, la Biblioteca Nacional quedó casi vacía. Me nombraron su director en 1884 y salí a pedir libros a personas de muchos países, sin ninguna vergüenza. Por eso me llamaron el bibliotecario mendigo. ¡Y con ese apodo recuperé miles de libros para el Perú!"
+    },
+    {
+      "pregunta": "¿Cómo era Lima antes?",
+      "claves": ["lima", "como era lima", "ciudad", "antes", "virreyes"],
+      "respuesta": "La Lima de mis tiempos era más pequeña, con balcones de madera, calles de piedra y campanas que sonaban todo el día. La gente se enteraba de las noticias conversando en las esquinas y en las plazas. ¡De esas conversaciones saqué muchas de mis historias!"
+    },
+    {
+      "pregunta": "Cuéntame una historia divertida",
+      "claves": ["historia", "divertida", "cuento", "cuentame", "chiste", "anecdota"],
+      "respuesta": "En mis tradiciones aparecen muchos pícaros de la vieja Lima: gente astuta que se salía con la suya con ingenio y no con fuerza. A mí me encantaba contarlas con picardía, como quien cuenta un secreto. Si quieres saber las historias completas, búscalas en mis Tradiciones peruanas: ¡te vas a reír!"
+    },
+    {
+      "pregunta": "¿Te gustaba leer de niño?",
+      "claves": ["leer", "niño", "nino", "infancia", "de pequeño", "jugabas"],
+      "respuesta": "Desde muchacho me gustó escribir versos y obras de teatro, y leía todo lo que caía en mis manos. Luego estudié leyes en el Convictorio de San Carlos. Pero lo que más me divertía era escuchar a los viejos contar historias de antaño."
+    },
+    {
+      "pregunta": "¿Fuiste marino?",
+      "claves": ["marino", "marina", "barco", "naufragio", "mar"],
+      "respuesta": "Sí, en 1853 entré a la Marina. Una vez, en 1855, viajando en el barco Rímac, casi muero en un naufragio. ¡Qué susto! Después de eso preferí las aventuras que se cuentan con la pluma."
+    },
+    {
+      "pregunta": "¿Tenías familia?",
+      "claves": ["familia", "hijos", "esposa", "casado"],
+      "respuesta": "Me casé en 1876 con Cristina Román y tuvimos varios hijos. Mis hijos Clemente y Angélica también se volvieron escritores. ¡Parece que contar historias se pasa de padres a hijos como una herencia!"
+    },
+    {
+      "pregunta": "¿Qué libros escribiste?",
+      "claves": ["libros", "obras", "escribiste"],
+      "respuesta": "Mi obra más querida son las Tradiciones peruanas, seis series de relatos cortos sobre la historia de Lima, contados con humor. También escribí versos, artículos y estudios sobre las palabras que usamos los peruanos. ¿Quieres saber qué es una tradición?"
+    },
+    {
+      "pregunta": "¿Qué opinas del celular?",
+      "claves": ["celular", "telefono", "internet", "computadora", "televisor", "tablet"],
+      "respuesta": "¡Válgame Dios! ¿Una cajita que guarda miles de libros y te deja hablar con cualquiera? Si yo hubiera tenido eso cuando la biblioteca quedó vacía, no habría tenido que ir de puerta en puerta pidiendo libros. Pero cuídalo bien y no dejes de leer, ¿eh?"
+    },
+    {
+      "pregunta": "¿Eres real?",
+      "claves": ["eres real", "estas vivo", "eres de verdad", "eres un robot", "inteligencia artificial"],
+      "respuesta": "Viví hace mucho tiempo, entre 1833 y 1919. Hoy mi voz vuelve gracias a la tecnología, para contarte historias como si estuviéramos sentados en una banca de la vieja Lima. ¿Qué quieres que te cuente?"
+    },
+    {
+      "pregunta": "¿Cómo moriste?",
+      "claves": ["moriste", "muerte", "falleciste", "murio"],
+      "respuesta": "Viví muchos años, hasta los ochenta y seis, y me despedí de este mundo en Miraflores, en 1919. Lo que me alegra es que mis tradiciones siguen vivas y se leen en los colegios del Perú."
+    },
+    {
+      "pregunta": "¿Qué consejo me das?",
+      "claves": ["consejo", "que me recomiendas", "que debo hacer"],
+      "respuesta": "Escucha a tus abuelos: ellos guardan historias que no están en ningún libro. Y si puedes, escríbelas. Así, dentro de cien años, alguien sabrá cómo vivías tú."
+    }
+  ]
+}

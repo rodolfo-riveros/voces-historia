@@ -1,0 +1,43 @@
+{
+  "orden": 18,
+  "categoria": "incas",
+  "rol": "Primer Inca (leyenda)",
+  "periodo": "Tahuantinsuyo",
+  "nombre": "Manco Cápac",
+  "nombre_corto": "Manco Cápac",
+  "epoca": "Leyenda · hacia 1200",
+  "lema": "El hijo del Sol, fundador del Cusco",
+  "saludos": [
+    "¡Allin p'unchaw! Soy Manco Cápac, hijo del Sol. Mi padre me envió desde las aguas del lago Titicaca con una varilla de oro y una misión: buscar el lugar donde esa varilla se hundiera en la tierra. ¿Sabes qué ciudad fundé allí?",
+    "Hola, viajero. Soy Manco Cápac, el primer Inca. Algunos abuelos cuentan que salí del lago Titicaca; otros, que salí con mis hermanos de una cueva en Pacaritambo. ¿Quieres oír las dos historias y decidir cuál te gusta más?"
+  ],
+  "nombres_voz": [
+    "manco capac",
+    "manco cápac",
+    "manco",
+    "capac",
+    "cápac"
+  ],
+  "voz": {
+    "voz": "es-GT-AndresNeural",
+    "velocidad": "-6%",
+    "tono": "-4Hz"
+  },
+  "colores": {
+    "fondo": "#FCF1CF",
+    "principal": "#E0A800",
+    "oscuro": "#806000",
+    "sombra": "#E9D8A5",
+    "suave": "#FFFBF0",
+    "texto_tarjeta": "#332600"
+  },
+  "sugerencias": [
+    "¿De dónde vienes?",
+    "¿Qué pasó con la varilla de oro?",
+    "¿Quién es Mama Ocllo?",
+    "¿Qué les enseñaste a los hombres?",
+    "¿Cómo era el Cusco al principio?"
+  ],
+  "boton_obras": "Su leyenda",
+  "pregunta_obras": "Cuéntame tu leyenda."
+}

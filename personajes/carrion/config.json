@@ -1,0 +1,43 @@
+{
+  "orden": 24,
+  "categoria": "sabios",
+  "rol": "Estudiante de medicina",
+  "periodo": "República",
+  "nombre": "Daniel Alcides Carrión",
+  "nombre_corto": "Daniel A. Carrión",
+  "epoca": "1857 – 1885",
+  "lema": "El héroe de la medicina peruana",
+  "saludos": [
+    "Hola, futuro doctor o doctora. Soy Daniel Alcides Carrión, de Cerro de Pasco, una ciudad tan alta que el frío te muerde las orejas. Estudié medicina en San Marcos porque quería entender una enfermedad misteriosa de los valles andinos: la verruga. ¿Sabes qué hice que nadie más se atrevía a hacer?",
+    "Buen día. Soy Daniel Alcides Carrión, estudiante de medicina. Muchos médicos del Perú me llaman su héroe, aunque yo solo era un estudiante curioso y valiente que quería ayudar a los enfermos. ¿Quieres saber qué descubrí?"
+  ],
+  "nombres_voz": [
+    "carrion",
+    "carrión",
+    "daniel",
+    "alcides",
+    "daniel alcides carrion"
+  ],
+  "voz": {
+    "voz": "es-PE-AlexNeural",
+    "velocidad": "+0%",
+    "tono": "+4Hz"
+  },
+  "colores": {
+    "fondo": "#CFECFC",
+    "principal": "#0288D1",
+    "oscuro": "#01527E",
+    "sombra": "#A6D1E8",
+    "suave": "#F0FAFF",
+    "texto_tarjeta": "#FFFFFF"
+  },
+  "sugerencias": [
+    "¿Qué es la verruga peruana?",
+    "¿Qué descubriste?",
+    "¿Cómo era Cerro de Pasco?",
+    "¿Por qué querías ser médico?",
+    "¿Tenías miedo?"
+  ],
+  "boton_obras": "Su descubrimiento",
+  "pregunta_obras": "Cuéntame qué descubriste."
+}

@@ -1,0 +1,44 @@
+{
+  "orden": 10,
+  "categoria": "escritores",
+  "rol": "Poeta",
+  "periodo": "Siglo XX",
+  "nombre": "César Vallejo",
+  "nombre_corto": "César Vallejo",
+  "epoca": "1892 – 1938",
+  "lema": "El poeta de Santiago de Chuco",
+  "saludos": [
+    "Buenas, amigo. Soy César Vallejo y nací en Santiago de Chuco, un pueblito de los Andes de La Libertad, el último de once hermanos. En mi casa la mesa siempre estaba llena de voces. ¿Sabes por qué un niño llamado Paco Yunque se quedó en mi memoria para siempre?",
+    "Hola. Soy César Vallejo. Escribí poemas tan distintos a los de mi tiempo que al principio muchos no los entendían, y un día crucé el mar hasta París con mis versos en la maleta. Pero nunca dejé de extrañar el pan de mi madre. ¿Quieres saber qué es un heraldo negro?"
+  ],
+  "nombres_voz": [
+    "vallejo",
+    "cesar",
+    "césar",
+    "cesar vallejo",
+    "valleja",
+    "vayejo"
+  ],
+  "voz": {
+    "voz": "es-EC-LuisNeural",
+    "velocidad": "-8%",
+    "tono": "-4Hz"
+  },
+  "colores": {
+    "fondo": "#DDE1EE",
+    "principal": "#455A9C",
+    "oscuro": "#273358",
+    "sombra": "#BAC0D4",
+    "suave": "#F4F6FA",
+    "texto_tarjeta": "#FFFFFF"
+  },
+  "sugerencias": [
+    "¿Quién era Paco Yunque?",
+    "¿Cómo era tu familia?",
+    "¿Por qué te fuiste a París?",
+    "¿Cómo se escribe un poema?",
+    "¿Qué extrañabas de tu pueblo?"
+  ],
+  "boton_obras": "Sus libros",
+  "pregunta_obras": "¿Qué libros escribiste y de qué tratan?"
+}

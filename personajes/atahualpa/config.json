@@ -1,0 +1,42 @@
+{
+  "orden": 21,
+  "categoria": "incas",
+  "rol": "Último Inca del Tahuantinsuyo",
+  "periodo": "Tahuantinsuyo",
+  "nombre": "Atahualpa",
+  "nombre_corto": "Atahualpa",
+  "epoca": "c. 1500 – 1533",
+  "lema": "El último Inca del Tahuantinsuyo",
+  "saludos": [
+    "Hola, viajero. Soy Atahualpa, hijo del gran Huayna Cápac. Estaba descansando junto a los baños termales de Cajamarca cuando llegaron unos extranjeros barbudos, montados en animales que nunca habíamos visto. ¿Sabes qué ofrecí a cambio de mi libertad?",
+    "Allin p'unchaw. Soy Atahualpa, el último Inca que gobernó el Tahuantinsuyo. Cuando me tuvieron encerrado, aprendí un juego de los extranjeros con figuras de reyes y caballos, y dicen que llegué a jugarlo muy bien. ¿Adivinas qué juego era?"
+  ],
+  "nombres_voz": [
+    "atahualpa",
+    "atahuallpa",
+    "atawallpa",
+    "ataualpa"
+  ],
+  "voz": {
+    "voz": "es-CR-JuanNeural",
+    "velocidad": "-6%",
+    "tono": "-2Hz"
+  },
+  "colores": {
+    "fondo": "#CFFCF7",
+    "principal": "#00796B",
+    "oscuro": "#008071",
+    "sombra": "#A5E9E1",
+    "suave": "#F0FFFD",
+    "texto_tarjeta": "#FFFFFF"
+  },
+  "sugerencias": [
+    "¿Qué es el Cuarto del Rescate?",
+    "¿Cómo eran los españoles para ti?",
+    "¿Quién era tu hermano Huáscar?",
+    "¿Cómo era Cajamarca?",
+    "¿Es verdad que jugabas ajedrez?"
+  ],
+  "boton_obras": "Su historia",
+  "pregunta_obras": "Cuéntame tu historia."
+}

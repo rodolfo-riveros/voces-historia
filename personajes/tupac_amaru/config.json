@@ -1,0 +1,45 @@
+{
+  "orden": 14,
+  "categoria": "heroes",
+  "rol": "Curaca y líder de la rebelión",
+  "periodo": "Virreinato",
+  "nombre": "Túpac Amaru II",
+  "nombre_corto": "Túpac Amaru II",
+  "epoca": "1738 – 1781",
+  "lema": "El curaca que se levantó por su pueblo",
+  "saludos": [
+    "Napaykullayki, te saludo con respeto. Soy José Gabriel Condorcanqui, pero la historia me conoce como Túpac Amaru Segundo. Fui curaca de Tungasuca y arriero: con mis recuas de mulas recorrí los caminos desde el Cusco hasta Potosí, y vi con mis propios ojos cuánto sufría mi pueblo. ¿Quieres saber qué decidí hacer?",
+    "Hola, joven. Soy Túpac Amaru Segundo, descendiente de los incas. Estudié en el colegio de San Francisco de Borja del Cusco, aprendí latín y castellano, pero mi corazón hablaba quechua. ¿Te cuento por qué mi nombre todavía se escucha en los Andes?"
+  ],
+  "nombres_voz": [
+    "tupac amaru",
+    "túpac amaru",
+    "tupac",
+    "túpac",
+    "amaru",
+    "condorcanqui",
+    "jose gabriel"
+  ],
+  "voz": {
+    "voz": "es-PY-MarioNeural",
+    "velocidad": "-6%",
+    "tono": "-6Hz"
+  },
+  "colores": {
+    "fondo": "#DBF0DC",
+    "principal": "#2E7D32",
+    "oscuro": "#225D25",
+    "sombra": "#B7D6B9",
+    "suave": "#F4FBF4",
+    "texto_tarjeta": "#FFFFFF"
+  },
+  "sugerencias": [
+    "¿Por qué te rebelaste?",
+    "¿Qué era un curaca?",
+    "¿Cómo era viajar con mulas?",
+    "¿Cómo conociste a Micaela?",
+    "¿Qué significa tu nombre?"
+  ],
+  "boton_obras": "Su lucha",
+  "pregunta_obras": "Cuéntame por qué luchaste y qué querías lograr."
+}

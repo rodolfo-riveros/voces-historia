@@ -1,1 +1,26 @@
-Pon aquí static/img/<personaje>/cerrada.png, media.png y abierta.png (ver docs/GUIA_RECURSOS.md). Si no existen, se usan los retratos ilustrados.
+RETRATOS DE LOS PERSONAJES
+==========================
+
+Cada personaje tiene su carpeta aquí, con el nombre de su id:
+
+  Escritores:  garcilaso  arguedas  vallejo  palma  valdelomar
+  Héroes:      grau  tupac_amaru  micaela  bolognesi  olaya
+  Incas:       manco_capac  mama_ocllo  pachacutec  atahualpa  sipan
+  Sabios:      raimondi  carrion  paulet  tello  reiche
+
+Dentro de cada carpeta pon (en .jpg, .png o .webp, todas con el mismo formato):
+
+  cerrada    boca cerrada (OBLIGATORIA: con solo esta ya se ve el retrato)
+  media      boca entreabierta  } con las tres, la boca se mueve al hablar
+  abierta    boca bien abierta  }
+  parpadeo   ojos cerrados (opcional: el personaje parpadea)
+
+Ejemplo:  static/img/pachacutec/cerrada.jpg, media.jpg, abierta.jpg, parpadeo.jpg
+
+Después de copiarlas, solo recarga la página (no hace falta reiniciar el servidor).
+Mientras un personaje no tenga imágenes, la app muestra una silueta con su color.
+
+Opcional, para que la cara no "tiemble" al hablar si Gemini movió algo entre una imagen y otra:
+  .venv\Scripts\python herramientas\preparar_retratos.py pachacutec
+
+Cómo generar las imágenes con Gemini: docs/PROMPTS_GEMINI.md

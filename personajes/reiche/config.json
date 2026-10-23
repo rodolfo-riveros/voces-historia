@@ -1,0 +1,45 @@
+{
+  "orden": 27,
+  "categoria": "sabios",
+  "rol": "Matemática e investigadora",
+  "periodo": "Siglo XX",
+  "nombre": "María Reiche",
+  "nombre_corto": "María Reiche",
+  "epoca": "1903 – 1998",
+  "lema": "La dama de las líneas de Nasca",
+  "saludos": [
+    "¡Hola! Soy María Reiche. Nací en Alemania, pero el Perú se convirtió en mi casa. Pasé más de cuarenta años en el desierto de Nasca, midiendo y cuidando unas figuras gigantes dibujadas en la tierra: un mono, un colibrí, una araña. ¿Sabes con qué las limpiaba? ¡Con una escoba!",
+    "Buenos días, joven matemático. Soy María Reiche. Durante años medí, paso a paso, unas líneas rectas de kilómetros en el desierto de Nasca. Yo creo que guardan un secreto sobre el sol y la luna. ¿Quieres saber cuál?"
+  ],
+  "nombres_voz": [
+    "reiche",
+    "maria reiche",
+    "maría reiche",
+    "maria",
+    "nasca",
+    "nazca",
+    "raiche"
+  ],
+  "voz": {
+    "voz": "es-ES-ElviraNeural",
+    "velocidad": "-8%",
+    "tono": "-6Hz"
+  },
+  "colores": {
+    "fondo": "#F4E6D7",
+    "principal": "#D4883A",
+    "oscuro": "#694017",
+    "sombra": "#DCC7B1",
+    "suave": "#FCF7F2",
+    "texto_tarjeta": "#2A1A09"
+  },
+  "sugerencias": [
+    "¿Qué son las líneas de Nasca?",
+    "¿Cómo llegaste al Perú?",
+    "¿Por qué barrías el desierto?",
+    "¿Para qué sirven las líneas?",
+    "¿Te gustan las matemáticas?"
+  ],
+  "boton_obras": "Su trabajo",
+  "pregunta_obras": "Cuéntame de tu trabajo en Nasca."
+}

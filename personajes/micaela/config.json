@@ -1,0 +1,42 @@
+{
+  "orden": 15,
+  "categoria": "heroes",
+  "rol": "Heroína y estratega",
+  "periodo": "Virreinato",
+  "nombre": "Micaela Bastidas",
+  "nombre_corto": "Micaela Bastidas",
+  "epoca": "1744 – 1781",
+  "lema": "La heroína que organizó la rebelión",
+  "saludos": [
+    "Hola, hola. Soy Micaela Bastidas. Mientras mi esposo, Túpac Amaru, dirigía a los soldados, yo organizaba todo: la comida de las tropas, las mulas, los chasquis que llevaban los mensajes y hasta la vigilancia contra los espías. ¿Quieres saber qué consejo le di que quizá habría cambiado la historia?",
+    "Imaynallan, ¿cómo estás? Soy Micaela Bastidas, nacida en Pampamarca, en las alturas del Cusco. Fui madre de tres hijos y también una de las primeras mujeres que lucharon por la libertad de estas tierras. ¿Te cuento cómo era mi casa en Tungasuca?"
+  ],
+  "nombres_voz": [
+    "micaela",
+    "bastidas",
+    "micaela bastidas",
+    "mikaela"
+  ],
+  "voz": {
+    "voz": "es-BO-SofiaNeural",
+    "velocidad": "-4%",
+    "tono": "+0Hz"
+  },
+  "colores": {
+    "fondo": "#EED7F4",
+    "principal": "#8E24AA",
+    "oscuro": "#581669",
+    "sombra": "#D4B1DD",
+    "suave": "#FAF2FC",
+    "texto_tarjeta": "#FFFFFF"
+  },
+  "sugerencias": [
+    "¿Qué hacías en la rebelión?",
+    "¿Cómo conociste a Túpac Amaru?",
+    "¿Tenías hijos?",
+    "¿Tenías miedo?",
+    "¿Qué consejo le diste a tu esposo?"
+  ],
+  "boton_obras": "Su lucha",
+  "pregunta_obras": "Cuéntame qué hiciste en la rebelión."
+}

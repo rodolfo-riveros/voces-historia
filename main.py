@@ -5,6 +5,7 @@ Arranque local:  uvicorn main:app --reload --port 8000
 import json
 import logging
 import re
+from contextlib import asynccontextmanager
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, Request
@@ -17,12 +18,20 @@ import config
 import limites
 import prompts
 import respaldo
+import stt
 import voz
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger("voces")
 
-app = FastAPI(title="Voces de la Historia", docs_url=None, redoc_url=None)
+@asynccontextmanager
+async def ciclo_de_vida(_app):
+    # Solo al arrancar el servidor (no al importar main desde generar_respaldo.py).
+    stt.precargar()
+    yield
+
+
+app = FastAPI(title="Voces de la Historia", docs_url=None, redoc_url=None, lifespan=ciclo_de_vida)
 
 cliente_ia = (
     None
@@ -102,11 +111,13 @@ def _personaje(pid: str) -> dict:
 def _publico(p: dict) -> dict:
     datos = {k: v for k, v in p.items() if not k.startswith("_") and k != "voz"}
     datos["tiene_lecturas"] = bool(p["_lecturas"])
-    # Si hay retratos PNG (cerrada/media/abierta) se usan en lugar de la ilustración SVG.
-    # Retratos propios: se acepta .jpg, .png o .webp (el primero que exista).
+    # Retratos en static/img/<id>/: .jpg, .png o .webp (el primero que exista).
+    # Con cerrada + media + abierta la boca se mueve; con solo cerrada se muestra fija.
+    # Se revisa en cada pedido: basta copiar las imágenes y recargar la página.
     carpeta_img = config.DIR_STATIC / "img" / p["id"]
     ext = next((e for e in ("jpg", "png", "webp", "jpeg") if (carpeta_img / f"cerrada.{e}").exists()), None)
     datos["imagenes"] = bool(ext) and all((carpeta_img / f"{b}.{ext}").exists() for b in ("media", "abierta"))
+    datos["imagen_simple"] = bool(ext) and not datos["imagenes"]
     datos["img_ext"] = ext
     # Opcional: parpadeo (ojos cerrados, boca cerrada) para que parpadee.
     datos["parpadeo"] = datos["imagenes"] and (carpeta_img / f"parpadeo.{ext}").exists()
@@ -138,7 +149,7 @@ async def health():
 @app.get("/api/estado")
 async def estado():
     return {"modo_demo": config.MODO_DEMO, "modelo": None if config.MODO_DEMO else config.DEEPSEEK_MODEL,
-            **limites.estado()}
+            "stt": stt.disponible(), **limites.estado()}
 
 
 @app.get("/api/personajes")
@@ -257,6 +268,34 @@ async def tts(pedido: PedidoVoz):
     return Response(audio, media_type="audio/mpeg", headers={"Cache-Control": "no-store"})
 
 
+@app.post("/api/stt")
+async def voz_a_texto(request: Request, personaje: str = ""):
+    """Recibe el audio grabado por el navegador (webm, ogg o mp4) y devuelve {texto}.
+    El audio solo vive en memoria durante la transcripción: no se guarda."""
+    if not stt.disponible():
+        raise HTTPException(503, "El reconocimiento de voz del servidor no está activo.")
+    if not limites.permitir_ip(_ip(request), "voz"):
+        raise HTTPException(429, "Demasiadas preguntas seguidas. Espera un minuto.")
+    audio = await request.body()
+    if not audio:
+        raise HTTPException(400, "No llegó ningún audio.")
+    if len(audio) > config.STT_MAX_BYTES:
+        raise HTTPException(413, "La grabación es demasiado larga.")
+    # Pista con los nombres propios del personaje (sus preguntas sugeridas los mencionan),
+    # para que Whisper escriba bien "Machu Picchu", "Huáscar", "zumbayllu"...
+    p = PERSONAJES.get(personaje)
+    pista = (f"Pregunta para {p['nombre']}. " + " ".join(p.get("sugerencias", [])[:5])) if p \
+        else "Pregunta para un personaje histórico del Perú."
+    try:
+        texto = await stt.transcribir(audio, pista)
+    except Exception as e:
+        log.warning("Falló Whisper: %s", type(e).__name__)
+        raise HTTPException(500, "No pude entender el audio.")
+    finally:
+        del audio
+    return {"texto": texto}
+
+
 @app.get("/api/lecturas/{pid}")
 async def lista_lecturas(pid: str):
     p = _personaje(pid)
@@ -282,6 +321,16 @@ async def preguntas_frecuentes(pid: str):
     return [i["pregunta"] for i in respaldo.cargar(pid).get("preguntas", [])]
 
 
+@app.middleware("http")
+async def revalidar_codigo(request: Request, call_next):
+    """HTML, JS y CSS: el navegador puede guardarlos, pero debe preguntar si cambiaron
+    (si no, después de una actualización seguiría usando el código viejo)."""
+    respuesta = await call_next(request)
+    if request.url.path.endswith((".js", ".css", ".html", "/", ".json")) and "cache-control" not in respuesta.headers:
+        respuesta.headers["Cache-Control"] = "no-cache"
+    return respuesta
+
+
 # El frontend se sirve al final para no tapar las rutas de la API.
 @app.get("/sw.js", include_in_schema=False)
 async def service_worker():
@@ -291,4 +340,5 @@ async def service_worker():
 
 app.mount("/", StaticFiles(directory=config.DIR_STATIC, html=True), name="static")
 
-log.info("Personajes: %s | modo demo: %s", ", ".join(PERSONAJES), config.MODO_DEMO)
+log.info("Personajes: %s | modo demo: %s | voz en servidor: %s",
+         ", ".join(PERSONAJES), config.MODO_DEMO, stt.disponible())

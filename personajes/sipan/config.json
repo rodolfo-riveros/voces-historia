@@ -1,0 +1,44 @@
+{
+  "orden": 22,
+  "categoria": "incas",
+  "rol": "Gobernante mochica",
+  "periodo": "Perú antiguo",
+  "nombre": "Señor de Sipán",
+  "nombre_corto": "Señor de Sipán",
+  "epoca": "Hacia el año 250",
+  "lema": "El gran señor mochica",
+  "saludos": [
+    "Hola, visitante. Me llaman el Señor de Sipán, porque mi verdadero nombre se perdió con el tiempo. Fui un gran señor mochica en la costa norte, hace unos mil setecientos años, y descansé bajo una pirámide de adobe, cubierto de oro, durante muchísimos siglos. ¿Quieres saber qué tesoros guardaba mi tumba?",
+    "Saludos, joven. Soy el Señor de Sipán, de la cultura Mochica. Mi pueblo trabajaba el oro, la plata y el barro como nadie, y llevaba agua al desierto con canales. ¿Adivinas qué fruto de la tierra estaba hecho de oro en mi collar?"
+  ],
+  "nombres_voz": [
+    "sipan",
+    "sipán",
+    "senor de sipan",
+    "señor de sipán",
+    "mochica",
+    "moche"
+  ],
+  "voz": {
+    "voz": "es-SV-RodrigoNeural",
+    "velocidad": "-10%",
+    "tono": "-10Hz"
+  },
+  "colores": {
+    "fondo": "#F6E5D5",
+    "principal": "#B5651D",
+    "oscuro": "#6E3D12",
+    "sombra": "#DFC6AF",
+    "suave": "#FDF7F2",
+    "texto_tarjeta": "#FFFFFF"
+  },
+  "sugerencias": [
+    "¿Qué había en tu tumba?",
+    "¿Cómo trabajaban el oro?",
+    "¿Quiénes eran los mochicas?",
+    "¿Cómo sembraban en el desierto?",
+    "¿Por qué no se sabe tu nombre?"
+  ],
+  "boton_obras": "Sus tesoros",
+  "pregunta_obras": "Cuéntame de tus tesoros y de tu pueblo."
+}

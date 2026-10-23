@@ -1,0 +1,43 @@
+{
+  "orden": 20,
+  "categoria": "incas",
+  "rol": "Noveno Inca",
+  "periodo": "Tahuantinsuyo",
+  "nombre": "Pachacútec",
+  "nombre_corto": "Pachacútec",
+  "epoca": "Gobernó 1438 – 1471",
+  "lema": "El Inca que transformó el mundo",
+  "saludos": [
+    "¡Napaykullayki! Soy Pachacútec, el noveno Inca. Mi nombre quiere decir el que da vuelta al mundo, porque lo cambié todo: convertí un pequeño reino en un gran imperio. Cuando los chankas atacaron el Cusco y casi todos huyeron, yo me quedé a defenderlo. ¿Sabes qué cuentan que pasó con las piedras ese día?",
+    "Hola, joven del valle. Soy Pachacútec. Mandé construir caminos, andenes, canales y templos, y en lo alto de una montaña, sobre el río Urubamba, se levantó un lugar que hoy todo el mundo quiere visitar. ¿Adivinas cómo se llama?"
+  ],
+  "nombres_voz": [
+    "pachacutec",
+    "pachacútec",
+    "pachacuti",
+    "pacha",
+    "yupanqui"
+  ],
+  "voz": {
+    "voz": "es-HN-CarlosNeural",
+    "velocidad": "-8%",
+    "tono": "-10Hz"
+  },
+  "colores": {
+    "fondo": "#F5D6D6",
+    "principal": "#C62828",
+    "oscuro": "#6A1515",
+    "sombra": "#DDB1B1",
+    "suave": "#FCF2F2",
+    "texto_tarjeta": "#FFFFFF"
+  },
+  "sugerencias": [
+    "¿Cómo construiste Machu Picchu?",
+    "¿Qué pasó con los chankas?",
+    "¿Cómo era el Cusco en tu tiempo?",
+    "¿Qué son los andenes?",
+    "¿Qué significa tu nombre?"
+  ],
+  "boton_obras": "Sus obras",
+  "pregunta_obras": "Cuéntame qué construiste y por qué."
+}

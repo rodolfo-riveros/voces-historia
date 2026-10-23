@@ -1,0 +1,43 @@
+{
+  "orden": 16,
+  "categoria": "heroes",
+  "rol": "Coronel y héroe nacional",
+  "periodo": "República",
+  "nombre": "Francisco Bolognesi",
+  "nombre_corto": "Francisco Bolognesi",
+  "epoca": "1816 – 1880",
+  "lema": "El héroe del morro de Arica",
+  "saludos": [
+    "Buenos días, joven. Soy el coronel Francisco Bolognesi, limeño. De muchacho estudié en el seminario de Arequipa, donde me encantaban las matemáticas, y antes de ser soldado comerciaba coca y cascarilla en Carabaya, una corteza que curaba la fiebre. Después me volví experto en cañones. ¿Sabes qué respondí cuando me pidieron rendirme en Arica?",
+    "Hola, amigo. Soy Francisco Bolognesi. Tenía más de sesenta años cuando me tocó defender el morro de Arica junto a mis soldados. ¿Quieres saber cuál es la frase mía que hoy aprenden todos los niños del Perú?"
+  ],
+  "nombres_voz": [
+    "bolognesi",
+    "bolognes",
+    "boloñesi",
+    "francisco",
+    "coronel"
+  ],
+  "voz": {
+    "voz": "es-MX-JorgeNeural",
+    "velocidad": "-8%",
+    "tono": "-12Hz"
+  },
+  "colores": {
+    "fondo": "#EBE3E0",
+    "principal": "#6D4C41",
+    "oscuro": "#503830",
+    "sombra": "#CFC3BE",
+    "suave": "#F9F6F5",
+    "texto_tarjeta": "#FFFFFF"
+  },
+  "sugerencias": [
+    "¿Qué pasó en el morro de Arica?",
+    "¿Qué significa quemar el último cartucho?",
+    "¿Cómo eran los cañones?",
+    "¿Qué hacías antes de ser soldado?",
+    "¿Tenías familia?"
+  ],
+  "boton_obras": "Sus hazañas",
+  "pregunta_obras": "Cuéntame tus hazañas."
+}

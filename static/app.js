@@ -112,6 +112,7 @@ function prepararAudio() {
       fuente.connect(analizador);
       analizador.connect(ctxAudio.destination);
       Ambiente.usarContexto(ctxAudio);
+      Oido.configurar({ contexto: ctxAudio });
     } catch (e) {
       analizador = null;
     }
@@ -406,30 +407,30 @@ function filtrar(id) {
 }
 
 function elegirPorVoz() {
-  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
   prepararAudio();
-  if (!SR) return aviso("Este navegador no puede escucharte. Toca a un personaje.");
+  if (!Oido.soportado()) return aviso("Este navegador no puede escucharte. Toca a un personaje.");
   const boton = $("#btn-elegir-voz");
-  const rec = new SR();
-  rec.lang = "es-PE";
-  rec.interimResults = false;
+  if (estado.reconocedor) return estado.reconocedor.detener();
   boton.classList.add("escuchando");
   $("#texto-elegir-voz").innerHTML = "Te escucho…<br><span>Di el nombre del personaje</span>";
   const restaurar = () => {
+    estado.reconocedor = null;
     boton.classList.remove("escuchando");
     $("#texto-elegir-voz").innerHTML = "…o dime su nombre<br><span>“Quiero hablar con Grau”</span>";
   };
-  rec.onresult = (e) => {
-    const dicho = normalizar(e.results[0][0].transcript);
-    const p = estado.personajes.find((x) => (x.nombres_voz || []).some((n) => dicho.includes(normalizar(n))));
-    if (p) entrarCharla(p);
-    else aviso(`Escuché “${e.results[0][0].transcript}”. Prueba otra vez o toca un personaje.`);
-  };
-  rec.onerror = (e) => {
-    if (e.error === "not-allowed" || e.error === "service-not-allowed") aviso("Necesito permiso para usar el micrófono.");
-  };
-  rec.onend = restaurar;
-  try { rec.start(); } catch { restaurar(); }
+  estado.reconocedor = Oido.escuchar({
+    lang: "es-PE",
+    onEntendiendo: () => ($("#texto-elegir-voz").innerHTML = "Entendiendo…<br><span>Un segundito</span>"),
+    onFin: (texto, error) => {
+      restaurar();
+      if (error === "permiso") return aviso("Necesito permiso para usar el micrófono.");
+      if (!texto) return aviso("No te escuché bien. Prueba otra vez o toca un personaje.");
+      const dicho = normalizar(texto);
+      const p = estado.personajes.find((x) => (x.nombres_voz || []).some((n) => dicho.includes(normalizar(n))));
+      if (p) entrarCharla(p);
+      else aviso(`Escuché “${texto}”. Prueba otra vez o toca un personaje.`);
+    },
+  });
 }
 
 // ---------- Pantalla 3-6: conversación ----------
@@ -510,62 +511,14 @@ async function enviar(pregunta) {
 }
 
 function escuchar() {
-  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
   prepararAudio();
-  if (!SR) {
+  if (!Oido.soportado()) {
     if (estado.holo) return;
     aviso("Este navegador no puede escucharte. ¡Escribe tu pregunta!");
     return alternarTeclado(true);
   }
   detenerAudio();
-  const rec = new SR();
-  estado.reconocedor = rec;
-  rec.lang = "es-PE";
-  rec.interimResults = true;
-  rec.continuous = false;
-  rec.maxAlternatives = 1;
-  let final = "", interino = "", error = null;
   const sesion = estado.sesion;
-
-  rec.onresult = (e) => {
-    interino = "";
-    for (let i = e.resultIndex; i < e.results.length; i++) {
-      const r = e.results[i];
-      if (r.isFinal) final += r[0].transcript;
-      else interino += r[0].transcript;
-    }
-    if (!estado.holo) {
-      const el = $("#texto-usuario");
-      el.textContent = final;
-      if (interino) {
-        const s = document.createElement("span");
-        s.className = "interino";
-        s.textContent = interino + "…";
-        el.appendChild(s);
-      }
-    }
-  };
-  rec.onerror = (e) => (error = e.error);
-  rec.onend = () => {
-    estado.reconocedor = null;
-    Ambiente.microfono(false);
-    if (sesion !== estado.sesion) return;
-    const t = (final || interino).trim();
-    if (estado.holo) pitido(false);
-    if (["not-allowed", "service-not-allowed", "audio-capture"].includes(error)) {
-      fase("listo");
-      if (!estado.holo) mostrarError();
-      else aviso("Necesito permiso para usar el micrófono. Revisa el candado de la barra de direcciones.", 6000);
-      return;
-    }
-    if (t) return enviar(t);
-    fase("listo");
-    if (!estado.holo) {
-      aviso(error === "network"
-        ? "Sin conexión para escucharte. Toca una idea o escribe tu pregunta."
-        : "No te escuché bien. ¡Toca y habla otra vez, más cerquita!");
-    }
-  };
 
   if (!estado.holo) {
     $("#texto-usuario").innerHTML = '<span class="interino">…</span>';
@@ -574,18 +527,56 @@ function escuchar() {
   fase("escuchando");
   if (estado.holo) pitido(true);
   Ambiente.microfono(true);
-  try {
-    rec.start();
-  } catch {
-    estado.reconocedor = null;
-    Ambiente.microfono(false);
-    fase("listo");
-  }
+
+  estado.reconocedor = Oido.escuchar({
+    lang: "es-PE",
+    personaje: estado.actual.id,
+    // Texto en vivo (solo con el reconocimiento de Chrome).
+    onParcial: (final, interino) => {
+      if (estado.holo || sesion !== estado.sesion) return;
+      const el = $("#texto-usuario");
+      el.textContent = final;
+      if (interino) {
+        const s = document.createElement("span");
+        s.className = "interino";
+        s.textContent = interino + "…";
+        el.appendChild(s);
+      }
+    },
+    // Grabación enviada al servidor: se espera la transcripción.
+    onEntendiendo: () => {
+      Ambiente.microfono(false);
+      if (estado.holo || sesion !== estado.sesion) return;
+      $("#texto-usuario").innerHTML = '<span class="interino">Entendiendo lo que dijiste…</span>';
+      $("#btn-mic").disabled = true;
+      $("#mic-texto").textContent = "Un segundito…";
+    },
+    onFin: (texto, error) => {
+      estado.reconocedor = null;
+      Ambiente.microfono(false);
+      if (sesion !== estado.sesion) return;
+      if (estado.holo) pitido(false);
+      if (texto) return enviar(texto);
+      fase("listo");
+      if (error === "permiso" || error === "sin-microfono") {
+        if (!estado.holo) return mostrarError();
+        return aviso("Necesito permiso para usar el micrófono. Revisa el candado de la barra de direcciones.", 6000);
+      }
+      if (estado.holo) return;
+      if (error === "no-soportado") {
+        aviso("Este navegador no puede escucharte. ¡Escribe tu pregunta!");
+        return alternarTeclado(true);
+      }
+      aviso(error === "red"
+        ? "Sin conexión para escucharte. Toca una idea o escribe tu pregunta."
+        : "No te escuché bien. ¡Toca y habla otra vez, más cerquita!");
+    },
+  });
 }
 
 function tocarMic() {
   if (estado.fase === "listo") escuchar();
-  else if (estado.fase === "escuchando") estado.reconocedor && estado.reconocedor.stop();
+  else if (estado.fase === "escuchando") estado.reconocedor && estado.reconocedor.detener();
   else if (estado.fase === "hablando") {
     detenerAudio();
     fase("listo");
@@ -611,7 +602,7 @@ function alternarTeclado(forzar) {
 
 function detenerTodo() {
   if (estado.reconocedor) {
-    try { estado.reconocedor.abort(); } catch {}
+    estado.reconocedor.cancelar();
     estado.reconocedor = null;
   }
   Ambiente.microfono(false);
@@ -948,13 +939,16 @@ async function iniciar() {
   try {
     estado.personajes = await (await fetch("/api/personajes")).json();
     estado.categorias = await (await fetch("/api/categorias")).json();
-    estado.servidorDemo = (await (await fetch("/api/estado")).json()).modo_demo;
+    const servidor = await (await fetch("/api/estado")).json();
+    estado.servidorDemo = servidor.modo_demo;
+    Oido.configurar({ servidor: servidor.stt });
   } catch {
     aviso("No me pude conectar con el servidor. Revisa internet y recarga la página.", 8000);
   }
   actualizarSelloDemo();
   estado.personajes.forEach((p) => {
     if (p.imagenes) Avatares.conImagenes.add(p.id);
+    if (p.imagen_simple) Avatares.conImagenSimple.add(p.id);
     if (p.img_ext) Avatares.extImagen[p.id] = p.img_ext;
     if (p.retrato) Avatares.encuadre[p.id] = p.retrato;
     Ambiente.configurarArchivos(p.id, p.sonidos);

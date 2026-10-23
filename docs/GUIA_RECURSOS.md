@@ -12,34 +12,9 @@ Todo lo que necesitas fuera del código: dónde conseguir imágenes, videos, voc
 
 ## 2. Imágenes de los personajes (Fase 3 y 4)
 
-**Qué necesitas por personaje:** 3 imágenes del mismo retrato, mismo encuadre, sobre fondo negro liso:
-- `cerrada.png` (boca cerrada)
-- `media.png` (boca entreabierta)
-- `abierta.png` (boca abierta, como diciendo "a")
+Todo está en [PROMPTS_GEMINI.md](PROMPTS_GEMINI.md): qué imágenes hacen falta, la referencia real de cada personaje (con su licencia) y el prompt para Gemini. Las imágenes van en `static/img/<id>/` (ver `static/img/LEEME.txt`).
 
-**Paso 1. Busca referencias** (para guiar el parecido, no para copiarlas):
-- Wikimedia Commons: retratos de dominio público de Garcilaso y fotos antiguas de Grau.
-- Arguedas: sus fotos tienen derechos. Úsalas solo para ver sus rasgos; la imagen final debe ser una ilustración original generada.
-
-**Paso 2. Genera el retrato.** Opciones gratuitas (con cuotas):
-- **Gemini** (la app o Google AI Studio): genera y también edita imágenes. Es la mejor para mantener la misma cara entre cuadros.
-- **Bing Image Creator / Microsoft Designer**
-- **Leonardo.ai** (créditos diarios gratis)
-- **Ideogram**
-- **Hugging Face Spaces** con modelos como FLUX.1 schnell (gratis, a veces con cola de espera)
-
-**Prompt para el retrato** (cambia lo que está entre corchetes):
-> Retrato ilustrado semirrealista de [Inca Garcilaso de la Vega, hombre de unos 60 años, vestimenta española del siglo XVII con cuello de lechuguilla], de busto, mirando de frente a la cámara, expresión amable y serena, boca cerrada, iluminación suave, fondo negro liso, estilo pintura digital, alta calidad.
-
-**Paso 3. Saca las variaciones de la boca.** Sube el retrato aprobado a una herramienta que edite imágenes (Gemini) y pide:
-> Usa exactamente esta misma imagen sin cambiar nada (rostro, ropa, fondo, encuadre). Solo abre ligeramente la boca como si estuviera hablando.
-
-Luego repite con: *"Igual, pero con la boca bien abierta, como diciendo la letra a."* Si la cara cambia, descarta el resultado e intenta de nuevo.
-
-**Paso 4. Limpia si hace falta.**
-- Fondo negro perfecto: `rembg` (programa gratis de código abierto en Python) quita el fondo y luego lo pones en negro con cualquier editor.
-- Retoques: Canva (plan gratis) o GIMP (gratis).
-- Tamaño recomendado: 1024 × 1024 px, formato PNG.
+**Para limpiar si hace falta:** `rembg` (gratis, en Python) quita el fondo; Canva o GIMP para retoques.
 
 ## 3. Video (opcional, no es prioridad)
 
@@ -60,7 +35,7 @@ Primero hazlo funcionar con imágenes. El video es un lujo, y sirve para tres co
 ## 4. Las voces
 
 - `edge-tts` incluye voces peruanas: `es-PE-AlexNeural` (hombre) y `es-PE-CamilaNeural` (mujer). Lista completa con `edge-tts --list-voices`; confirma ahí los nombres vigentes.
-- Para diferenciar a los tres personajes aunque comparten voz: cambia el **tono y la velocidad** (`edge-tts` lo permite), o usa voces de otros países (`es-MX-JorgeNeural`, `es-CO-GonzaloNeural`, `es-ES-AlvaroNeural`).
+- Para diferenciar a los personajes que comparten voz: cambia el **tono y la velocidad** (`edge-tts` lo permite), o usa voces de otros países (`es-MX-JorgeNeural`, `es-CO-GonzaloNeural`, `es-ES-AlvaroNeural`).
 - `edge-tts` no es oficial de Microsoft: puede dejar de funcionar. Por eso el plan incluye la voz del navegador como respaldo, y por eso conviene pregenerar los audios del plan B.
 - **No clones la voz real** de Arguedas ni de nadie con grabaciones. Es delicado éticamente y legalmente, y no hace falta.
 
@@ -80,19 +55,11 @@ Es la parte que más cuida la calidad: si la ficha es buena, el personaje no inv
 | Dominio | DuckDNS (subdominio gratis) |
 | HTTPS | Caddy (certificado automático) |
 | Código | GitHub, repositorio privado |
-| Pruebas | Tu propio celular Android con Chrome |
+| Pruebas | Tu celular (cualquier navegador) |
 
 ## 7. El holograma de pirámide
 
-**Materiales:** una caja de CD (el plástico transparente), una lámina de acetato o acrílico transparente, tijeras o cúter, cinta.
-
-**Medidas para un celular** (ajusta probando): 4 trapecios iguales con **base de 6 cm, parte superior de 1 cm y altura de 3,5 cm**. Los pegas en forma de pirámide trunca, con la punta hacia abajo, apoyada en el centro de la pantalla. Para una tableta, escala las medidas en proporción (más o menos el doble).
-
-**Para que se vea bien:**
-- Brillo de la pantalla al máximo, **fondo negro puro** (por eso el modo holograma).
-- Lugar con poca luz: una caja o un rincón oscuro ayuda mucho.
-- Limpia el plástico: las huellas arruinan el efecto.
-- El avatar debe tener fondo negro (ya lo previste en las imágenes) para que "flote".
+La guía completa (materiales, medidas para celular, tableta y monitor, armado y montaje del stand) está en [HOLOGRAMA.md](HOLOGRAMA.md).
 
 ## 8. Lista para el día de la feria
 

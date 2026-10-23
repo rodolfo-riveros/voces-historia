@@ -21,11 +21,11 @@ def _clave(ip: str) -> str:
     return hashlib.sha256(ip.encode()).hexdigest()[:16]
 
 
-def permitir_ip(ip: str) -> bool:
-    """True si la IP no pasó su límite por minuto."""
+def permitir_ip(ip: str, grupo: str = "chat") -> bool:
+    """True si la IP no pasó su límite por minuto (cada grupo, chat o voz, cuenta aparte)."""
     ahora = time.monotonic()
     with _lock:
-        cola = _por_ip[_clave(ip)]
+        cola = _por_ip[grupo + _clave(ip)]
         while cola and ahora - cola[0] > 60:
             cola.popleft()
         if len(cola) >= config.LIMITE_POR_MIN:

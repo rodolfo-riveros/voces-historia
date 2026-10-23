@@ -130,8 +130,10 @@ button:focus-visible, input:focus-visible, [role="button"]:focus-visible { outli
 .avatar .img-parpadeo { visibility: hidden; }
 .avatar.con-imagenes.parpadea[data-boca="cerrada"] .boca-cerrada { visibility: hidden; }
 .avatar.con-imagenes.parpadea[data-boca="cerrada"] .img-parpadeo { visibility: visible; }
-.avatar .ojos { transform-box: fill-box; transform-origin: center; animation: parpadeo 5.5s infinite; }
-
+/* Retrato de una sola imagen: no hay bocas, así que "late" un poco al ritmo de la voz. */
+.avatar.imagen-simple { transition: transform .08s ease-out; transform-origin: 50% 60%; }
+.avatar.imagen-simple[data-boca="media"] { transform: scale(1.015); }
+.avatar.imagen-simple[data-boca="abierta"] { transform: scale(1.03); }
 /* ---------- 1 · Inicio ---------- */
 #pantalla-inicio { align-items: center; padding-top: max(40px, env(safe-area-inset-top)); }
 .inicio-grupo { position: relative; width: min(320px, 100%); aspect-ratio: 320 / 300; flex-shrink: 0; }
@@ -545,7 +547,6 @@ body.holo.panel-abierto { cursor: auto; }
 @keyframes onda { 0% { transform: scale(1); opacity: .5; } 100% { transform: scale(1.7); opacity: 0; } }
 @keyframes barra { 0%, 100% { transform: scaleY(.3); } 50% { transform: scaleY(1); } }
 @keyframes punto { 0%, 80%, 100% { opacity: .3; transform: translateY(0); } 40% { opacity: 1; transform: translateY(-6px); } }
-@keyframes parpadeo { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(.1); } }
 @keyframes entrar { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
 @keyframes aparece { from { opacity: 0; transform: scale(.9); } to { opacity: 1; transform: none; } }
 @keyframes sube { from { opacity: 0; transform: translate(-50%, 16px); } to { opacity: 1; transform: translate(-50%, 0); } }

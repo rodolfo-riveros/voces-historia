@@ -1,7 +1,7 @@
 // Service worker mínimo: guarda solo los archivos estáticos para abrir rápido.
 // La API (/api/...) nunca se guarda: siempre va a la red.
 // Al cambiar el código, sube VERSION aquí y el ?v= de index.html.
-const VERSION = "voces-v7";
+const VERSION = "voces-v9";
 const ARCHIVOS = [
   "/", "/index.html", "/style.css", "/app.js", "/avatares.js", "/ambiente.js", "/oido.js", "/manifest.json",
   "/fonts/baloo2.woff2", "/fonts/nunito.woff2", "/icons/icono.svg", "/icons/icono-192.png", "/icons/icono-512.png",

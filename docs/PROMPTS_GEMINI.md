@@ -48,7 +48,7 @@ static/img/grau/...
 
 > Los personajes nuevos necesitan, además de sus retratos, su carpeta en `personajes/<id>/` con `config.json` (voz, colores, saludos) y `ficha.md`. Eso es un paso aparte: los retratos se pueden ir generando desde ya.
 
-Sirven en **JPG, PNG o WebP** (tal como los descarga Gemini).
+Sirven en **JPG, PNG, WebP o JFIF**, y con cualquier nombre parecido (`boca abierta`, `medio abierto`, `ojo cerrado`, `entre abierta`...): la herramienta los reconoce y los renombra sola al estándar `cerrada`, `media`, `abierta` y `parpadeo`.
 
 **Después de copiarlas, ejecuta una vez** (cambia el nombre del personaje):
 
@@ -461,6 +461,93 @@ Fondo: negro puro y liso (#000000), sin degradados, sin textura, sin objetos. Si
 ```
 
 ---
+
+### Santos y santas del Perú
+
+> Para los santos, pide el retrato **sin aureola ni halo**: así se ven como las personas que fueron y el efecto del holograma queda limpio. La corona de rosas de Santa Rosa sí va, porque es su rasgo más reconocible.
+
+#### Santa Rosa de Lima (`santa_rosa`)
+
+**Referencia (dominio público):** retrato de Angelino Medoro, pintado en 1617, justo después de su muerte (por eso tiene los ojos cerrados). <https://commons.wikimedia.org/wiki/File:Santa_Rosa_de_Lima_-_Angelino_Medoro.jpg> Escribe antes del prompt: *"Usa este retrato como referencia del rostro, pero con los ojos abiertos."*
+
+```
+Retrato ilustrado semirrealista, estilo pintura digital cálida y detallada, como de película animada de alta calidad.
+Personaje: Santa Rosa de Lima (Isabel Flores de Oliva), joven limeña del año 1615, de unos 28 años.
+Rostro: ovalado y delicado, de piel clara con un leve tono trigueño; ojos oscuros grandes y abiertos, de mirada dulce, serena y bondadosa; cejas finas y arqueadas; nariz larga y recta; labios delgados.
+Cabeza: toca blanca que le enmarca la cara y cubre el cuello, y encima un velo negro de terciaria dominica. Sobre el velo, una corona de pequeñas rosas rosadas y blancas.
+Ropa: hábito dominico, túnica blanca y manto negro sobre los hombros.
+Expresión: dulce y alegre, con una sonrisa muy leve. Boca cerrada.
+Encuadre: busto de frente, mirando directo a la cámara, cabeza centrada, la coronilla cerca del borde superior dejando un pequeño margen, los hombros llegan al borde inferior. Formato cuadrado 1:1.
+Iluminación: luz cálida y suave en el rostro, más una luz de contorno rosada y sutil en el velo y los hombros, para que el manto negro se separe del fondo.
+Fondo: negro puro y liso (#000000), sin degradados, sin textura, sin objetos. Sin aureola, sin halo, sin texto, sin marcos, sin marca de agua.
+```
+
+#### San Martín de Porres (`martin_porres`)
+
+**Referencia:** su retrato más antiguo, del siglo XVII (búscalo como "Martín de Porres retrato siglo XVII"), y la reconstrucción facial científica de 2016. Úsalos solo para mirar los rasgos.
+
+```
+Retrato ilustrado semirrealista, estilo pintura digital cálida y detallada, como de película animada de alta calidad.
+Personaje: San Martín de Porres, fraile limeño del siglo XVII, hijo de un caballero español y de una mujer negra libre de Panamá, a sus 50 años.
+Rostro: delgado y alargado, de piel morena oscura; pómulos marcados; ojos oscuros grandes, de mirada dulce, humilde y un poco triste; cejas oscuras; nariz ancha; labios gruesos.
+Cabello: negro, muy corto y ensortijado, cortado al ras. Sin barba ni bigote: rostro completamente afeitado.
+Ropa: hábito de hermano dominico, túnica y escapulario blancos con capa negra, y un rosario de cuentas negras colgando del cuello.
+Expresión: bondadosa y serena, con una sonrisa leve. Boca cerrada.
+Encuadre: busto de frente, mirando directo a la cámara, cabeza centrada, la coronilla cerca del borde superior dejando un pequeño margen, los hombros llegan al borde inferior. Formato cuadrado 1:1.
+Iluminación: luz cálida y suave en el rostro, más una luz de contorno dorada en la cabeza y los hombros, para que la capa negra se separe del fondo.
+Fondo: negro puro y liso (#000000), sin degradados, sin textura, sin objetos. Sin aureola, sin halo, sin escoba, sin texto, sin marcos, sin marca de agua.
+```
+
+#### Santo Toribio de Mogrovejo (`toribio`)
+
+**Referencia (dominio público):** <https://commons.wikimedia.org/wiki/File:Santo_Toribio_Alfonso_de_Mogrovejo,_Arzobispo_de_Lima.jpg> Escribe antes del prompt: *"Usa este retrato como referencia del rostro y de la vestimenta."*
+
+```
+Retrato ilustrado semirrealista, estilo pintura digital cálida y detallada, como de película animada de alta calidad.
+Personaje: Santo Toribio de Mogrovejo, arzobispo de Lima nacido en España, a sus 60 años (hacia 1600).
+Rostro: alargado, de piel clara aceitunada y algo curtida por los viajes; frente amplia; ojos oscuros, de mirada firme, inteligente y bondadosa; cejas oscuras; nariz larga y aguileña.
+Cabello: calvo en la parte de arriba (tonsura), con cabello oscuro y corto a los lados.
+Vello facial: barba oscura corta y bien recortada, con bigote, entrecana.
+Ropa: roquete blanco de encaje con muceta (capita corta) roja de arzobispo, y sobre los hombros el palio blanco con cruces negras.
+Expresión: serena, digna y cálida. Boca cerrada.
+Encuadre: busto de frente, mirando directo a la cámara, cabeza centrada, la coronilla cerca del borde superior dejando un pequeño margen, los hombros llegan al borde inferior. Formato cuadrado 1:1.
+Iluminación: luz cálida y suave en el rostro, más una luz de contorno dorada y sutil en la cabeza y los hombros.
+Fondo: negro puro y liso (#000000), sin degradados, sin textura, sin objetos. Sin aureola, sin halo, sin mitra, sin texto, sin marcos, sin marca de agua.
+```
+
+#### San Juan Macías (`juan_macias`)
+
+**Referencia:** búscalo como "San Juan Macías dominico pintura"; úsalo solo para mirar.
+
+```
+Retrato ilustrado semirrealista, estilo pintura digital cálida y detallada, como de película animada de alta calidad.
+Personaje: San Juan Macías, fraile dominico nacido en Extremadura (España), antiguo pastor de ovejas, portero del convento en Lima, a sus 50 años (hacia 1635).
+Rostro: delgado y alargado, de piel clara curtida por el sol; pómulos marcados; ojos oscuros, de mirada humilde, tranquila y bondadosa; cejas oscuras; nariz recta.
+Cabello: tonsura de fraile: la parte de arriba de la cabeza rasurada y un anillo de cabello oscuro y corto alrededor.
+Vello facial: ninguno, rostro afeitado.
+Ropa: hábito dominico, túnica blanca con capa negra y capucha negra caída sobre los hombros, y un rosario de cuentas oscuras.
+Expresión: sencilla y cariñosa, con una sonrisa leve. Boca cerrada.
+Encuadre: busto de frente, mirando directo a la cámara, cabeza centrada, la coronilla cerca del borde superior dejando un pequeño margen, los hombros llegan al borde inferior. Formato cuadrado 1:1.
+Iluminación: luz cálida y suave en el rostro, más una luz de contorno dorada en la cabeza y los hombros, para que la capa negra se separe del fondo.
+Fondo: negro puro y liso (#000000), sin degradados, sin textura, sin objetos. Sin aureola, sin halo, sin texto, sin marcos, sin marca de agua.
+```
+
+#### San Francisco Solano (`francisco_solano`)
+
+**Referencia (dominio público):** <https://commons.wikimedia.org/wiki/File:San_Francisco_Solano_(1549_-1610).jpg> Escribe antes del prompt: *"Usa este retrato como referencia del rostro."*
+
+```
+Retrato ilustrado semirrealista, estilo pintura digital cálida y detallada, como de película animada de alta calidad.
+Personaje: San Francisco Solano, misionero franciscano nacido en Montilla (España), que caminó por los Andes hasta Tucumán con su violín, a sus 55 años (hacia 1605).
+Rostro: delgado y alargado, de piel clara bronceada por los viajes; mejillas algo hundidas; ojos oscuros, de mirada alegre, viva y bondadosa; cejas oscuras; nariz larga y recta.
+Cabello: tonsura de fraile: la parte de arriba rasurada y un anillo de cabello oscuro y corto alrededor.
+Vello facial: barba oscura corta y bigote, con algunas canas.
+Ropa: hábito franciscano marrón de tela gruesa, con capucha caída sobre los hombros y cordón blanco. Asoma junto a su hombro el mástil de un pequeño violín antiguo (rabel) de madera.
+Expresión: alegre y entusiasta, con una sonrisa leve. Boca cerrada.
+Encuadre: busto de frente, mirando directo a la cámara, cabeza centrada, la coronilla cerca del borde superior dejando un pequeño margen, los hombros llegan al borde inferior. Formato cuadrado 1:1.
+Iluminación: luz cálida y suave en el rostro, más una luz de contorno dorada en la cabeza y los hombros.
+Fondo: negro puro y liso (#000000), sin degradados, sin textura, sin objetos. Sin aureola, sin halo, sin texto, sin marcos, sin marca de agua.
+```
 
 **Si el parecido no sale a la primera:** genera varias veces y, en el mismo chat, corrige lo que falle con frases cortas. Por ejemplo: *"Igual, pero con el mentón afeitado y las patillas más grandes"*, *"Igual, pero con la frente más alta y el bigote más tupido"* o *"Igual, pero con el cuello alto negro, sin gorguera"*.
 

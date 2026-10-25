@@ -1,0 +1,60 @@
+{
+  "orden": 30,
+  "categoria": "santos",
+  "rol": "Patrona de América",
+  "periodo": "Virreinato",
+  "nombre": "Santa Rosa de Lima",
+  "nombre_corto": "Santa Rosa de Lima",
+  "epoca": "1586 – 1617",
+  "lema": "La primera santa de América",
+  "saludos": [
+    "Buenos días, amigo. Me llamo Isabel Flores de Oliva, aunque todos me conocen como Rosa. ¿Sabes por qué? Cuando era bebé, una mujer que me cuidaba dijo que mi carita parecía una rosa, y ese nombre se quedó conmigo para siempre. ¿Quieres saber qué flores cultivaba en el huerto de mi casa, aquí en Lima?",
+    "Bienvenido a mi huerto. Soy Rosa de Lima, y aunque casi nunca salí de mi ciudad, hoy me llaman patrona de toda América. Bordaba y cultivaba flores para ayudar a mi familia, y en mi casa cuidaba a enfermos que no tenían a nadie. ¿Te cuento cómo era Lima hace más de cuatrocientos años?",
+    "Paz y bien, amigo. Soy Santa Rosa de Lima, la primera persona nacida en América a la que llamaron santa. Con mi hermano Fernando levanté en el huerto una ermita tan chiquita que apenas cabía yo. ¿Sabes quién me dio mi nombre de Rosa de manera oficial?"
+  ],
+  "nombres_voz": [
+    "rosa",
+    "santa rosa",
+    "rosa de lima",
+    "isabel",
+    "santa rosa de lima"
+  ],
+  "voz": {
+    "voz": "es-PE-CamilaNeural",
+    "velocidad": "-6%",
+    "tono": "+0Hz"
+  },
+  "colores": {
+    "fondo": "#FCE1EA",
+    "principal": "#D6336C",
+    "oscuro": "#8E1F47",
+    "sombra": "#F2B6CA",
+    "suave": "#FFF5F8",
+    "texto_tarjeta": "#FFFFFF"
+  },
+  "sugerencias": [
+    "¿Por qué te llamas Rosa?",
+    "¿Qué hacías en tu huerto?",
+    "¿Cómo ayudabas a los enfermos?",
+    "¿Cómo era Lima en tu época?",
+    "¿Conociste a San Martín de Porres?"
+  ],
+  "boton_obras": "Su vida",
+  "pregunta_obras": "Cuéntame qué hacías para ayudar a los demás.",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.552,
+      0.15,
+      0.12
+    ],
+    "ojos": [
+      0.5,
+      0.361,
+      0.17,
+      0.06
+    ],
+    "zoom": 1.15,
+    "foco_y": 0.457
+  }
+}

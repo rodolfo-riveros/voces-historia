@@ -339,10 +339,28 @@ function botonLateral(btn, icono, etiqueta, accion) {
 }
 
 // ---------- Pantalla 2: elegir ----------
+/** Orden "surtido" para la vista Todos: se alternan las categorías (escritor, héroe, inca,
+ *  sabio, santo, y otra vez), empezando por el personaje de portada de cada una.
+ *  Dentro de cada categoría se respeta el "orden" de los config.json. */
+function ordenSurtido() {
+  const grupos = estado.categorias.map((c) => {
+    const lista = estado.personajes.filter((p) => p.categoria === c.id);
+    const i = lista.findIndex((p) => p.id === c.portada);
+    if (i > 0) lista.unshift(...lista.splice(i, 1));
+    return lista;
+  });
+  const sinCategoria = estado.personajes.filter((p) => !estado.categorias.some((c) => c.id === p.categoria));
+  const surtido = [];
+  for (let i = 0; grupos.some((g) => i < g.length); i++) {
+    grupos.forEach((g) => g[i] && surtido.push(g[i]));
+  }
+  return [...surtido, ...sinCategoria];
+}
+
 function pintarTarjetas() {
   const lista = $("#lista-personajes");
   lista.innerHTML = "";
-  estado.personajes.forEach((p) => {
+  ordenSurtido().forEach((p) => {
     const b = document.createElement("button");
     b.className = "tarjeta";
     b.style.setProperty("--c-principal", p.colores.principal);
@@ -918,6 +936,32 @@ function activarToquesSecretos(el) {
   });
 }
 
+/** Portada del inicio: un personaje por categoría ("portada" en categorias.json).
+ *  La primera categoría va al centro y las demás se reparten a los lados. */
+function pintarPortada() {
+  const grupo = $("#inicio-grupo");
+  grupo.querySelectorAll(".inicio-cara").forEach((c) => c.remove());
+  const porId = Object.fromEntries(estado.personajes.map((p) => [p.id, p]));
+  const elegidos = estado.categorias
+    .map((c) => porId[c.portada] || estado.personajes.find((p) => p.categoria === c.id && p.imagenes)
+      || estado.personajes.find((p) => p.categoria === c.id))
+    .filter(Boolean);
+  if (!elegidos.length) elegidos.push(...estado.personajes.slice(0, 3));
+  const lugares = [3, 2, 4, 1, 5];
+  elegidos.slice(0, 5).forEach((p, i) => {
+    const cara = document.createElement("div");
+    cara.className = `inicio-cara cara-${lugares[i]}`;
+    cara.style.setProperty("--c-fondo", p.colores.fondo);
+    cara.style.setProperty("--c-oscuro", p.colores.oscuro);
+    cara.title = p.nombre_corto;
+    const av = document.createElement("div");
+    av.className = "avatar";
+    cara.appendChild(av);
+    grupo.appendChild(cara);
+    Avatares.pintarAvatar(av, p.id);
+  });
+}
+
 function actualizarBotonSonido() {
   const b = $("#btn-sonido");
   const activo = Ambiente.volumen > 0;
@@ -954,9 +998,7 @@ async function iniciar() {
     Ambiente.configurarArchivos(p.id, p.sonidos);
     if (p.parpadeo) Avatares.conParpadeo.add(p.id);
   });
-  // Las 3 caras del inicio: los 3 primeros personajes (según "orden" en su config.json).
-  const caras = document.querySelectorAll("[data-pinta]");
-  caras.forEach((el, i) => Avatares.pintarAvatar(el, (estado.personajes[[1, 2, 0][i]] || estado.personajes[0] || {}).id || el.dataset.pinta));
+  pintarPortada();
   if (!estado.personajes.length) return;
   const apellidos = estado.personajes.map((p) => p.nombre_corto.replace(/^Inca /, "").split(" ").pop());
   $("#nota-personajes").textContent = apellidos.length <= 4

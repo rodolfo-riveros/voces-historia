@@ -39,5 +39,21 @@
     "¿Hablabas quechua?"
   ],
   "boton_obras": "Sus descubrimientos",
-  "pregunta_obras": "Cuéntame de tus descubrimientos."
+  "pregunta_obras": "Cuéntame de tus descubrimientos.",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.596,
+      0.15,
+      0.12
+    ],
+    "ojos": [
+      0.5,
+      0.401,
+      0.17,
+      0.06
+    ],
+    "zoom": 1.15,
+    "foco_y": 0.499
+  }
 }

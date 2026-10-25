@@ -12,17 +12,15 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <link rel="preload" href="/fonts/baloo2.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/nunito.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/style.css?v=7">
+  <link rel="stylesheet" href="/style.css?v=9">
 </head>
 <body>
 <main id="app">
 
   <!-- 1 · Inicio -->
   <section id="pantalla-inicio" class="pantalla activa" aria-label="Inicio">
-    <div class="inicio-grupo" aria-hidden="true">
-      <div class="inicio-cara cara-a"><div class="avatar" data-pinta="arguedas"></div></div>
-      <div class="inicio-cara cara-b"><div class="avatar" data-pinta="grau"></div></div>
-      <div class="inicio-cara cara-c"><div class="avatar" data-pinta="garcilaso"></div></div>
+    <!-- Portada: un personaje por categoría (se arma en app.js con "portada" de categorias.json) -->
+    <div class="inicio-grupo" id="inicio-grupo" aria-hidden="true">
       <div class="inicio-hola">¡Hola!</div>
     </div>
     <div class="inicio-texto">
@@ -242,9 +240,9 @@
   <div class="sello-demo" id="sello-demo" hidden>DEMO</div>
 </main>
 
-<script src="/avatares.js?v=7"></script>
-<script src="/ambiente.js?v=7"></script>
-<script src="/oido.js?v=7"></script>
-<script src="/app.js?v=7"></script>
+<script src="/avatares.js?v=9"></script>
+<script src="/ambiente.js?v=9"></script>
+<script src="/oido.js?v=9"></script>
+<script src="/app.js?v=9"></script>
 </body>
 </html>

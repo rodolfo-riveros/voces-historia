@@ -39,5 +39,21 @@
     "¿Qué significa tu nombre?"
   ],
   "boton_obras": "Sus obras",
-  "pregunta_obras": "Cuéntame qué construiste y por qué."
+  "pregunta_obras": "Cuéntame qué construiste y por qué.",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.627,
+      0.15,
+      0.12
+    ],
+    "ojos": [
+      0.5,
+      0.392,
+      0.17,
+      0.06
+    ],
+    "zoom": 1.15,
+    "foco_y": 0.509
+  }
 }

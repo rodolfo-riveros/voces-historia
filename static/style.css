@@ -136,14 +136,18 @@ button:focus-visible, input:focus-visible, [role="button"]:focus-visible { outli
 .avatar.imagen-simple[data-boca="abierta"] { transform: scale(1.03); }
 /* ---------- 1 · Inicio ---------- */
 #pantalla-inicio { align-items: center; padding-top: max(40px, env(safe-area-inset-top)); }
-.inicio-grupo { position: relative; width: min(320px, 100%); aspect-ratio: 320 / 300; flex-shrink: 0; }
+.inicio-grupo { position: relative; width: min(360px, 100%); aspect-ratio: 360 / 280; flex-shrink: 0; }
 .inicio-cara {
   position: absolute; aspect-ratio: 1; border-radius: 50%; border: 6px solid #fff; overflow: hidden;
   animation: flota 3.2s ease-in-out infinite;
 }
-.cara-a { left: 0; top: 23.3%; width: 40.6%; background: #FFF0C2; box-shadow: 0 6px 0 #6B4A00; }
-.cara-b { right: 0; top: 23.3%; width: 40.6%; background: #D9ECFF; box-shadow: 0 6px 0 #0E3A73; animation-delay: .8s; }
-.cara-c { left: 25%; top: 40%; width: 50%; background: #FFE1DC; box-shadow: 0 6px 0 #8C1D2C; animation-delay: .4s; z-index: 1; }
+.inicio-cara { background: var(--c-fondo, #EEE); box-shadow: 0 6px 0 var(--c-oscuro, #555); }
+/* 5 lugares en abanico: el 3 es el centro (más grande), 2 y 4 a los lados, 1 y 5 en los extremos. */
+.cara-1 { left: 0; top: 44%; width: 25%; z-index: 1; animation-delay: 1.2s; }
+.cara-2 { left: 12%; top: 22%; width: 30%; z-index: 2; animation-delay: .4s; }
+.cara-3 { left: 31%; top: 38%; width: 38%; z-index: 3; }
+.cara-4 { right: 12%; top: 22%; width: 30%; z-index: 2; animation-delay: .8s; }
+.cara-5 { right: 0; top: 44%; width: 25%; z-index: 1; animation-delay: 1.6s; }
 .inicio-hola {
   position: absolute; left: 50%; top: 0; transform: translateX(-30%);
   padding: 10px 16px; border-radius: 22px 22px 22px 6px; background: #fff; box-shadow: 0 4px 0 var(--lila-sombra);

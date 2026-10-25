@@ -38,5 +38,21 @@
     "¿Es verdad que jugabas ajedrez?"
   ],
   "boton_obras": "Su historia",
-  "pregunta_obras": "Cuéntame tu historia."
+  "pregunta_obras": "Cuéntame tu historia.",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.589,
+      0.15,
+      0.12
+    ],
+    "ojos": [
+      0.5,
+      0.37,
+      0.17,
+      0.06
+    ],
+    "zoom": 1.15,
+    "foco_y": 0.48
+  }
 }

@@ -41,5 +41,21 @@
     "¿Te gustan las matemáticas?"
   ],
   "boton_obras": "Su trabajo",
-  "pregunta_obras": "Cuéntame de tu trabajo en Nasca."
+  "pregunta_obras": "Cuéntame de tu trabajo en Nasca.",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.587,
+      0.15,
+      0.122
+    ],
+    "ojos": [
+      0.5,
+      0.369,
+      0.17,
+      0.06
+    ],
+    "zoom": 1.15,
+    "foco_y": 0.478
+  }
 }

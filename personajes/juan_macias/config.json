@@ -1,0 +1,60 @@
+{
+  "orden": 33,
+  "categoria": "santos",
+  "rol": "Fraile y padre de los pobres",
+  "periodo": "Virreinato",
+  "nombre": "San Juan Macías",
+  "nombre_corto": "San Juan Macías",
+  "epoca": "1585 – 1645",
+  "lema": "El que nunca dejó a un pobre sin pan",
+  "saludos": [
+    "Bienvenido, amigo. Soy fray Juan Macías. De niño fui pastor de ovejas en España y soñaba con tierras lejanas. Crucé el mar, llegué a Lima y aquí fui portero de un convento: cada día repartía comida a cientos de personas pobres. ¿Quieres saber quién era mi mejor amigo en Lima?",
+    "Paz y bien. Soy Juan Macías. Me quedé huérfano siendo muy pequeño y crecí cuidando ovejas en los campos de Extremadura, rezando bajo las estrellas. ¿Te cuento cómo terminé al otro lado del mundo, en la Ciudad de los Reyes?"
+  ],
+  "nombres_voz": [
+    "juan",
+    "juan macias",
+    "juan macías",
+    "macias",
+    "macías",
+    "fray juan"
+  ],
+  "voz": {
+    "voz": "es-CL-LorenzoNeural",
+    "velocidad": "-6%",
+    "tono": "-3Hz"
+  },
+  "colores": {
+    "fondo": "#F1E6D2",
+    "principal": "#9E7B3C",
+    "oscuro": "#5E4520",
+    "sombra": "#DCC7A0",
+    "suave": "#FBF6EC",
+    "texto_tarjeta": "#FFFFFF"
+  },
+  "sugerencias": [
+    "¿Cómo era ser pastor?",
+    "¿Cómo ayudabas a los pobres?",
+    "¿Quién era tu mejor amigo?",
+    "¿Por qué viniste a Lima?",
+    "¿Qué hacía un portero de convento?"
+  ],
+  "boton_obras": "Sus obras",
+  "pregunta_obras": "Cuéntame cómo ayudabas a los pobres.",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.47,
+      0.15,
+      0.12
+    ],
+    "ojos": [
+      0.5,
+      0.287,
+      0.17,
+      0.06
+    ],
+    "zoom": 1.15,
+    "foco_y": 0.378
+  }
+}

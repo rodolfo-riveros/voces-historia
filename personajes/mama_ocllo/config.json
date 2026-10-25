@@ -39,5 +39,21 @@
     "¿Quién era tu familia?"
   ],
   "boton_obras": "Su leyenda",
-  "pregunta_obras": "Cuéntame tu leyenda."
+  "pregunta_obras": "Cuéntame tu leyenda.",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.588,
+      0.15,
+      0.12
+    ],
+    "ojos": [
+      0.5,
+      0.393,
+      0.17,
+      0.06
+    ],
+    "zoom": 1.15,
+    "foco_y": 0.49
+  }
 }

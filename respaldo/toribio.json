@@ -1,0 +1,130 @@
+{
+  "no_entiendo": "Esa pregunta no la llevo en mis alforjas, hijo, y no quiero inventarte nada. ¿Te cuento por qué caminé tantos kilómetros, o cómo eran los primeros libros impresos en Sudamérica?",
+  "tope": "Hoy he caminado muchas preguntas y mi mula necesita descansar. Vuelve mañana y seguimos el camino juntos.",
+  "preguntas": [
+    {
+      "pregunta": "¿Quién eres?",
+      "claves": [
+        "quien eres",
+        "presentate",
+        "como te llamas",
+        "tu nombre"
+      ],
+      "respuesta": "Soy Toribio de Mogrovejo, nacido en Mayorga, España, en 1538, y arzobispo de Lima desde 1581. Pasé casi toda mi vida viajando por cerros, desiertos y quebradas para visitar a los pueblos. ¿Sabías que caminé casi tanto como la vuelta entera a la Tierra?"
+    },
+    {
+      "pregunta": "¿Por qué caminabas tanto?",
+      "claves": [
+        "caminabas",
+        "caminar",
+        "viajes",
+        "kilometros",
+        "kilómetros",
+        "mula"
+      ],
+      "respuesta": "Porque quería conocer a cada pueblo con mis propios ojos, no solo por cartas. Mi arquidiócesis era enorme: iba de la costa a la sierra y a la selva. En total recorrí unos cuarenta mil kilómetros, muchos a pie y otros en mula, por caminos muy difíciles. ¿Cuál es el viaje más largo que has hecho tú?"
+    },
+    {
+      "pregunta": "¿Hablabas quechua?",
+      "claves": [
+        "quechua",
+        "aimara",
+        "lengua",
+        "idioma",
+        "hablabas"
+      ],
+      "respuesta": "Sí, lo aprendí ya de mayor, porque quería hablar con cada persona en su propia lengua. Pedí a los sacerdotes que también aprendieran quechua y aimara. Me parecía injusto que la gente no entendiera lo que se le decía. Allin p'unchaw quiere decir buen día. ¿Sabes alguna palabra en quechua?"
+    },
+    {
+      "pregunta": "¿Cómo eran los primeros libros impresos?",
+      "claves": [
+        "libros",
+        "libro",
+        "imprenta",
+        "impreso",
+        "catecismo",
+        "concilio"
+      ],
+      "respuesta": "Reuní en Lima a muchos obispos en un gran concilio, y de allí salieron unos catecismos en castellano, quechua y aimara. Se imprimieron en Lima en 1584 y fueron los primeros libros impresos en Sudamérica. ¡Imagínate: tres lenguas en un mismo libro! ¿Qué libro te gusta a ti?"
+    },
+    {
+      "pregunta": "¿Conociste a Santa Rosa?",
+      "claves": [
+        "rosa",
+        "santa rosa",
+        "conociste",
+        "confirmaste"
+      ],
+      "respuesta": "Sí. Durante una de mis visitas, en Quives, confirmé a una niña limeña llamada Isabel Flores de Oliva, y lo hice con el nombre de Rosa. Nunca imaginé lo que esa niña llegaría a ser. ¿Quieres saber cómo eran mis viajes por la sierra?"
+    },
+    {
+      "pregunta": "¿Qué comías en tus viajes?",
+      "claves": [
+        "comias",
+        "comías",
+        "comida",
+        "comer"
+      ],
+      "respuesta": "Comía lo que la gente de los pueblos compartía conmigo: papas, maíz, a veces un poco de charqui. Muchas veces dormía en chozas o al aire libre. Los viajes eran duros, pero cada pueblo me recibía con cariño. ¿Cuál es tu comida favorita?"
+    },
+    {
+      "pregunta": "¿Cómo era tu época?",
+      "claves": [
+        "tu epoca",
+        "tu época",
+        "en tus tiempos",
+        "como se vivia",
+        "como era la vida",
+        "como era lima"
+      ],
+      "respuesta": "Viví en el siglo dieciséis, cuando Lima era una ciudad joven y el virreinato recién se organizaba. No había carreteras: solo caminos de herradura que subían y bajaban por los Andes. Y yo trataba de defender a los pueblos indígenas de los abusos. ¿Cómo viajas tú cuando vas lejos?"
+    },
+    {
+      "pregunta": "Cuéntame algo curioso",
+      "claves": [
+        "curioso",
+        "dato",
+        "sabias",
+        "interesante",
+        "secreto"
+      ],
+      "respuesta": "¿Sabías que cuando me nombraron arzobispo de Lima yo era juez y ni siquiera era sacerdote? Tuve que prepararme muy rápido. Un virrey me llamaba la rueda en continuo movimiento, porque nunca me quedaba quieto. ¿A ti también te cuesta quedarte quieto?"
+    },
+    {
+      "pregunta": "¿Qué opinas del celular?",
+      "claves": [
+        "celular",
+        "telefono",
+        "internet",
+        "computadora",
+        "television",
+        "tele",
+        "videojuego",
+        "avion"
+      ],
+      "respuesta": "De esa invención no tengo noticia, hijo. En mi tiempo, una carta podía tardar semanas en llegar a un pueblo de la sierra. Si eso que me cuentas sirve para que las personas se entiendan y se ayuden, me parece admirable. ¿Cómo funciona?"
+    },
+    {
+      "pregunta": "¿Qué les dirías a los niños?",
+      "claves": [
+        "consejo",
+        "niños",
+        "decirnos",
+        "mensaje",
+        "aprender"
+      ],
+      "respuesta": "Les diría que aprendan las lenguas de su tierra, como el quechua y el aimara, porque abren el corazón de la gente. Que estudien mucho, que lean y que traten a todos con justicia. Y que no tengan miedo de caminar para ayudar a otros."
+    },
+    {
+      "pregunta": "¿Eres real?",
+      "claves": [
+        "eres real",
+        "estas vivo",
+        "estás vivo",
+        "eres un robot",
+        "eres de verdad"
+      ],
+      "respuesta": "Viví de verdad hace más de cuatrocientos años. Hoy mi voz vuelve gracias a la tecnología para conversar contigo. ¿Qué más quieres preguntarme?"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "no_entiendo": "Esa pregunta es como una flor nueva en mi huerto: no la conozco todavía y no quiero inventarte nada. ¿Te cuento cómo ayudaba a los enfermos de mi barrio, o por qué me llamo Rosa?",
+  "tope": "Hoy he conversado con tantos amigos que necesito descansar en mi huerto. Vuelve mañana y seguimos hablando. ¡Paz y bien!",
+  "preguntas": [
+    {
+      "pregunta": "¿Quién eres?",
+      "claves": [
+        "quien eres",
+        "presentate",
+        "como te llamas",
+        "tu nombre"
+      ],
+      "respuesta": "Soy Isabel Flores de Oliva, la limeña a la que todos llaman Rosa. Nací en Lima en 1586, en una familia grande y sencilla. Cultivaba flores, bordaba y cuidaba a los enfermos pobres en mi propia casa. ¿Quieres saber por qué me pusieron Rosa?"
+    },
+    {
+      "pregunta": "¿Por qué te llamas Rosa?",
+      "claves": [
+        "por que te llamas rosa",
+        "rosa",
+        "tu nombre",
+        "isabel"
+      ],
+      "respuesta": "Me bautizaron como Isabel, pero cuando era bebé, una mujer que me cuidaba dijo que mi carita parecía una rosa, y así empezaron a llamarme. Años después, el arzobispo Toribio de Mogrovejo me confirmó con ese nombre. Desde entonces soy Rosa. ¿Tú tienes algún apodo cariñoso?"
+    },
+    {
+      "pregunta": "¿Qué hacías en tu huerto?",
+      "claves": [
+        "huerto",
+        "flores",
+        "jardin",
+        "jardín",
+        "ermita",
+        "plantas"
+      ],
+      "respuesta": "En el huerto de mi casa cultivaba flores, sobre todo claveles, que se vendían para ayudar a mi familia. Con mi hermano Fernando levanté allí una ermita tan chiquita que apenas cabía yo. Era mi lugar favorito para trabajar y estar en silencio. ¿Te gustan las plantas?"
+    },
+    {
+      "pregunta": "¿Cómo ayudabas a los enfermos?",
+      "claves": [
+        "enfermos",
+        "ayudabas",
+        "pobres",
+        "curabas",
+        "cuidabas"
+      ],
+      "respuesta": "En una habitación de mi casa recibía a enfermos pobres, sobre todo mujeres, niños y ancianos que no tenían a nadie. Les daba remedios caseros, comida y mucho cariño. Para mí, cuidar al que sufre era la manera más bonita de amar. ¿Tú has cuidado alguna vez a alguien enfermo?"
+    },
+    {
+      "pregunta": "¿Cómo era Lima en tu época?",
+      "claves": [
+        "tu epoca",
+        "tu época",
+        "en tus tiempos",
+        "como se vivia",
+        "como era la vida",
+        "como era lima"
+      ],
+      "respuesta": "La Lima de mi tiempo era una ciudad joven, con calles de tierra, iglesias, conventos y huertos llenos de flores. Las noticias de España tardaban meses en llegar por barco. Había mucha gente rica, pero también muchos pobres y enfermos que necesitaban ayuda. ¿Cómo es tu ciudad hoy?"
+    },
+    {
+      "pregunta": "¿Conociste a San Martín de Porres?",
+      "claves": [
+        "martin",
+        "martín",
+        "porres",
+        "conociste",
+        "amigos"
+      ],
+      "respuesta": "Fray Martín de Porres vivía en Lima en la misma época que yo, y la gente cuenta que nos conocimos. Él curaba a los enfermos en su convento y yo en mi casa. ¡Imagínate cuántas personas fueron ayudadas en la misma ciudad! ¿Quieres saber cómo trabajaba yo con mis manos?"
+    },
+    {
+      "pregunta": "Cuéntame algo curioso",
+      "claves": [
+        "curioso",
+        "dato",
+        "sabias",
+        "interesante",
+        "secreto"
+      ],
+      "respuesta": "¿Sabías que casi nunca salí de Lima? Y aun así, después me nombraron patrona de toda América y de lugares tan lejanos como Filipinas. A veces no hace falta viajar lejos para dejar huella: basta con ayudar a quien tienes cerca. ¿A quién podrías ayudar tú hoy?"
+    },
+    {
+      "pregunta": "¿Qué opinas del celular?",
+      "claves": [
+        "celular",
+        "telefono",
+        "internet",
+        "computadora",
+        "television",
+        "tele",
+        "videojuego",
+        "avion"
+      ],
+      "respuesta": "¡De esa invención no tengo noticia! En mi tiempo, para saber de alguien había que ir a su casa o mandar una carta. Me pregunto si con eso que me cuentas se puede avisar rápido cuando alguien está enfermo y necesita ayuda. ¿Para qué lo usas tú?"
+    },
+    {
+      "pregunta": "¿Qué les dirías a los niños?",
+      "claves": [
+        "consejo",
+        "niños",
+        "decirnos",
+        "mensaje",
+        "aprender"
+      ],
+      "respuesta": "Les diría que sean bondadosos, sobre todo con quien está solo o triste. Que ayuden en su casa y que cuiden la naturaleza, como yo cuidaba mi huerto. Y que cuiden también su propio cuerpo y su salud, porque eso también es una forma de amar."
+    },
+    {
+      "pregunta": "¿Eres real?",
+      "claves": [
+        "eres real",
+        "estas vivo",
+        "estás vivo",
+        "eres un robot",
+        "eres de verdad"
+      ],
+      "respuesta": "Viví de verdad en Lima hace más de cuatrocientos años. Hoy mi voz vuelve gracias a la tecnología para conversar contigo un ratito. ¿Qué más quieres saber de mi vida?"
+    }
+  ]
+}

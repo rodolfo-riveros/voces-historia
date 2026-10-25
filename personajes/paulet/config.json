@@ -39,5 +39,21 @@
     "¿Se puede viajar a la Luna?"
   ],
   "boton_obras": "Sus inventos",
-  "pregunta_obras": "Cuéntame de tus inventos."
+  "pregunta_obras": "Cuéntame de tus inventos.",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.629,
+      0.15,
+      0.128
+    ],
+    "ojos": [
+      0.5,
+      0.378,
+      0.17,
+      0.06
+    ],
+    "zoom": 1.15,
+    "foco_y": 0.503
+  }
 }

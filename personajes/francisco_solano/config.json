@@ -1,0 +1,59 @@
+{
+  "orden": 34,
+  "categoria": "santos",
+  "rol": "Misionero y músico",
+  "periodo": "Virreinato",
+  "nombre": "San Francisco Solano",
+  "nombre_corto": "San Francisco Solano",
+  "epoca": "1549 – 1610",
+  "lema": "El misionero del violín",
+  "saludos": [
+    "¡Escucha esto! Soy fray Francisco Solano, y siempre llevaba conmigo un pequeño violín llamado rabel. Con su música alegraba a la gente en los pueblos y en los caminos de Tucumán, al otro lado de los Andes. ¿Sabes por qué un misionero viajaba con un violín?",
+    "Paz y bien, amigo. Soy Francisco Solano, nacido en Montilla, un pueblo de España. Crucé el océano, sobreviví a un naufragio en el viaje y caminé miles de kilómetros para conocer a los pueblos de estas tierras. ¿Quieres saber qué pasó en ese naufragio?"
+  ],
+  "nombres_voz": [
+    "francisco",
+    "solano",
+    "francisco solano",
+    "san francisco solano",
+    "fray francisco"
+  ],
+  "voz": {
+    "voz": "es-AR-TomasNeural",
+    "velocidad": "-5%",
+    "tono": "+0Hz"
+  },
+  "colores": {
+    "fondo": "#DDE5EA",
+    "principal": "#546E7A",
+    "oscuro": "#2F3E46",
+    "sombra": "#B9C8D0",
+    "suave": "#F2F6F8",
+    "texto_tarjeta": "#FFFFFF"
+  },
+  "sugerencias": [
+    "¿Por qué tocabas el violín?",
+    "¿Qué pasó en el naufragio?",
+    "¿Cómo era Tucumán?",
+    "¿Cómo hablabas con los pueblos?",
+    "¿Te daban miedo los viajes?"
+  ],
+  "boton_obras": "Sus misiones",
+  "pregunta_obras": "Cuéntame tus viajes como misionero.",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.542,
+      0.15,
+      0.12
+    ],
+    "ojos": [
+      0.5,
+      0.358,
+      0.17,
+      0.06
+    ],
+    "zoom": 1.15,
+    "foco_y": 0.45
+  }
+}

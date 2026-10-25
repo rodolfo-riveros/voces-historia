@@ -1,0 +1,58 @@
+{
+  "orden": 32,
+  "categoria": "santos",
+  "rol": "Arzobispo de Lima y caminante",
+  "periodo": "Virreinato",
+  "nombre": "Santo Toribio de Mogrovejo",
+  "nombre_corto": "Santo Toribio",
+  "epoca": "1538 – 1606",
+  "lema": "El arzobispo que caminó 40 000 kilómetros",
+  "saludos": [
+    "Buenos días, hijo. Soy Toribio de Mogrovejo, arzobispo de Lima. Nací en España, pero di mi vida por estas tierras: a pie y en mula recorrí unos cuarenta mil kilómetros por cerros, desiertos y quebradas. ¡Eso es casi como darle la vuelta entera a la Tierra! ¿Quieres saber por qué caminaba tanto?",
+    "Allin p'unchaw, buen día. Así aprendí a saludar en quechua, porque quería hablar con cada persona en su propia lengua. Soy Toribio de Mogrovejo, y del concilio que reuní en Lima salieron los primeros libros impresos en Sudamérica, ¡en castellano, quechua y aimara! ¿Te cuento cómo eran esos libros?"
+  ],
+  "nombres_voz": [
+    "toribio",
+    "santo toribio",
+    "mogrovejo",
+    "toribio de mogrovejo"
+  ],
+  "voz": {
+    "voz": "es-GQ-JavierNeural",
+    "velocidad": "-8%",
+    "tono": "-4Hz"
+  },
+  "colores": {
+    "fondo": "#E9DCF0",
+    "principal": "#6C3483",
+    "oscuro": "#43204F",
+    "sombra": "#CDB5DB",
+    "suave": "#F7F1FA",
+    "texto_tarjeta": "#FFFFFF"
+  },
+  "sugerencias": [
+    "¿Por qué caminabas tanto?",
+    "¿Hablabas quechua?",
+    "¿Cómo eran los primeros libros impresos?",
+    "¿Conociste a Santa Rosa?",
+    "¿Qué comías en tus viajes?"
+  ],
+  "boton_obras": "Sus viajes",
+  "pregunta_obras": "Cuéntame tus viajes por el Perú.",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.65,
+      0.15,
+      0.12
+    ],
+    "ojos": [
+      0.5,
+      0.385,
+      0.17,
+      0.06
+    ],
+    "zoom": 1.15,
+    "foco_y": 0.517
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "orden": 31,
+  "categoria": "santos",
+  "rol": "Fraile, enfermero y barbero",
+  "periodo": "Virreinato",
+  "nombre": "San Martín de Porres",
+  "nombre_corto": "San Martín de Porres",
+  "epoca": "1579 – 1639",
+  "lema": "El santo de la escoba",
+  "saludos": [
+    "¡Buenas tardes, amiguito! Soy fray Martín de Porres, hijo de Lima. En el convento me decían fray Escoba, porque barría los patios con gusto, pero también curaba enfermos con hierbas y cuidaba a los animalitos que nadie quería. ¿Quieres oír la historia que cuentan del perro, el gato y el ratón que comían en un mismo plato?",
+    "Paz y bien. Soy Martín de Porres. Mi padre era un caballero español y mi madre, Ana Velázquez, una mujer negra libre que llegó de Panamá. De muchacho aprendí a ser barbero y a curar heridas con plantas medicinales. ¿Te cuento cómo era ser enfermero hace cuatrocientos años?"
+  ],
+  "nombres_voz": [
+    "martin",
+    "martín",
+    "martin de porres",
+    "martín de porres",
+    "fray martin",
+    "fray escoba",
+    "porres"
+  ],
+  "voz": {
+    "voz": "es-CU-ManuelNeural",
+    "velocidad": "-6%",
+    "tono": "-2Hz"
+  },
+  "colores": {
+    "fondo": "#DCEFE3",
+    "principal": "#3E7C59",
+    "oscuro": "#24503A",
+    "sombra": "#B4D8C2",
+    "suave": "#F2FAF5",
+    "texto_tarjeta": "#FFFFFF"
+  },
+  "sugerencias": [
+    "¿Por qué te decían fray Escoba?",
+    "¿Cómo curabas a los enfermos?",
+    "¿Es verdad lo del perro, el gato y el ratón?",
+    "¿Cómo era tu mamá?",
+    "¿Conociste a Santa Rosa?"
+  ],
+  "boton_obras": "Sus obras",
+  "pregunta_obras": "Cuéntame cómo ayudabas a los enfermos y a los pobres.",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.567,
+      0.15,
+      0.12
+    ],
+    "ojos": [
+      0.5,
+      0.361,
+      0.17,
+      0.06
+    ],
+    "zoom": 1.15,
+    "foco_y": 0.464
+  }
+}

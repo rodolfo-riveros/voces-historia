@@ -109,7 +109,7 @@ Lista de voces: `.venv\Scripts\edge-tts --list-voices`. Cada personaje tiene una
 
 1. Crea `personajes/<id>/` con `config.json` (copia uno existente), `ficha.md`, y `respaldo/<id>.json`.
 2. En el `config.json` define:
-   - `"categoria"`: una de `personajes/categorias.json` → `escritores`, `heroes`, `incas` o `sabios`.
+   - `"categoria"`: una de `personajes/categorias.json` → `escritores`, `heroes`, `incas`, `sabios` o `santos`.
    - `"rol"`: lo que fue, en pocas palabras (ej. `"Poeta"`, `"Heroína de la independencia"`).
    - `"periodo"`: `Perú antiguo`, `Incas`, `Virreinato`, `Independencia`, `República` o `Siglo XX`.
    - `"orden"`: posición en la lista (los 3 primeros salen en las caras del inicio).

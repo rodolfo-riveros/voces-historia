@@ -40,5 +40,21 @@
     "¿Por qué no se sabe tu nombre?"
   ],
   "boton_obras": "Sus tesoros",
-  "pregunta_obras": "Cuéntame de tus tesoros y de tu pueblo."
+  "pregunta_obras": "Cuéntame de tus tesoros y de tu pueblo.",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.654,
+      0.15,
+      0.12
+    ],
+    "ojos": [
+      0.5,
+      0.43,
+      0.17,
+      0.06
+    ],
+    "zoom": 1.15,
+    "foco_y": 0.542
+  }
 }

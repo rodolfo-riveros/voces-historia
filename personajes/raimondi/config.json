@@ -39,5 +39,21 @@
     "¿Qué es la Estela Raimondi?"
   ],
   "boton_obras": "Sus viajes",
-  "pregunta_obras": "Cuéntame de tus viajes y descubrimientos."
+  "pregunta_obras": "Cuéntame de tus viajes y descubrimientos.",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.561,
+      0.15,
+      0.12
+    ],
+    "ojos": [
+      0.5,
+      0.348,
+      0.17,
+      0.06
+    ],
+    "zoom": 1.15,
+    "foco_y": 0.454
+  }
 }

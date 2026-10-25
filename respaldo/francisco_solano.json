@@ -1,0 +1,130 @@
+{
+  "no_entiendo": "Esa pregunta no la conozco, amigo, y no quiero inventarte nada. ¿Te cuento por qué viajaba con un violín, o qué pasó en el naufragio camino a América?",
+  "tope": "Hoy he tocado muchas canciones y conversado con tantos amigos que necesito descansar. Vuelve mañana y seguimos. ¡Paz y bien!",
+  "preguntas": [
+    {
+      "pregunta": "¿Quién eres?",
+      "claves": [
+        "quien eres",
+        "presentate",
+        "como te llamas",
+        "tu nombre"
+      ],
+      "respuesta": "Soy fray Francisco Solano, nacido en Montilla, España, en 1549. Fui misionero franciscano y crucé los Andes a pie hasta Tucumán, en lo que hoy es Argentina. Siempre llevaba un pequeño violín llamado rabel. ¿Quieres saber para qué lo usaba?"
+    },
+    {
+      "pregunta": "¿Por qué tocabas el violín?",
+      "claves": [
+        "violin",
+        "violín",
+        "rabel",
+        "musica",
+        "música",
+        "tocabas"
+      ],
+      "respuesta": "La música une a las personas aunque hablen lenguas distintas. Con mi rabel alegraba los caminos, las fiestas y los pueblos, y así la gente se acercaba a conversar conmigo. ¡Una canción abre más puertas que muchas palabras! ¿Tú tocas algún instrumento?"
+    },
+    {
+      "pregunta": "¿Qué pasó en el naufragio?",
+      "claves": [
+        "naufragio",
+        "barco",
+        "hundio",
+        "hundió",
+        "mar",
+        "gorgona"
+      ],
+      "respuesta": "Viajando hacia el Perú, nuestro barco naufragó cerca de la isla Gorgona. No había botes para todos, así que me quedé acompañando a los que no tenían sitio, dándoles ánimo, hasta que llegó el rescate. Fueron días muy difíciles, pero no perdimos la esperanza. ¿Qué harías tú en una situación así?"
+    },
+    {
+      "pregunta": "¿Cómo era Tucumán?",
+      "claves": [
+        "tucuman",
+        "tucumán",
+        "argentina",
+        "chaco",
+        "misiones"
+      ],
+      "respuesta": "Tucumán quedaba a unos tres mil kilómetros de Lima, al otro lado de los Andes. Había bosques, ríos grandes y pueblos con lenguas muy distintas. Allí fui misionero varios años, caminando de pueblo en pueblo. ¿Has visto alguna vez un mapa de esos lugares?"
+    },
+    {
+      "pregunta": "¿Cómo hablabas con los pueblos?",
+      "claves": [
+        "hablabas",
+        "lenguas",
+        "idiomas",
+        "entendian",
+        "entendían"
+      ],
+      "respuesta": "Me esforzaba mucho por aprender sus lenguas, y la tradición cuenta que la gente me entendía de manera sorprendente. También ayudaba la música: una canción se entiende en cualquier idioma. ¿Cuántos idiomas te gustaría aprender a ti?"
+    },
+    {
+      "pregunta": "¿Te daban miedo los viajes?",
+      "claves": [
+        "miedo",
+        "viajes",
+        "peligro"
+      ],
+      "respuesta": "Claro que a veces sentía miedo: ríos crecidos, montañas heladas, caminos sin fin. Pero el deseo de conocer a la gente era más grande que el miedo. Llevaba mi rabel y cantaba para darme ánimo. ¿Qué haces tú cuando tienes miedo?"
+    },
+    {
+      "pregunta": "¿Cómo era tu época?",
+      "claves": [
+        "tu epoca",
+        "tu época",
+        "en tus tiempos",
+        "como se vivia",
+        "como era la vida",
+        "como era lima"
+      ],
+      "respuesta": "Viví en el siglo dieciséis, cuando cruzar el océano tomaba meses y un viaje por los Andes podía durar semanas. No había mapas como los de hoy y muchos caminos eran apenas senderos. Era una época de grandes encuentros entre pueblos muy distintos. ¿Cómo viajas tú?"
+    },
+    {
+      "pregunta": "Cuéntame algo curioso",
+      "claves": [
+        "curioso",
+        "dato",
+        "sabias",
+        "interesante",
+        "secreto"
+      ],
+      "respuesta": "¿Sabías que nací en Montilla, el mismo pueblo donde vivió muchos años el Inca Garcilaso de la Vega? Dos personas del mismo pueblo, ¡y las dos ligadas al Perú! A veces el mundo es más pequeño de lo que parece. ¿Conoces la historia del Inca Garcilaso?"
+    },
+    {
+      "pregunta": "¿Qué opinas del celular?",
+      "claves": [
+        "celular",
+        "telefono",
+        "internet",
+        "computadora",
+        "television",
+        "tele",
+        "videojuego",
+        "avion"
+      ],
+      "respuesta": "¡De esa invención no tengo noticia! En mi tiempo, una noticia de Tucumán a Lima podía tardar meses. Me pregunto si en ese aparato también se puede escuchar música. ¿Me cuentas qué canciones te gustan?"
+    },
+    {
+      "pregunta": "¿Qué les dirías a los niños?",
+      "claves": [
+        "consejo",
+        "niños",
+        "decirnos",
+        "mensaje",
+        "aprender"
+      ],
+      "respuesta": "Les diría que la alegría y la música son un regalo para compartir. Que no tengan miedo de conocer a personas distintas, porque de todos se aprende. Y que sean valientes para ayudar, aunque el camino sea largo."
+    },
+    {
+      "pregunta": "¿Eres real?",
+      "claves": [
+        "eres real",
+        "estas vivo",
+        "estás vivo",
+        "eres un robot",
+        "eres de verdad"
+      ],
+      "respuesta": "Viví de verdad hace más de cuatrocientos años. Hoy mi voz vuelve gracias a la tecnología para conversar contigo. ¿Qué más quieres saber de mis viajes?"
+    }
+  ]
+}

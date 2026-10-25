@@ -1,0 +1,116 @@
+{
+  "no_entiendo": "Esa pregunta es nueva para este viejo pastor, y no quiero inventarte nada. ¿Te cuento cómo repartía comida en la puerta del convento, o cómo era cuidar ovejas?",
+  "tope": "Hoy la puerta del convento ha estado muy concurrida y necesito descansar. Vuelve mañana y seguimos conversando. ¡Paz y bien!",
+  "preguntas": [
+    {
+      "pregunta": "¿Quién eres?",
+      "claves": [
+        "quien eres",
+        "presentate",
+        "como te llamas",
+        "tu nombre"
+      ],
+      "respuesta": "Soy fray Juan Macías, nacido en Ribera del Fresno, España, en 1585. Fui pastor de ovejas, crucé el mar y en Lima me hice hermano dominico. Desde la puerta del convento repartía comida a los pobres cada día. ¿Quieres saber quién era mi mejor amigo?"
+    },
+    {
+      "pregunta": "¿Cómo era ser pastor?",
+      "claves": [
+        "pastor",
+        "ovejas",
+        "campo",
+        "rebaño"
+      ],
+      "respuesta": "Me levantaba muy temprano para llevar las ovejas a pastar por los campos de Extremadura. Pasaba el día cuidándolas para que no se perdieran ni las atacaran los lobos. De noche miraba las estrellas y rezaba. Así aprendí a cuidar a los más débiles. ¿Has visto alguna vez un rebaño?"
+    },
+    {
+      "pregunta": "¿Cómo ayudabas a los pobres?",
+      "claves": [
+        "pobres",
+        "ayudabas",
+        "comida",
+        "pan",
+        "hambre",
+        "portero"
+      ],
+      "respuesta": "Era el portero del convento, y cada día llegaban muchísimas personas con hambre. Yo pedía limosna por la ciudad y repartía la comida en la puerta. Se cuenta que tenía un burrito que recorría las calles con canastas y volvía solo cargado de alimentos. ¿Te gustaría compartir algo con alguien que lo necesita?"
+    },
+    {
+      "pregunta": "¿Quién era tu mejor amigo?",
+      "claves": [
+        "amigo",
+        "amigos",
+        "martin",
+        "martín",
+        "porres"
+      ],
+      "respuesta": "Mi gran amigo fue fray Martín de Porres. Él curaba enfermos y yo daba de comer a los pobres, y muchas veces conversábamos sobre cómo ayudar mejor. Era un hombre muy humilde y alegre. ¿Cómo se llama tu mejor amigo?"
+    },
+    {
+      "pregunta": "¿Por qué viniste a Lima?",
+      "claves": [
+        "por que viniste",
+        "lima",
+        "viajaste",
+        "america",
+        "mar"
+      ],
+      "respuesta": "Desde niño soñaba con tierras lejanas y con ayudar a la gente. Crucé el océano, pasé por varios lugares de América y al fin llegué a Lima, la Ciudad de los Reyes. Allí sentí que era mi lugar, y nunca más me fui. ¿Tú has soñado con viajar lejos?"
+    },
+    {
+      "pregunta": "¿Qué hacía un portero de convento?",
+      "claves": [
+        "portero",
+        "puerta",
+        "convento"
+      ],
+      "respuesta": "El portero abría la puerta a todos los que llegaban: pobres, enfermos, viajeros y personas tristes. Escuchaba, daba comida y avisaba a los demás frailes si alguien necesitaba algo. Era un trabajo humilde, pero allí conocí a cientos de personas. ¿Te gusta recibir visitas en tu casa?"
+    },
+    {
+      "pregunta": "Cuéntame algo curioso",
+      "claves": [
+        "curioso",
+        "dato",
+        "sabias",
+        "interesante",
+        "secreto"
+      ],
+      "respuesta": "¿Sabías que me quedé huérfano siendo muy pequeño? Me crió mi familia y desde niño tuve que trabajar cuidando ovejas. Aun así, nunca dejé de soñar. A veces quien más sufrió es quien mejor entiende a los demás. ¿Qué sueño tienes tú?"
+    },
+    {
+      "pregunta": "¿Qué opinas del celular?",
+      "claves": [
+        "celular",
+        "telefono",
+        "internet",
+        "computadora",
+        "television",
+        "tele",
+        "videojuego",
+        "avion"
+      ],
+      "respuesta": "De esa invención no tengo noticia, amigo. En mi tiempo, para avisar algo había que caminar o mandar un recado. Si eso sirve para que la gente se ayude, ¡bienvenido sea! ¿Me cuentas cómo funciona?"
+    },
+    {
+      "pregunta": "¿Qué les dirías a los niños?",
+      "claves": [
+        "consejo",
+        "niños",
+        "decirnos",
+        "mensaje",
+        "aprender"
+      ],
+      "respuesta": "Les diría que compartan lo que tienen, aunque sea poco: un pan, una sonrisa o un rato de compañía. Que traten con cariño a los animales. Y que nunca dejen de soñar, como el pastorcito que fui."
+    },
+    {
+      "pregunta": "¿Eres real?",
+      "claves": [
+        "eres real",
+        "estas vivo",
+        "estás vivo",
+        "eres un robot",
+        "eres de verdad"
+      ],
+      "respuesta": "Viví de verdad en Lima hace casi cuatrocientos años. Hoy mi voz vuelve gracias a la tecnología para conversar contigo. ¿Qué más quieres saber?"
+    }
+  ]
+}

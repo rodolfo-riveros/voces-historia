@@ -39,5 +39,21 @@
     "¿Tenías miedo?"
   ],
   "boton_obras": "Su descubrimiento",
-  "pregunta_obras": "Cuéntame qué descubriste."
+  "pregunta_obras": "Cuéntame qué descubriste.",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.646,
+      0.15,
+      0.147
+    ],
+    "ojos": [
+      0.5,
+      0.415,
+      0.17,
+      0.06
+    ],
+    "zoom": 1.15,
+    "foco_y": 0.53
+  }
 }

@@ -39,5 +39,21 @@
     "¿Cómo era el Cusco al principio?"
   ],
   "boton_obras": "Su leyenda",
-  "pregunta_obras": "Cuéntame tu leyenda."
+  "pregunta_obras": "Cuéntame tu leyenda.",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.641,
+      0.15,
+      0.12
+    ],
+    "ojos": [
+      0.5,
+      0.399,
+      0.17,
+      0.06
+    ],
+    "zoom": 1.15,
+    "foco_y": 0.52
+  }
 }

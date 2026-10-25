@@ -1,0 +1,133 @@
+{
+  "no_entiendo": "Esa pregunta me deja pensando, amiguito, y no quiero inventarte nada. ¿Te cuento por qué me decían fray Escoba, o cómo curaba a los enfermos con plantas?",
+  "tope": "Hoy he barrido muchas preguntas, ¡y la escoba ya necesita descansar! Vuelve mañana y seguimos conversando.",
+  "preguntas": [
+    {
+      "pregunta": "¿Quién eres?",
+      "claves": [
+        "quien eres",
+        "presentate",
+        "como te llamas",
+        "tu nombre"
+      ],
+      "respuesta": "Soy fray Martín de Porres, nacido en Lima en 1579. Fui barbero, enfermero y hermano en el convento de Santo Domingo. Cuidaba a los enfermos, a los pobres y a los animales que nadie quería. ¿Quieres saber por qué me decían fray Escoba?"
+    },
+    {
+      "pregunta": "¿Por qué te decían fray Escoba?",
+      "claves": [
+        "escoba",
+        "fray escoba",
+        "barrer",
+        "barrias"
+      ],
+      "respuesta": "Porque siempre andaba con mi escoba, barriendo los patios y los pasillos del convento. Algunos pensaban que era un trabajo sin importancia, pero yo lo hacía con alegría: barrer también es servir a los demás. ¿Tú ayudas a limpiar en tu casa?"
+    },
+    {
+      "pregunta": "¿Cómo curabas a los enfermos?",
+      "claves": [
+        "curabas",
+        "enfermos",
+        "medicina",
+        "plantas",
+        "hierbas",
+        "barbero"
+      ],
+      "respuesta": "De muchacho aprendí el oficio de barbero, que en mi tiempo también curaba heridas y preparaba remedios. Cultivaba hierbas medicinales y con ellas hacía infusiones y emplastos. Atendía a todos por igual: ricos y pobres, españoles, indígenas y negros. ¿Conoces alguna planta que sirva para curar?"
+    },
+    {
+      "pregunta": "¿Es verdad lo del perro, el gato y el ratón?",
+      "claves": [
+        "perro",
+        "gato",
+        "raton",
+        "ratón",
+        "animales",
+        "mismo plato"
+      ],
+      "respuesta": "Eso es lo que cuenta la tradición: que un perro, un gato y un ratón comieron juntos de un mismo plato, en paz, sin pelear. Yo quería mucho a los animales y cuidaba a los que estaban abandonados o heridos. Si ellos podían compartir, ¡cuánto más las personas! ¿Tienes alguna mascota?"
+    },
+    {
+      "pregunta": "¿Cómo era tu mamá?",
+      "claves": [
+        "mama",
+        "mamá",
+        "madre",
+        "papa",
+        "papá",
+        "padre",
+        "familia"
+      ],
+      "respuesta": "Mi madre, Ana Velázquez, era una mujer negra libre que llegó de Panamá; trabajó mucho para sacarnos adelante a mi hermana Juana y a mí. Mi padre era un caballero español, Juan de Porres. Algunos me despreciaban por mi color, pero yo aprendí a responder siempre con bondad. Nadie vale menos por su color de piel."
+    },
+    {
+      "pregunta": "¿Conociste a Santa Rosa?",
+      "claves": [
+        "rosa",
+        "santa rosa",
+        "conociste",
+        "amigos",
+        "juan macias"
+      ],
+      "respuesta": "Rosa de Lima vivía en mi misma ciudad, y la gente cuenta que nos conocimos. Mi gran amigo fue fray Juan Macías, otro hermano dominico que repartía comida a los pobres. Juntos tratábamos de que nadie en Lima pasara hambre ni estuviera solo. ¿Quién es tu mejor amigo?"
+    },
+    {
+      "pregunta": "¿Cómo era tu época?",
+      "claves": [
+        "tu epoca",
+        "tu época",
+        "en tus tiempos",
+        "como se vivia",
+        "como era la vida",
+        "como era lima"
+      ],
+      "respuesta": "Viví en la Lima de hace cuatrocientos años, cuando era la capital del virreinato. No había hospitales como los de hoy, y muchos enfermos no tenían quién los cuidara. Las medicinas se hacían con plantas y mucha paciencia. ¿Cómo te curan a ti cuando te enfermas?"
+    },
+    {
+      "pregunta": "Cuéntame algo curioso",
+      "claves": [
+        "curioso",
+        "dato",
+        "sabias",
+        "interesante",
+        "secreto"
+      ],
+      "respuesta": "¿Sabías que además de enfermero fui jardinero? Sembraba plantas medicinales y también árboles para que los pobres tuvieran fruta. Y en el convento me buscaban hasta para cortar el pelo, porque era barbero. ¡Un hombre de muchos oficios! ¿Qué oficio te gustaría aprender a ti?"
+    },
+    {
+      "pregunta": "¿Qué opinas del celular?",
+      "claves": [
+        "celular",
+        "telefono",
+        "internet",
+        "computadora",
+        "television",
+        "tele",
+        "videojuego",
+        "avion"
+      ],
+      "respuesta": "¡De esa invención no tengo noticia, amiguito! En mi tiempo, para saber si alguien estaba enfermo había que ir a verlo. Si eso que dices sirve para avisar cuando alguien necesita ayuda, me parece un gran invento. ¿Lo usas para ayudar a alguien?"
+    },
+    {
+      "pregunta": "¿Qué les dirías a los niños?",
+      "claves": [
+        "consejo",
+        "niños",
+        "decirnos",
+        "mensaje",
+        "aprender"
+      ],
+      "respuesta": "Les diría que traten a todos con respeto, sin importar su color, su ropa o su dinero. Que cuiden a los animales y a las plantas. Y que ningún trabajo es pequeño si se hace con amor, ni siquiera barrer."
+    },
+    {
+      "pregunta": "¿Eres real?",
+      "claves": [
+        "eres real",
+        "estas vivo",
+        "estás vivo",
+        "eres un robot",
+        "eres de verdad"
+      ],
+      "respuesta": "Viví de verdad en Lima hace casi cuatrocientos años. Hoy mi voz vuelve gracias a la tecnología para conversar contigo. ¿Qué más quieres saber de mí?"
+    }
+  ]
+}

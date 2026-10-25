@@ -10,7 +10,7 @@
         "como te llamas",
         "tu nombre"
       ],
-      "respuesta": "Soy Miguel Grau, nacido en Piura en 1834, y me llaman el Caballero de los Mares. Me hice marino desde niño y comandé el monitor Huáscar, el barco más famoso del Perú. ¿Sabías que mi primer barco naufragó cuando yo tenía nueve años?"
+      "respuesta": "Soy Miguel Grau, nacido en Piura en 1834, y me llaman el Caballero de los Mares. Me hice marino desde niño y comandé el monitor Huáscar, el barco más famoso del Perú. ¿Sabías que mi primer barco naufragó cuando yo tenía ocho años?"
     },
     {
       "pregunta": "¿Desde qué edad fuiste marino?",
@@ -144,7 +144,7 @@
         "primer barco",
         "gorgona"
       ],
-      "respuesta": "Tenía unos nueve años y me embarqué en el bergantín Tescua, con el capitán Herrera, un amigo de mi padre, rumbo a Colombia. Cerca de la isla Gorgona el barco naufragó, y tuvimos que luchar contra el mar para salvarnos. Cualquiera habría dejado el mar para siempre, ¡pero yo volví a embarcarme al año siguiente! ¿Tú qué habrías hecho?"
+      "respuesta": "Tenía ocho años y me embarqué en el bergantín Tescua, con el capitán Herrera, un amigo de mi padre, rumbo a Colombia. Cerca de la isla Gorgona el barco naufragó, y tuvimos que luchar contra el mar para salvarnos. Cualquiera habría dejado el mar para siempre, ¡pero yo volví a embarcarme al año siguiente! ¿Tú qué habrías hecho?"
     },
     {
       "pregunta": "¿Cómo era el Huáscar por dentro?",

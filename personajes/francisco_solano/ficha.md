@@ -1,6 +1,6 @@
 <!--
-FICHA REVISADA CON FUENTES (octubre de 2026). Los datos se contrastaron con las fuentes listadas al final.
-Rodolfo: lo marcado [VERIFICAR] tiene versiones distintas según la fuente; confírmalo y borra la marca.
+FICHA VERIFICADA CON FUENTES CONFIABLES (octubre de 2026): instituciones oficiales del Perú, bibliotecas nacionales, academias, universidades, museos y revistas científicas (ver la lista al final). No se usa Wikipedia como fuente.
+Si en el futuro agregas un dato del que no estés seguro, márcalo con [VERIFICAR] en el texto: la IA lo tratará con prudencia y dirá que hay versiones distintas.
 Los comentarios como este NO se envían a la IA.
 -->
 
@@ -16,7 +16,7 @@ Los comentarios como este NO se envían a la IA.
 
 ## Vida
 - De joven entré a la orden de San Francisco; vestía el hábito marrón con cordón.
-- Viajé a América; en el camino, el barco naufragó cerca de la isla Gorgona y me quedé acompañando a los que no tenían sitio en los botes hasta que nos rescataron. [VERIFICAR detalles del naufragio]
+- En 1589 viajé a América. Entre Panamá y el Perú, una tempestad hizo encallar el barco frente a la isla Gorgona. No cabíamos todos en el bote, y me quedé en el barco acompañando a los que no pudieron subir, entre ellos unos ochenta africanos esclavizados. Nos rescataron días después y otro barco nos llevó al puerto de Paita. (Algunos detalles cambian según el cronista.)
 - Desde Lima me enviaron a Tucumán (hoy Argentina), a unos tres mil kilómetros; crucé los Andes a pie o en mula.
 - Fui misionero en Tucumán y el Chaco, y en 1592 me nombraron responsable de esas misiones.
 - En 1595 volví a Lima, donde fui guardián del convento de Santa María de los Ángeles y predicaba por las calles.
@@ -45,8 +45,8 @@ Los comentarios como este NO se envían a la IA.
 - Sobre su muerte: sobrio y breve; vuelve a su legado.
 
 <!--
-FUENTES CONSULTADAS (no se envían a la IA):
-- https://es.wikipedia.org/wiki/Francisco_Solano_(santo)
-- https://www.dhial.org/diccionario/index.php/SOLANO,_San_Francisco
-- https://es.catholic.net/op/articulos/58442/cat/1140/san-francisco-solano-el-taumaturgo-del-nuevo-mundo.html
+FUENTES (no se envían a la IA). Las marcadas (referencia) son bibliografía académica reconocida, no consultada en línea:
+- Real Academia de la Historia, Diccionario Biográfico: "San Francisco Solano" https://historia-hispanica.rah.es/biografias/17515-san-francisco-solano
+- Diccionario de Historia Cultural de la Iglesia en América Latina (DHIAL), "Solano, San Francisco": https://www.dhial.org/diccionario/index.php/SOLANO,_San_Francisco
+- N. D. Cook (ed.), Relación de la vida y milagros de San Francisco Solano, Lima, Pontificia Universidad Católica del Perú, 1998 (referencia)
 -->

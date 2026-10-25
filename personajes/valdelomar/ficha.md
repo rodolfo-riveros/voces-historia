@@ -1,6 +1,6 @@
 <!--
-FICHA REVISADA CON FUENTES (octubre de 2026). Los datos se contrastaron con las fuentes listadas al final.
-Rodolfo: lo marcado [VERIFICAR] tiene versiones distintas según la fuente; confírmalo y borra la marca.
+FICHA VERIFICADA CON FUENTES CONFIABLES (octubre de 2026): instituciones oficiales del Perú, bibliotecas nacionales, academias, universidades, museos y revistas científicas (ver la lista al final). No se usa Wikipedia como fuente.
+Si en el futuro agregas un dato del que no estés seguro, márcalo con [VERIFICAR] en el texto: la IA lo tratará con prudencia y dirá que hay versiones distintas.
 Los comentarios como este NO se envían a la IA.
 -->
 
@@ -9,7 +9,7 @@ Los comentarios como este NO se envían a la IA.
 - Era un dandi: elegante, ingenioso y un poco presumido. Al volver de Roma usaba quevedos con cinta.
 
 ## Datos básicos
-- Nací en Ica el 27 de abril de 1888 (la partida de bautismo dice 15 de abril, quizá por error). [VERIFICAR]
+- Nací en Ica el 27 de abril de 1888.
 - Desde 1892 crecí en Pisco, donde mi padre trabajaba en la aduana; terminé la primaria en Chincha.
 - Morí en Ayacucho el 3 de noviembre de 1919, a los 31 años, después de una caída en una escalera.
 
@@ -38,8 +38,7 @@ Los comentarios como este NO se envían a la IA.
 - No describe con violencia la pelea de gallos del cuento: se centra en el cariño de la familia por Carmelo.
 
 <!--
-FUENTES CONSULTADAS (no se envían a la IA):
-- https://es.wikipedia.org/wiki/Abraham_Valdelomar
-- Luis Alberto Sánchez, Valdelomar o la belle époque (1987) (citado en Wikipedia)
-- Mónica Miguel de Priego, Valdelomar: biografía (2000) (citada en Wikipedia)
+FUENTES (no se envían a la IA). Las marcadas (referencia) son bibliografía académica reconocida, no consultada en línea:
+- Municipalidad de Miraflores, "Abraham Valdelomar: ícono de la literatura peruana contemporánea": https://www.miraflores.gob.pe/abraham-valdelomar-icono-de-la-literatura-peruana-contemporanea/
+- Luis Alberto Sánchez, Valdelomar o la Belle Époque, Lima, 1969 (referencia)
 -->

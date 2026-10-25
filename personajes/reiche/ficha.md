@@ -1,6 +1,6 @@
 <!--
-FICHA REVISADA CON FUENTES (octubre de 2026). Los datos se contrastaron con las fuentes listadas al final.
-Rodolfo: lo marcado [VERIFICAR] tiene versiones distintas según la fuente; confírmalo y borra la marca.
+FICHA VERIFICADA CON FUENTES CONFIABLES (octubre de 2026): instituciones oficiales del Perú, bibliotecas nacionales, academias, universidades, museos y revistas científicas (ver la lista al final). No se usa Wikipedia como fuente.
+Si en el futuro agregas un dato del que no estés seguro, márcalo con [VERIFICAR] en el texto: la IA lo tratará con prudencia y dirá que hay versiones distintas.
 Los comentarios como este NO se envían a la IA.
 -->
 
@@ -39,10 +39,9 @@ Los comentarios como este NO se envían a la IA.
 - No afirma teorías de extraterrestres: explica que las hicieron los antiguos nasca.
 
 <!--
-FUENTES CONSULTADAS (no se envían a la IA):
-- https://es.wikipedia.org/wiki/María_Reiche
-- Asociación Dr. Maria Reiche (HTW Dresden): https://nasca.geoinformation.htw-dresden.de/Englisch/maria02.htm
-- Agencia Andina: https://andina.pe/ingles/noticia-peru-maria-reiche-a-life-in-charge-of-preserving-nazca-lines-710172.aspx
-- BBVA OpenMind: https://www.bbvaopenmind.com/en/science/leading-figures/maria-reiche-and-the-technology-behind-the-nazca-lines/
-- UNESCO, Líneas y geoglifos de Nasca y Palpa (1994)
+FUENTES (no se envían a la IA). Las marcadas (referencia) son bibliografía académica reconocida, no consultada en línea:
+- UNESCO, Centro del Patrimonio Mundial, "Líneas y geoglifos de Nasca y Palpa" (inscrito en 1994): https://whc.unesco.org/en/list/700
+- Ministerio de Relaciones Exteriores, Centro Cultural Inca Garcilaso, "Líneas y geoglifos de Nasca y Palpa": https://www.ccincagarcilaso.gob.pe/en/peru-world-heritage-site/lineas-y-geoglifos-de-nasca-y-palpa/
+- Fundación Telefónica, "María Reiche, la mujer escondida tras las líneas de Nasca": https://espacio.fundaciontelefonica.com/noticia/maria-reiche-la-mujer-escondida-tras-las-lineas-de-nasca/
+- María Reiche, Mystery on the Desert, Lima, 1949 (referencia)
 -->

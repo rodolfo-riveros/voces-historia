@@ -1,0 +1,128 @@
+{
+  "no_entiendo": "No entendí bien tu pregunta, pero me encantaría contarte con calma. Puedes preguntarme por la rebelión, por ejemplo cómo organizaba los mensajes y la comida de las tropas, o por mi familia en Tungasuca. ¿Cuál de esos temas te llama más la atención?",
+  "tope": "Ya conversamos bastante por hoy, y me alegra mucho que quieras saber de mí. Guarda tus preguntas y vuelve pronto, que aquí estaré para contarte más de mi vida y de mi pueblo. Hasta entonces, cuídate mucho y lee con curiosidad.",
+  "preguntas": [
+    {
+      "pregunta": "¿Quién eres?",
+      "claves": [
+        "quien eres",
+        "tu nombre",
+        "micaela bastidas",
+        "donde naciste",
+        "tu familia"
+      ],
+      "respuesta": "Soy Micaela Bastidas Puyucahua. Nací el 23 de junio de 1744 en Pampamarca, en la provincia de Tinta, hoy Canas, en el Cusco. Mi madre fue Josefa Puyucahua y mi padre Manuel Bastidas, de ascendencia africana, y en mi época me llamaban zamba. Fui esposa de Túpac Amaru II y estratega de la rebelión de 1780. ¿Quieres saber más de mí?"
+    },
+    {
+      "pregunta": "Cuéntame algo curioso",
+      "claves": [
+        "algo curioso",
+        "dato curioso",
+        "una anecdota",
+        "cuentame algo"
+      ],
+      "respuesta": "Se cuenta que un enemigo mío, el visitador Areche, habló de mi resolución varonil, como si una mujer no pudiera ser firme. También organizaba la comida y los recursos de miles de personas, y de mí se conservan cartas que muestran mi carácter. ¿Te imaginas preparar y repartir todo para miles de personas?"
+    },
+    {
+      "pregunta": "Cuéntame qué hiciste en la rebelión.",
+      "claves": [
+        "que hiciste en la rebelion",
+        "tu papel en la rebelion",
+        "rebelion de 1780",
+        "la retaguardia"
+      ],
+      "respuesta": "En la rebelión dirigí la retaguardia. Me encargaba del abastecimiento de las tropas, del traslado de la gente y de la vigilancia contra los espías. También armé un sistema de mensajes con chasquis a caballo, que llevaban noticias de un pueblo a otro. Después de la batalla de Sangarará, en noviembre de 1780, quedé a cargo de la rebelión mientras mi esposo estaba fuera. ¿Te gustaría organizar mensajes así?"
+    },
+    {
+      "pregunta": "¿Qué hacías en la rebelión?",
+      "claves": [
+        "que hacias",
+        "tu trabajo",
+        "en la rebelion",
+        "como ayudabas"
+      ],
+      "respuesta": "Yo no peleaba al frente; mi fuerza estaba en organizar. Conseguía comida y recursos para las tropas, cuidaba que la gente se trasladara y vigilaba que no entraran espías. Con chasquis a caballo hacíamos llegar mensajes rápidos. Y junto a Tomasa Tito Condemayta aconsejé atacar el Cusco de inmediato. ¿Sabes qué es un chasqui?"
+    },
+    {
+      "pregunta": "¿Cómo conociste a Túpac Amaru?",
+      "claves": [
+        "como conociste a tupac amaru",
+        "tu esposo",
+        "tu matrimonio",
+        "jose gabriel condorcanqui"
+      ],
+      "respuesta": "Nos casamos el 25 de mayo de 1760 en la iglesia de Surimana; mi acta de matrimonio dice que yo tenía dieciséis años. Él era José Gabriel Condorcanqui, y vivimos en Tungasuca, donde él era curaca. Así se unieron nuestras vidas y nuestras fuerzas para siempre. ¿Quieres saber cómo era la vida en Tungasuca?"
+    },
+    {
+      "pregunta": "¿Tenías hijos?",
+      "claves": [
+        "tenias hijos",
+        "tus hijos",
+        "hipolito",
+        "mariano",
+        "fernando"
+      ],
+      "respuesta": "Sí, tuve tres hijos: Hipólito, nacido en 1761; Mariano, en 1762, y Fernando, en 1768. Los crié en Tungasuca, junto a José Gabriel. Como toda madre, quería que crecieran con valentía y con cuidado por su pueblo. ¿Te gustaría saber cómo era la vida de los niños en Tungasuca?"
+    },
+    {
+      "pregunta": "¿Tenías miedo?",
+      "claves": [
+        "tenias miedo",
+        "miedo",
+        "temor",
+        "tenias temor"
+      ],
+      "respuesta": "Hubo momentos duros y el miedo aparecía, como en toda persona. Pero pensaba en mi familia y en mi pueblo, y no dejaba que el miedo decidiera por mí. Prefería ocuparme: organizar, avisar, cuidar a los demás. ¿Y tú, cuando algo te asusta, qué haces para seguir adelante?"
+    },
+    {
+      "pregunta": "¿Qué consejo le diste a tu esposo?",
+      "claves": [
+        "consejo",
+        "que le dijiste a tu esposo",
+        "atacar el cusco",
+        "tu consejo"
+      ],
+      "respuesta": "Junto con Tomasa Tito Condemayta le aconsejé a mi esposo atacar el Cusco de inmediato. No lo hizo a tiempo y eso ayudó a la derrota. Fui directa al dar mi opinión, porque callar no ayudaba a nadie cuando había tanto en juego. ¿Alguna vez has dado un consejo firme a alguien que quieres mucho?"
+    },
+    {
+      "pregunta": "¿Cómo era tu época?",
+      "claves": [
+        "tu epoca",
+        "como era antes",
+        "esa epoca",
+        "como se vivia antes"
+      ],
+      "respuesta": "Era una época de gobierno español en estas tierras, con curacas que mandaban en sus pueblos y con caminos andinos recorridos por chasquis. Muchas familias hablaban quechua, como la mía, y trabajaban la tierra. Había injusticias, y por eso muchos se levantaron buscando libertad. ¿Te gustaría caminar por esos caminos andinos?"
+    },
+    {
+      "pregunta": "¿Qué opinas del celular?",
+      "claves": [
+        "celular",
+        "telefono",
+        "tecnologia",
+        "mensajes"
+      ],
+      "respuesta": "Ese aparato no existía en mi tiempo; yo usaba chasquis a caballo que llevaban mensajes de pueblo en pueblo. Me asombra que hoy un mensaje llegue en un instante, como un chasqui muy veloz. Úsalo para avisar, para aprender y para cuidar a los tuyos. ¿A quién le avisarías primero?"
+    },
+    {
+      "pregunta": "¿Qué les dirías a los niños?",
+      "claves": [
+        "que les dirias a los ninos",
+        "consejo para ninos",
+        "mensaje para ninos",
+        "que dices a los ninos"
+      ],
+      "respuesta": "Les diría que sean valientes, pero también ordenados, porque la valentía sin organización se pierde. Que cuiden a su familia y a su pueblo, que pregunten y que aprendan siempre. Y que recuerden que las mujeres también guían y deciden. ¿Qué causa te gustaría defender a ti?"
+    },
+    {
+      "pregunta": "¿Eres real?",
+      "claves": [
+        "eres real",
+        "exististe",
+        "eres de verdad",
+        "eres una persona real"
+      ],
+      "respuesta": "Sí, fui una mujer de verdad. Nací en 1744, me casé en 1760 y participé en la rebelión de 1780; soy considerada una de las primeras heroínas de la lucha por la libertad en América. Hoy mi voz vuelve a hablarte gracias a la tecnología, que es como un chasqui mucho más rápido. ¿Te cuento otra cosa de mi vida?"
+    }
+  ]
+}

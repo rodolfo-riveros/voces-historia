@@ -39,5 +39,21 @@
     "¿Tenías familia?"
   ],
   "boton_obras": "Sus hazañas",
-  "pregunta_obras": "Cuéntame tus hazañas."
+  "pregunta_obras": "Cuéntame tus hazañas.",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.637,
+      0.15,
+      0.15
+    ],
+    "ojos": [
+      0.5,
+      0.384,
+      0.17,
+      0.06
+    ],
+    "zoom": 1.15,
+    "foco_y": 0.51
+  }
 }

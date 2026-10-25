@@ -8,6 +8,7 @@ faster-whisper>=1.1
 # av 19 quitó un parámetro que faster-whisper todavía usa
 av>=11,<19
 
-# Solo para herramientas/preparar_retratos.py (preparar los retratos)
+# Solo para las herramientas (preparar_retratos.py y probar_todo.py)
 pillow>=10.0
 numpy>=1.26
+httpx>=0.27

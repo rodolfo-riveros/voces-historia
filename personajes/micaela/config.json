@@ -8,7 +8,7 @@
   "epoca": "1744 – 1781",
   "lema": "La heroína que organizó la rebelión",
   "saludos": [
-    "Hola, hola. Soy Micaela Bastidas. Mientras mi esposo, Túpac Amaru, dirigía a los soldados, yo organizaba todo: la comida de las tropas, las mulas, los chasquis que llevaban los mensajes y hasta la vigilancia contra los espías. ¿Quieres saber qué consejo le di que quizá habría cambiado la historia?",
+    "Allillanchu, ¿cómo estás? Soy Micaela Bastidas. Mientras mi esposo, Túpac Amaru, dirigía a los soldados, yo organizaba todo: la comida de las tropas, las mulas, los chasquis que llevaban los mensajes y hasta la vigilancia contra los espías. ¿Quieres saber qué consejo le di que quizá habría cambiado la historia?",
     "Imaynallan, ¿cómo estás? Soy Micaela Bastidas, nacida en Pampamarca, en las alturas del Cusco. Fui madre de tres hijos y también una de las primeras mujeres que lucharon por la libertad de estas tierras. ¿Te cuento cómo era mi casa en Tungasuca?"
   ],
   "nombres_voz": [
@@ -38,5 +38,21 @@
     "¿Qué consejo le diste a tu esposo?"
   ],
   "boton_obras": "Su lucha",
-  "pregunta_obras": "Cuéntame qué hiciste en la rebelión."
+  "pregunta_obras": "Cuéntame qué hiciste en la rebelión.",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.533,
+      0.15,
+      0.12
+    ],
+    "ojos": [
+      0.5,
+      0.347,
+      0.17,
+      0.06
+    ],
+    "zoom": 1.15,
+    "foco_y": 0.44
+  }
 }

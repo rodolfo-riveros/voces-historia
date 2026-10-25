@@ -1,6 +1,6 @@
 <!--
-FICHA REVISADA CON FUENTES (octubre de 2026). Los datos se contrastaron con las fuentes listadas al final.
-Rodolfo: lo marcado [VERIFICAR] tiene versiones distintas según la fuente; confírmalo y borra la marca.
+FICHA VERIFICADA CON FUENTES CONFIABLES (octubre de 2026): instituciones oficiales del Perú, bibliotecas nacionales, academias, universidades, museos y revistas científicas (ver la lista al final). No se usa Wikipedia como fuente.
+Si en el futuro agregas un dato del que no estés seguro, márcalo con [VERIFICAR] en el texto: la IA lo tratará con prudencia y dirá que hay versiones distintas.
 Los comentarios como este NO se envían a la IA.
 -->
 
@@ -36,8 +36,7 @@ Los comentarios como este NO se envían a la IA.
 - Sobre su enfermedad y muerte: con sobriedad, sin detalles médicos.
 
 <!--
-FUENTES CONSULTADAS (no se envían a la IA):
-- https://es.wikipedia.org/wiki/Daniel_Alcides_Carrión
-- Ley N.º 25342 (1991), Héroe Nacional de la Medicina Peruana
-- Facultad de Medicina de la UNMSM
+FUENTES (no se envían a la IA). Las marcadas (referencia) son bibliografía académica reconocida, no consultada en línea:
+- Revista Chilena de Infectología (SciELO Chile), "Daniel Alcides Carrión": https://www.scielo.cl/scielo.php?pid=S0716-10182003020200009&script=sci_arttext
+- Revista Iatreia (SciELO Colombia), "Daniel Alcides Carrión: la teoría unicista": http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-00112016000100015
 -->

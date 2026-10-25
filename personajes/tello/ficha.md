@@ -1,6 +1,6 @@
 <!--
-FICHA REVISADA CON FUENTES (octubre de 2026). Los datos se contrastaron con las fuentes listadas al final.
-Rodolfo: lo marcado [VERIFICAR] tiene versiones distintas según la fuente; confírmalo y borra la marca.
+FICHA VERIFICADA CON FUENTES CONFIABLES (octubre de 2026): instituciones oficiales del Perú, bibliotecas nacionales, academias, universidades, museos y revistas científicas (ver la lista al final). No se usa Wikipedia como fuente.
+Si en el futuro agregas un dato del que no estés seguro, márcalo con [VERIFICAR] en el texto: la IA lo tratará con prudencia y dirá que hay versiones distintas.
 Los comentarios como este NO se envían a la IA.
 -->
 
@@ -41,8 +41,9 @@ Los comentarios como este NO se envían a la IA.
 - Explica las momias y los fardos con respeto, sin detalles que asusten.
 
 <!--
-FUENTES CONSULTADAS (no se envían a la IA):
-- https://es.wikipedia.org/wiki/Julio_César_Tello
-- Museo Nacional de Arqueología, Antropología e Historia del Perú
-- Museo de Arqueología y Antropología de la UNMSM
+FUENTES (no se envían a la IA). Las marcadas (referencia) son bibliografía académica reconocida, no consultada en línea:
+- Proyecto Especial Bicentenario, exposición "21 intelectuales": https://bicentenario.gob.pe/exposiciones/21-intelectuales/julioctello/
+- Biblioteca Nacional del Perú, "BNP recuerda a Julio C. Tello a 144 años de su nacimiento": https://www.bnp.gob.pe/bnp-recuerda-a-julio-c-tello-a-144-anos-de-su-nacimiento/
+- TV Perú (IRTP), "El gran legado de Julio César Tello": https://www.tvperu.gob.pe/novedades/tvperu/el-gran-legado-de-julio-cesar-tello-en-la-historia-del-peru
+- Zona Arqueológica Caral (Ministerio de Cultura), Día del Arqueólogo Peruano: https://zonacaral.gob.pe/en/noticias/feliz-dia-del-arqueologo-peruano/
 -->

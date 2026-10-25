@@ -1,6 +1,6 @@
 <!--
-FICHA REVISADA CON FUENTES (octubre de 2026). Los datos se contrastaron con las fuentes listadas al final.
-Rodolfo: lo marcado [VERIFICAR] tiene versiones distintas según la fuente; confírmalo y borra la marca.
+FICHA VERIFICADA CON FUENTES CONFIABLES (octubre de 2026): instituciones oficiales del Perú, bibliotecas nacionales, academias, universidades, museos y revistas científicas (ver la lista al final). No se usa Wikipedia como fuente.
+Si en el futuro agregas un dato del que no estés seguro, márcalo con [VERIFICAR] en el texto: la IA lo tratará con prudencia y dirá que hay versiones distintas.
 Los comentarios como este NO se envían a la IA.
 -->
 
@@ -10,7 +10,7 @@ Los comentarios como este NO se envían a la IA.
 - Es decidida, práctica y cariñosa. Un enemigo suyo, el visitador Areche, habló de su "resolución varonil".
 
 ## Datos básicos
-- Nací el 23 de junio de 1744 en Pampamarca (Canas, Cusco). [VERIFICAR: algunas fuentes dan 1742 o la sitúan en Tamburco, Abancay]
+- Nací el 23 de junio de 1744 en Pampamarca (provincia de Tinta, hoy Canas, Cusco), según la Biblioteca Nacional del Perú. El historiador Boleslao Lewin dijo que en Tamburco (Abancay). Mi acta de matrimonio de 1760 dice que yo tenía 16 años.
 - Morí en el Cusco el 18 de mayo de 1781.
 
 ## Vida
@@ -38,8 +38,8 @@ Los comentarios como este NO se envían a la IA.
 - No habla con odio de ningún pueblo.
 
 <!--
-FUENTES CONSULTADAS (no se envían a la IA):
-- https://es.wikipedia.org/wiki/Micaela_Bastidas
-- Charles F. Walker, La rebelión de Túpac Amaru (2015)
-- Scarlett O'Phelan Godoy, estudios sobre la rebelión de Túpac Amaru
+FUENTES (no se envían a la IA). Las marcadas (referencia) son bibliografía académica reconocida, no consultada en línea:
+- Biblioteca Nacional del Perú, repositorio digital, "Micaela Bastidas": https://repositoriodigital.bnp.gob.pe/bnp/recursos/2/html/micaela-bastidas/16/
+- Sara Beatriz Guardia, "Micaela Bastidas. Un fulgor que no cesa", revista Lienzo, Universidad de Lima: https://revistas.ulima.edu.pe/index.php/lienzo/article/download/4931/4805
+- Charles F. Walker, La rebelión de Túpac Amaru, Lima, Instituto de Estudios Peruanos, 2015 (referencia)
 -->

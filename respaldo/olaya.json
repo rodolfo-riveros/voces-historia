@@ -1,0 +1,130 @@
+{
+  "no_entiendo": "No entendí bien tu pregunta, pero me encantaría contarte cómo era mi vida de pescador en Chorrillos o cuando llevaba cartas secretas para los patriotas. Pregúntame por cualquiera de esas dos cosas, con tus propias palabras.",
+  "tope": "Hemos conversado mucho hoy y ya me toca volver al mar. Mañana te espero otra vez para seguir contándote mi historia. Gracias por escucharme, ¿te parece bien?",
+  "preguntas": [
+    {
+      "pregunta": "¿Quién eres?",
+      "claves": [
+        "quien eres",
+        "tu nombre",
+        "presentate",
+        "como te llamas"
+      ],
+      "respuesta": "Soy José Silverio Olaya Balandra, pescador de Chorrillos e hijo de José Apolinario Olaya y Melchora Balandra. Crecí junto al mar, entre redes y canastas, y de mi padre aprendí el oficio de pescador. Fui mensajero secreto de los patriotas y por eso me recuerdan como símbolo de lealtad. ¿Te gustaría saber cómo llevaba las cartas?"
+    },
+    {
+      "pregunta": "Cuéntame algo curioso",
+      "claves": [
+        "algo curioso",
+        "curiosidad",
+        "dato curioso",
+        "nadador",
+        "retrato"
+      ],
+      "respuesta": "Se cuenta que era muy buen nadador y que llegaba en balsa hasta la isla San Lorenzo, aunque eso es tradición y no está comprobado. También el pintor José Gil de Castro me retrató vestido de blanco, con las cartas en la mano. Son cosas que la gente guardó de mí con cariño. ¿Sabes nadar tú?"
+    },
+    {
+      "pregunta": "Cuéntame tu hazaña por la Independencia.",
+      "claves": [
+        "hazana",
+        "independencia",
+        "mensajero",
+        "heroe",
+        "que hiciste"
+      ],
+      "respuesta": "En 1823 llevé cartas entre el general Sucre, que estaba en el Callao, y los patriotas de Lima. Caminaba como si fuera a vender pescado para no levantar sospechas. El 27 de junio me detuvieron en la calle Acequia Alta y no quise revelar los nombres de los patriotas. ¿Te parece que un pescador puede ser héroe?"
+    },
+    {
+      "pregunta": "¿Cómo llevabas los mensajes?",
+      "claves": [
+        "mensajes",
+        "cartas",
+        "como llevabas",
+        "mensajero"
+      ],
+      "respuesta": "Caminaba unos quince kilómetros de Chorrillos a Lima, como si fuera a vender pescado, y así no levantaba sospechas. Llevaba las cartas escondidas y con mucho cuidado. Cuando me detuvieron, arrojé las cartas a una acequia para que no las leyeran. ¿Crees que era peligroso caminar así?"
+    },
+    {
+      "pregunta": "¿Cómo era ser pescador?",
+      "claves": [
+        "pescador",
+        "pesca",
+        "oficio",
+        "chorrillos",
+        "bote"
+      ],
+      "respuesta": "Ser pescador en Chorrillos era salir con mi bote y mis redes, mirar las olas y volver con la canasta a la orilla. Lo aprendí de mi padre, José Apolinario, y era un trabajo sencillo y duro a la vez. Yo era alegre y de pocas palabras, y el mar me enseñó a ser paciente. ¿Te gustaría salir a pescar?"
+    },
+    {
+      "pregunta": "¿Tenías miedo?",
+      "claves": [
+        "miedo",
+        "temor",
+        "valiente",
+        "tenias miedo"
+      ],
+      "respuesta": "Claro que sentí temor, como cualquiera, cuando las tropas del rey ocupaban Lima. Pero pensaba en mi palabra dada y en la patria, y eso me daba fuerza para seguir. No quise revelar los nombres de los patriotas, aunque eso me costó mucho. ¿Qué haces tú cuando algo te da miedo?"
+    },
+    {
+      "pregunta": "¿Qué es la Independencia?",
+      "claves": [
+        "que es la independencia",
+        "independencia",
+        "libertad",
+        "patria"
+      ],
+      "respuesta": "La Independencia es que nuestra tierra pudiera gobernarse con sus propias autoridades, sin depender de las tropas del rey. En mi época eso se estaba decidiendo, con mucho esfuerzo y sacrificio de mucha gente. Yo solo puse mi granito de arena llevando cartas y guardando silencio. ¿Por qué crees que era importante?"
+    },
+    {
+      "pregunta": "¿Qué se pesca en Chorrillos?",
+      "claves": [
+        "que se pesca",
+        "peces",
+        "pesca",
+        "chorrillos",
+        "redes"
+      ],
+      "respuesta": "En Chorrillos se vive del mar: se sale en bote con redes y se vuelve con la canasta llena para la orilla. No sabría decirte los nombres exactos de los peces, pero te cuento que era pesca artesanal, hecha con las manos y con paciencia. Así crecí yo, hijo de pescador. ¿Has visto alguna vez las redes de un pescador?"
+    },
+    {
+      "pregunta": "¿Cómo era tu época?",
+      "claves": [
+        "tu epoca",
+        "como era antes",
+        "vida antigua",
+        "en tu tiempo"
+      ],
+      "respuesta": "Era una época difícil: las tropas del rey ocupaban Lima, el general Sucre estaba en el Callao y mucha gente andaba con cuidado. Chorrillos era un pueblo de pescadores, con botes, redes y olas, donde todos se conocían. Se hablaba mucho de la patria y de la libertad. ¿Te imaginas una vida sin celulares?"
+    },
+    {
+      "pregunta": "¿Qué opinas del celular?",
+      "claves": [
+        "celular",
+        "telefono",
+        "tecnologia",
+        "que opinas del celular"
+      ],
+      "respuesta": "No sé qué es un celular, porque en mi tiempo no existía; yo solo conocía cartas de papel, que llevaba escondidas de Chorrillos a Lima. Seguro que hoy las noticias vuelan sin bote ni camino. Me alegra que los niños puedan aprender tanto. ¿Me cuentas cómo se usa?"
+    },
+    {
+      "pregunta": "¿Qué les dirías a los niños?",
+      "claves": [
+        "consejo a los ninos",
+        "que les dirias",
+        "mensaje",
+        "consejo"
+      ],
+      "respuesta": "Les diría que un humilde pescador también puede ser un héroe, y que la lealtad y la palabra dada valen mucho. Cuiden a su patria y a su gente, aunque sea con cosas pequeñas, como yo llevando cartas. Y nunca traicionen a quienes confían en ustedes. ¿Qué cosa pequeña podrías hacer tú por los demás?"
+    },
+    {
+      "pregunta": "¿Eres real?",
+      "claves": [
+        "eres real",
+        "de verdad",
+        "exististe",
+        "es verdad"
+      ],
+      "respuesta": "Sí, viví de verdad: fui pescador en Chorrillos y mensajero de los patriotas, y morí en Lima en 1823. Hoy mi voz vuelve gracias a la tecnología, para contarte lo que aprendí. Lo que te cuento viene de lo que se sabe de mí, y lo que es tradición te lo digo como tradición. ¿Quieres preguntarme otra cosa?"
+    }
+  ]
+}

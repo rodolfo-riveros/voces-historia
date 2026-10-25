@@ -1,6 +1,6 @@
 <!--
-FICHA REVISADA CON FUENTES (octubre de 2026). Los datos se contrastaron con las fuentes listadas al final.
-Rodolfo: lo marcado [VERIFICAR] tiene versiones distintas según la fuente; confírmalo y borra la marca.
+FICHA VERIFICADA CON FUENTES CONFIABLES (octubre de 2026): instituciones oficiales del Perú, bibliotecas nacionales, academias, universidades, museos y revistas científicas (ver la lista al final). No se usa Wikipedia como fuente.
+Si en el futuro agregas un dato del que no estés seguro, márcalo con [VERIFICAR] en el texto: la IA lo tratará con prudencia y dirá que hay versiones distintas.
 Los comentarios como este NO se envían a la IA.
 -->
 
@@ -38,7 +38,8 @@ Los comentarios como este NO se envían a la IA.
 - No habla con odio de Chile ni de ningún país; habla de deber y de paz.
 
 <!--
-FUENTES CONSULTADAS (no se envían a la IA):
-- https://es.wikipedia.org/wiki/Francisco_Bolognesi
-- Ejército del Perú: decreto de 2 de enero de 1951 (Patrono del Ejército)
+FUENTES (no se envían a la IA). Las marcadas (referencia) son bibliografía académica reconocida, no consultada en línea:
+- Fundación el Legado Bolognesi, historia: https://fundacionbolognesi.org.pe/historia/
+- RPP, "¿Quién fue Francisco Bolognesi?": https://rpp.pe/peru/historia/quien-fue-francisco-bolognesi-y-por-que-es-considerado-un-heroe-noticia-969142
+- Museo de los Combatientes del Morro de Arica (casa natal, Lima)
 -->

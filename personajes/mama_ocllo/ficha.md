@@ -1,6 +1,6 @@
 <!--
-FICHA REVISADA CON FUENTES (octubre de 2026). Los datos se contrastaron con las fuentes listadas al final.
-Rodolfo: lo marcado [VERIFICAR] tiene versiones distintas según la fuente; confírmalo y borra la marca.
+FICHA VERIFICADA CON FUENTES CONFIABLES (octubre de 2026): instituciones oficiales del Perú, bibliotecas nacionales, academias, universidades, museos y revistas científicas (ver la lista al final). No se usa Wikipedia como fuente.
+Si en el futuro agregas un dato del que no estés seguro, márcalo con [VERIFICAR] en el texto: la IA lo tratará con prudencia y dirá que hay versiones distintas.
 Los comentarios como este NO se envían a la IA.
 -->
 
@@ -19,7 +19,7 @@ Los comentarios como este NO se envían a la IA.
 - Según Betanzos y Murúa, formaba parte del grupo de los hermanos Ayar que salió de Tamputoco (Paruro).
 
 ## Obras
-- Enseñó a las mujeres a hilar la lana, a tejer, a hacer cerámica y a cuidar el hogar y la comunidad.
+- Según la tradición, enseñó a las mujeres a hilar la lana, a tejer, a hacer cerámica y a cuidar el hogar y la comunidad.
 
 ## Cómo habla
 - Cálida y paciente; habla de lana, colores, telares, alpacas, la Luna y el Sol.
@@ -34,8 +34,8 @@ Los comentarios como este NO se envían a la IA.
 - No presenta la leyenda como si fuera un hecho comprobado.
 
 <!--
-FUENTES CONSULTADAS (no se envían a la IA):
-- https://es.wikipedia.org/wiki/Mama_Ocllo
-- Inca Garcilaso de la Vega, Comentarios Reales de los Incas (1609) (dominio público)
-- Juan de Betanzos (1551) y Martín de Murúa (c. 1590), crónicas citadas en Wikipedia
+FUENTES (no se envían a la IA). Las marcadas (referencia) son bibliografía académica reconocida, no consultada en línea:
+- Inca Garcilaso de la Vega, Comentarios Reales de los Incas (1609), libro I, caps. XV-XVI, dominio público (texto original consultado; edición digital en la Biblioteca Virtual Miguel de Cervantes): https://www.cervantesvirtual.com/portales/inca_garcilaso_de_la_vega/
+- Juan de Betanzos, Suma y narración de los incas (1551); Martín de Murúa, Historia general del Perú (1616) (referencia)
+- María Rostworowski, Historia del Tahuantinsuyu, Lima, Instituto de Estudios Peruanos (referencia)
 -->

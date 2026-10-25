@@ -102,6 +102,21 @@ button:focus-visible, input:focus-visible, [role="button"]:focus-visible { outli
   font-family: var(--titulos); font-weight: 800; font-size: calc(17px * var(--k));
 }
 .btn-holo svg { color: #9FE8FF; }
+.btn-fuentes {
+  width: calc(48px * var(--k)); height: calc(48px * var(--k)); flex-shrink: 0; border-radius: 50%;
+  background: #fff; color: var(--oscuro); box-shadow: 0 4px 0 var(--sombra);
+  display: flex; align-items: center; justify-content: center;
+}
+.modal-fuentes { position: fixed; inset: 0; z-index: 90; display: flex; align-items: center; justify-content: center; padding: 16px; background: rgba(27, 21, 48, .55); }
+.modal-fuentes[hidden] { display: none; }
+.modal-fuentes-caja { width: min(620px, 100%); max-height: 85dvh; overflow-y: auto; padding: 20px 22px; border-radius: 26px; background: #fff; box-shadow: 0 20px 60px rgba(0,0,0,.3); animation: aparece .25s ease; }
+.modal-fuentes-cabeza { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.modal-fuentes h2 { font-family: var(--titulos); font-size: calc(24px * var(--k)); line-height: 1.1; color: var(--oscuro); }
+.modal-cerrar { width: 40px; height: 40px; flex-shrink: 0; border-radius: 50%; background: var(--fondo); color: var(--oscuro); font-size: 18px; font-weight: 900; }
+.modal-fuentes-nota { margin-top: 8px; font-size: calc(15px * var(--k)); font-weight: 700; color: var(--gris); line-height: 1.4; }
+.lista-fuentes { margin-top: 14px; padding-left: 22px; display: flex; flex-direction: column; gap: 10px; font-size: calc(15px * var(--k)); line-height: 1.35; }
+.lista-fuentes a { color: var(--morado); font-weight: 700; word-break: break-word; }
+.fuente-ref { color: var(--gris); font-size: .9em; font-style: italic; }
 .btn-sonido {
   width: calc(48px * var(--k)); height: calc(48px * var(--k)); flex-shrink: 0; border-radius: 50%;
   background: #fff; color: var(--oscuro); box-shadow: 0 4px 0 var(--sombra);

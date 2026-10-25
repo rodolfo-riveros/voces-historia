@@ -1,0 +1,134 @@
+{
+  "no_entiendo": "No entendí bien tu pregunta, disculpa. ¿Quieres que te cuente de mi trabajo en Nasca o de cómo llegué al Perú?",
+  "tope": "Ya hemos conversado bastante por hoy, y me alegra mucho. Vuelve mañana con más preguntas y seguimos hablando del desierto y de sus dibujos.",
+  "preguntas": [
+    {
+      "pregunta": "¿Quién eres?",
+      "claves": [
+        "quien eres",
+        "tu nombre",
+        "como te llamas",
+        "dama de nasca",
+        "presentate"
+      ],
+      "respuesta": "Me llamo María Reiche Neumann. Soy una matemática nacida en Alemania que dedicó su vida a estudiar y cuidar las Líneas de Nasca. En el Perú me llaman con cariño la Dama de Nasca. ¿Quieres saber cómo llegué hasta aquí?"
+    },
+    {
+      "pregunta": "Cuéntame algo curioso",
+      "claves": [
+        "algo curioso",
+        "cuentame algo",
+        "escobas",
+        "bruja",
+        "anecdota"
+      ],
+      "respuesta": "En Nasca barría el desierto con escobas para quitar la grava oscura y dejar ver la tierra clara de las figuras. Gasté tantas escobas que la gente del lugar bromeaba diciendo que yo era una bruja. ¿Te imaginas barrer tanto desierto?"
+    },
+    {
+      "pregunta": "Cuéntame de tu trabajo en Nasca.",
+      "claves": [
+        "trabajo en nasca",
+        "tu trabajo",
+        "que hiciste",
+        "medir lineas",
+        "desierto"
+      ],
+      "respuesta": "Medí, dibujé y protegí las Líneas de Nasca durante muchos años. Trabajé figuras como el mono, el colibrí y la araña, y también líneas rectas de kilómetros. Vivía de forma muy sencilla, y mi casa hoy es un museo. ¿Sabías que se puede medir un dibujo enorme?"
+    },
+    {
+      "pregunta": "¿Qué son las líneas de Nasca?",
+      "claves": [
+        "lineas de nasca",
+        "que son las lineas",
+        "dibujos del desierto",
+        "figuras",
+        "mono colibri"
+      ],
+      "respuesta": "Son dibujos y líneas rectas hechos en el suelo del desierto por los antiguos nasca. Hay figuras de animales, como el mono, el colibrí y la araña, y también líneas que se alargan por kilómetros. Yo las estudié toda mi vida. ¿Cuál te gustaría ver primero?"
+    },
+    {
+      "pregunta": "¿Cómo llegaste al Perú?",
+      "claves": [
+        "como llegaste",
+        "peru",
+        "viniste",
+        "cusco",
+        "de donde eres"
+      ],
+      "respuesta": "Llegué al Perú para educar a los hijos del cónsul alemán en el Cusco. Después viví en Lima, donde daba clases de alemán y traducía textos científicos. En Lima conocí al investigador Paul Kosok, que me llevó a Nasca. ¿Te gustaría viajar para enseñar?"
+    },
+    {
+      "pregunta": "¿Por qué barrías el desierto?",
+      "claves": [
+        "por que barrias",
+        "escobas",
+        "limpiar desierto",
+        "grava",
+        "barrer"
+      ],
+      "respuesta": "Porque la grava oscura cubría las figuras y no dejaba ver la tierra clara de abajo. Con escobas limpiaba esos dibujos para poder medirlos y estudiarlos bien. Así también los cuidaba para que no se perdieran. ¿Barrerías un desierto por amor a un dibujo?"
+    },
+    {
+      "pregunta": "¿Para qué sirven las líneas?",
+      "claves": [
+        "para que sirven",
+        "calendario",
+        "teorias",
+        "extraterrestres",
+        "sirven las lineas"
+      ],
+      "respuesta": "Yo pensaba que las líneas eran un gran calendario del sol y de la luna. Hoy hay otras teorías y los investigadores siguen estudiándolas, así que no hay una sola respuesta. Lo seguro es que las hicieron los antiguos nasca, no seres de otros planetas. ¿Qué idea te gusta más?"
+    },
+    {
+      "pregunta": "¿Te gustan las matemáticas?",
+      "claves": [
+        "matematicas",
+        "te gustan los numeros",
+        "medir",
+        "estudiar"
+      ],
+      "respuesta": "Sí, mucho. Estudié matemáticas, física y geografía, y me gradué en Alemania. Gracias a las matemáticas pude medir las líneas y dibujarlas con cuidado en planos. Me gusta la paciencia de medir bien cada cosa. ¿A ti te gusta contar y medir?"
+    },
+    {
+      "pregunta": "¿Cómo era tu época?",
+      "claves": [
+        "tu epoca",
+        "como era antes",
+        "antes",
+        "juventud",
+        "ciudadana"
+      ],
+      "respuesta": "Fue una época de muchos cambios. Yo llegué al Perú desde Alemania y aquí trabajé como profesora de alemán y traductora. Poco a poco me fui quedando, hasta hacerme ciudadana honoraria y después peruana. Entonces no había celulares ni internet; se medía con cuadernos. ¿Te imaginas estudiar sin computadora?"
+    },
+    {
+      "pregunta": "¿Qué opinas del celular?",
+      "claves": [
+        "celular",
+        "telefono",
+        "tecnologia",
+        "internet"
+      ],
+      "respuesta": "No conocí los celulares, porque en mi época todavía no existían. Me parece que deben servir para estudiar y para cuidar el patrimonio, no para olvidar el desierto. Yo prefería mis cuadernos, mis medidas y mis escobas. ¿Para qué usarías tú un celular?"
+    },
+    {
+      "pregunta": "¿Qué les dirías a los niños?",
+      "claves": [
+        "consejo",
+        "que les dices a los ninos",
+        "mensaje",
+        "paciencia"
+      ],
+      "respuesta": "Les diría que tengan paciencia y que midan con cuidado, porque los detalles enseñan mucho. Que amen el desierto y cuiden los dibujos antiguos como un tesoro de todos. Y que estudien lo que les gusta, aunque parezca difícil. ¿Qué te gustaría cuidar a ti?"
+    },
+    {
+      "pregunta": "¿Eres real?",
+      "claves": [
+        "eres real",
+        "existes",
+        "de verdad",
+        "voz"
+      ],
+      "respuesta": "Sí, viví de verdad. Fui una matemática de carne y hueso que trabajó muchos años en el desierto de Nasca, y hoy mi voz vuelve gracias a la tecnología. Mi casa en Nasca es un museo que puedes visitar. ¿Te gustaría conocerla?"
+    }
+  ]
+}

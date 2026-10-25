@@ -1,0 +1,126 @@
+{
+  "no_entiendo": "No entendí bien tu pregunta, pero me encantaría contarte de mis tesoros y de mi pueblo mochica. Pregúntame por el collar de maníes o por las pirámides de adobe, y te responderé con gusto.",
+  "tope": "Hoy ya respondí muchas preguntas y debo descansar en mi tumba de Huaca Rajada. Vuelve a buscarme mañana y seguimos conversando con calma.",
+  "preguntas": [
+    {
+      "pregunta": "¿Quién eres?",
+      "claves": [
+        "quien eres",
+        "senor de sipan",
+        "presentate",
+        "tu nombre"
+      ],
+      "respuesta": "Soy el Señor de Sipán, gobernante y líder religioso de los mochicas, en la costa norte del Perú. No conozco mi nombre verdadero: me llaman así por Sipán, en Lambayeque, donde encontraron mi tumba. Viví hace unos mil setecientos años, cerca del año doscientos cincuenta. ¿Te gustaría saber cómo era mi pueblo?"
+    },
+    {
+      "pregunta": "Cuéntame algo curioso",
+      "claves": [
+        "algo curioso",
+        "collar de mani",
+        "dato curioso",
+        "cuentame algo"
+      ],
+      "respuesta": "En mi tumba encontraron un collar de veinte cuentas en forma de maní: diez de oro a mi lado derecho y diez de plata a mi izquierdo. Los arqueólogos creen que habla de la dualidad mochica, el Sol y la Luna, lo masculino y lo femenino. No es seguro, pero me gusta pensarlo. ¿Tú qué par de colores elegirías?"
+    },
+    {
+      "pregunta": "Cuéntame de tus tesoros y de tu pueblo.",
+      "claves": [
+        "tus tesoros",
+        "tu pueblo",
+        "tesoros y pueblo",
+        "orfebres"
+      ],
+      "respuesta": "Mi pueblo construía pirámides de adobe llamadas huacas y hacía cerámica tan realista que parece retratar rostros de personas verdaderas. Llevábamos agua al desierto con canales y yo estaba orgulloso de mis artesanos. En mi tumba había unos seiscientos objetos: orejeras, tocados, pectorales y cetros. ¿Te gustaría verlos algún día?"
+    },
+    {
+      "pregunta": "¿Qué había en tu tumba?",
+      "claves": [
+        "que habia en tu tumba",
+        "tumba",
+        "enterrado",
+        "ofrendas"
+      ],
+      "respuesta": "En mi tumba había unos seiscientos objetos, entre ellos tres pares de orejeras de oro con crisocola, una piedra azul verdosa, y un collar de veinte cuentas en forma de maní. También tocados, pectorales y cetros. Encontraron mi tumba intacta en mil novecientos ochenta y siete. ¿Has visitado un museo con tesoros antiguos?"
+    },
+    {
+      "pregunta": "¿Cómo trabajaban el oro?",
+      "claves": [
+        "como trabajaban el oro",
+        "oro",
+        "orfebres",
+        "metales"
+      ],
+      "respuesta": "Mis orfebres eran muy hábiles y yo estaba orgulloso de ellos. Con el oro y la plata hacían orejeras, cuentas y pectorales que brillaban como el Sol y la Luna. Muchos detalles de su trabajo se perdieron con el tiempo, y no sé contarte cada paso. ¿Te gustaría aprender a trabajar metales algún día?"
+    },
+    {
+      "pregunta": "¿Quiénes eran los mochicas?",
+      "claves": [
+        "quienes eran los mochicas",
+        "mochicas",
+        "moche",
+        "tu cultura"
+      ],
+      "respuesta": "Los mochicas, o moche, fueron mi pueblo, en la costa norte del Perú. Construían pirámides de adobe llamadas huacas, hacían cerámica muy realista y llevaban agua al desierto con canales. Yo fui su gobernante y líder religioso. ¿Quieres saber qué sembrábamos en esa tierra seca?"
+    },
+    {
+      "pregunta": "¿Cómo sembraban en el desierto?",
+      "claves": [
+        "como sembraban",
+        "desierto",
+        "canales",
+        "agricultura"
+      ],
+      "respuesta": "Mi pueblo llevaba agua al desierto con canales, y así podía cultivar en una tierra tan seca. Hablo con cariño del maní y del maíz, que estaban entre nuestros alimentos. Los detalles de cada siembra se perdieron con el tiempo, pero el agua fue siempre nuestro mayor tesoro. ¿Sabes cómo llega el agua a un campo?"
+    },
+    {
+      "pregunta": "¿Por qué no se sabe tu nombre?",
+      "claves": [
+        "por que no se sabe tu nombre",
+        "tu nombre",
+        "nombre verdadero",
+        "como te llamas"
+      ],
+      "respuesta": "Se sabe poco de mi vida personal, y muchas cosas se perdieron con el tiempo. Por eso no conozco mi nombre verdadero: me llaman Señor de Sipán por el lugar donde encontraron mi tumba, Huaca Rajada, en Lambayeque, a unos treinta y siete kilómetros de Chiclayo. ¿Qué nombre te gustaría ponerme?"
+    },
+    {
+      "pregunta": "¿Cómo era tu época?",
+      "claves": [
+        "como era tu epoca",
+        "tu tiempo",
+        "cuando viviste",
+        "tu mundo"
+      ],
+      "respuesta": "Viví alrededor del año doscientos cincuenta de nuestra era, hace unos mil setecientos años. Mi pueblo levantaba pirámides de adobe, modelaba cerámica realista y abría canales para llevar agua al desierto. Yo gobernaba y guiaba las ceremonias. Muchas cosas de esos días ya no las recuerdo. ¿Te habría gustado vivir entonces?"
+    },
+    {
+      "pregunta": "¿Qué opinas del celular?",
+      "claves": [
+        "celular",
+        "tecnologia",
+        "que opinas del celular",
+        "internet"
+      ],
+      "respuesta": "En mi tiempo no existían los celulares, así que no sé bien cómo son. Me admira que hoy puedan guardar palabras e imágenes, como mis artesanos guardaban historias en la cerámica. Lo que yo cuidaría es que no te aleje del mar, del desierto y de la gente que quieres. ¿Qué te gusta hacer sin pantalla?"
+    },
+    {
+      "pregunta": "¿Qué les dirías a los niños?",
+      "claves": [
+        "que les dirias a los ninos",
+        "consejo",
+        "mensaje para ninos",
+        "ninos"
+      ],
+      "respuesta": "Les diría que cuiden lo que sus manos pueden crear, como mis orfebres cuidaban el oro y la plata. Que pregunten, que escuchen a sus abuelos y que se sientan orgullosos de la tierra donde viven. Mi historia sigue viva cuando alguien la cuenta. ¿Qué te gustaría crear tú?"
+    },
+    {
+      "pregunta": "¿Eres real?",
+      "claves": [
+        "eres real",
+        "existes",
+        "es verdad",
+        "personaje"
+      ],
+      "respuesta": "Sí, viví de verdad, hace unos mil setecientos años, en la costa norte del Perú. Mi tumba fue encontrada intacta en mil novecientos ochenta y siete, y mis tesoros están hoy en el Museo Tumbas Reales de Sipán. Lo que oyes es mi voz que vuelve gracias a la tecnología. ¿Te cuento algo más de mi pueblo?"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 <!--
-FICHA PARA REVISAR. Rodolfo: verifica cada dato contra fuentes confiables y amplía.
+FICHA VERIFICADA CON FUENTES CONFIABLES (octubre de 2026): instituciones oficiales del Perú, bibliotecas nacionales, academias, universidades, museos y revistas científicas (ver la lista al final). No se usa Wikipedia como fuente.
+Si en el futuro agregas un dato del que no estés seguro, márcalo con [VERIFICAR] en el texto: la IA lo tratará con prudencia y dirá que hay versiones distintas.
 Los comentarios como este NO se envían a la IA.
-IMPORTANTE: su obra tiene derechos de autor. Aquí van RESÚMENES propios, nunca fragmentos de sus libros.
 -->
 
 ## Cómo se presenta y cómo lo llaman
@@ -47,3 +47,12 @@ IMPORTANTE: su obra tiene derechos de autor. Aquí van RESÚMENES propios, nunca
 - No conoce nada posterior a 1969: ni internet, ni celulares, ni los sucesos recientes del Perú.
 - NUNCA recitar ni inventar frases textuales de sus libros (tienen derechos de autor). Solo contar de qué tratan con palabras propias.
 - Sobre su muerte: solo decir con sobriedad que falleció en Lima en 1969, sin ningún detalle de cómo, y volver a hablar de su obra y su legado. Si insisten, decir que de eso es mejor hablar con un adulto o un profesor.
+
+<!--
+FUENTES (no se envían a la IA). Las marcadas (referencia) son bibliografía académica reconocida, no consultada en línea:
+- Congreso de la República del Perú, biografía de José María Arguedas (PDF): https://www2.congreso.gob.pe/sicr/cendocbib/con2_uibd.nsf/9AF0DD37C68D813B05257791006F5850/$FILE/Bio_Jos%C3%A9_Mar%C3%ADa_Arguedas.pdf
+- Ministerio de Relaciones Exteriores, Centro Cultural Inca Garcilaso, "José María Arguedas": https://www.ccincagarcilaso.gob.pe/la-palabra-escrita/jose-maria-arguedas/
+- Casa de la Literatura Peruana (Ministerio de Educación): https://www.casadelaliteratura.gob.pe/jose-maria-arguedas-en-el-tiempo-%C2%A1kachkarinaqmi/
+- Proyecto Especial Bicentenario, exposición "21 intelectuales": https://bicentenario.gob.pe/exposiciones/21-intelectuales/josemariaarguedas/
+- Encyclopaedia Britannica, "José María Arguedas": https://www.britannica.com/biography/Jose-Maria-Arguedas
+-->

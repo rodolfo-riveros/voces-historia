@@ -38,5 +38,21 @@
     "¿Qué se pesca en Chorrillos?"
   ],
   "boton_obras": "Su hazaña",
-  "pregunta_obras": "Cuéntame tu hazaña por la Independencia."
+  "pregunta_obras": "Cuéntame tu hazaña por la Independencia.",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.571,
+      0.15,
+      0.122
+    ],
+    "ojos": [
+      0.5,
+      0.34,
+      0.17,
+      0.06
+    ],
+    "zoom": 1.15,
+    "foco_y": 0.455
+  }
 }

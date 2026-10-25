@@ -59,8 +59,29 @@ def _cargar_personajes() -> dict[str, dict]:
             datos["nombre"], ficha.read_text(encoding="utf-8") if ficha.exists() else ""
         )
         datos["_lecturas"] = _cargar_lecturas(carpeta / "lecturas")
+        datos["_fuentes"] = _leer_fuentes(ficha.read_text(encoding="utf-8")) if ficha.exists() else []
         personajes[carpeta.name] = datos
     return dict(sorted(personajes.items(), key=lambda kv: kv[1].get("orden", 99)))
+
+
+def _leer_fuentes(ficha: str) -> list[dict]:
+    """Lee la lista de fuentes del comentario "FUENTES" al final de la ficha."""
+    bloque = re.search(r"<!--\s*FUENTES[^\n]*\n(.*?)-->", ficha, flags=re.S)
+    fuentes = []
+    for linea in (bloque.group(1).splitlines() if bloque else []):
+        linea = linea.strip()
+        if not linea.startswith("- "):
+            continue
+        linea = linea[2:].strip()
+        url = re.search(r"https?://\S+", linea)
+        texto = re.sub(r"[:\s]*https?://\S+", "", linea).strip(" :")
+        referencia = texto.endswith("(referencia)")
+        fuentes.append({
+            "texto": texto.replace("(referencia)", "").strip(),
+            "url": url.group(0) if url else None,
+            "referencia": referencia,
+        })
+    return fuentes
 
 
 def _partir(texto: str, largo: int = 380) -> list[str]:
@@ -236,7 +257,7 @@ async def chat(pedido: PedidoChat, request: Request):
                 model=config.DEEPSEEK_MODEL,
                 messages=mensajes,
                 max_tokens=config.MAX_TOKENS,
-                temperature=0.8,
+                temperature=0.6,
             )
             texto = prompts.limpiar_respuesta(r.choices[0].message.content)
             if texto:
@@ -294,6 +315,12 @@ async def voz_a_texto(request: Request, personaje: str = ""):
     finally:
         del audio
     return {"texto": texto}
+
+
+@app.get("/api/fuentes/{pid}")
+async def fuentes(pid: str):
+    """Fuentes confiables con las que se verificó la ficha del personaje."""
+    return _personaje(pid)["_fuentes"]
 
 
 @app.get("/api/lecturas/{pid}")

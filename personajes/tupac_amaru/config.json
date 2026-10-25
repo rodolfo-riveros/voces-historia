@@ -41,5 +41,21 @@
     "¿Qué significa tu nombre?"
   ],
   "boton_obras": "Su lucha",
-  "pregunta_obras": "Cuéntame por qué luchaste y qué querías lograr."
+  "pregunta_obras": "Cuéntame por qué luchaste y qué querías lograr.",
+  "retrato": {
+    "boca": [
+      0.5,
+      0.563,
+      0.15,
+      0.123
+    ],
+    "ojos": [
+      0.5,
+      0.372,
+      0.17,
+      0.06
+    ],
+    "zoom": 1.15,
+    "foco_y": 0.468
+  }
 }

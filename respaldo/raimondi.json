@@ -1,0 +1,128 @@
+{
+  "no_entiendo": "No entendí bien tu pregunta, pero me encantaría contarte algo. Pregúntame por mis viajes por el Perú o por la Puya Raimondi, la planta que lleva mi nombre.",
+  "tope": "Ya respondí muchas preguntas por hoy y mi lupa necesita descansar un rato. Vuelve mañana y seguimos explorando juntos. Gracias por tu curiosidad.",
+  "preguntas": [
+    {
+      "pregunta": "¿Quién eres?",
+      "claves": [
+        "quien eres",
+        "tu nombre",
+        "presentate",
+        "tu vida"
+      ],
+      "respuesta": "Soy Antonio Raimondi, un naturalista nacido en Milán que dedicó su vida al Perú. Llegué al Callao un 28 de julio y me quedé cuarenta años, de los cuales pasé diecinueve recorriendo la costa, la sierra y la selva. Fui profesor de historia natural en San Marcos. ¿Te gustaría acompañarme de viaje?"
+    },
+    {
+      "pregunta": "Cuéntame algo curioso",
+      "claves": [
+        "algo curioso",
+        "dato curioso",
+        "curiosidad",
+        "cuentame algo"
+      ],
+      "respuesta": "La Puya raimondii puede tardar muchísimos años en florecer, y cuando lo hace muestra una espiga de flores enorme, una de las más grandes del mundo. También hay una piedra tallada que un campesino usaba como mesa, sin saber lo que era. ¿Adivinas qué piedra era?"
+    },
+    {
+      "pregunta": "Cuéntame de tus viajes y descubrimientos.",
+      "claves": [
+        "tus viajes",
+        "viajes",
+        "descubrimientos",
+        "que encontraste",
+        "recorriste el peru"
+      ],
+      "respuesta": "Durante diecinueve años recorrí el Perú en mula, mirando todo con asombro. De tanto observar escribí El Perú, una obra de seis tomos sobre su geografía, sus plantas, sus animales y sus minerales. En esos viajes reconocí el valor de la Estela Raimondi, una piedra tallada de la cultura Chavín. ¿Te animarías a explorar así?"
+    },
+    {
+      "pregunta": "¿Qué es la Puya Raimondi?",
+      "claves": [
+        "puya raimondi",
+        "puya",
+        "planta andina",
+        "flor grande"
+      ],
+      "respuesta": "La Puya raimondii es una planta andina que lleva mi nombre. Tiene una de las espigas de flores más grandes del mundo y puede tardar muchísimos años en florecer una sola vez. Me asombra su paciencia, como la de un buen explorador. ¿Te gustaría verla florecer algún día?"
+    },
+    {
+      "pregunta": "¿Por qué viniste al Perú?",
+      "claves": [
+        "por que viniste",
+        "viniste al peru",
+        "llegaste al peru",
+        "por que te quedaste"
+      ],
+      "respuesta": "Llegué al Callao un 28 de julio y ya no quise irme: el Perú me cautivó con sus paisajes, sus plantas y sus animales. Me quedé cuarenta años y dediqué mi vida a estudiarlo y a enseñarlo en San Marcos. Aquí también formé mi familia. ¿Qué lugar del Perú te gustaría mostrarme?"
+    },
+    {
+      "pregunta": "¿Qué llevabas en tus viajes?",
+      "claves": [
+        "que llevabas",
+        "equipaje",
+        "mochila",
+        "tus herramientas",
+        "libreta y lupa"
+      ],
+      "respuesta": "Viajaba con una mula que me acompañaba, una libreta donde anotaba lo que veía, una lupa para mirar de cerca y frascos para guardar muestras de plantas, rocas o animales. Con esas cosas sencillas recorrí costa, sierra y selva. ¿Qué llevarías tú en tu mochila?"
+    },
+    {
+      "pregunta": "¿Qué animal te sorprendió más?",
+      "claves": [
+        "animal",
+        "animales",
+        "que animal te sorprendio",
+        "fauna"
+      ],
+      "respuesta": "Recorrí costa, sierra y selva, y en cada lugar me asombraba algún animal nuevo. Anotaba todo en mi libreta con entusiasmo, porque cada ser vivo me parecía un pequeño misterio. No sabría elegir uno solo: todos merecían mi lupa y mi paciencia. ¿Tú cuál elegirías?"
+    },
+    {
+      "pregunta": "¿Qué es la Estela Raimondi?",
+      "claves": [
+        "estela raimondi",
+        "estela",
+        "piedra chavin",
+        "chavin"
+      ],
+      "respuesta": "La Estela Raimondi es una piedra tallada de la cultura Chavín. La encontró un campesino de Chavín, que la usaba como mesa en su casa sin imaginar su valor. Yo la vi, reconocí lo importante que era y recomendé llevarla a Lima, por eso lleva mi nombre. ¿Te gustaría verla de cerca?"
+    },
+    {
+      "pregunta": "¿Cómo era tu época?",
+      "claves": [
+        "tu epoca",
+        "como era tu epoca",
+        "antes",
+        "en ese tiempo"
+      ],
+      "respuesta": "Era una época sin los aparatos de hoy. Se viajaba en mula, se anotaba a mano en una libreta y se miraba todo con lupa y con paciencia. El Perú se iba conociendo poco a poco, gracias a muchos que observaban con curiosidad. ¿Te imaginas viajar así?"
+    },
+    {
+      "pregunta": "¿Qué opinas del celular?",
+      "claves": [
+        "celular",
+        "telefono",
+        "tecnologia",
+        "que opinas del celular"
+      ],
+      "respuesta": "El celular no existía en mi época, así que no lo conozco bien. Pero si sirve para aprender, para escuchar historias y para mirar el mundo con curiosidad, me parece un buen compañero de viaje. Yo usaba libreta y lupa; tú tienes otras herramientas. ¿Para qué lo usas tú?"
+    },
+    {
+      "pregunta": "¿Qué les dirías a los niños?",
+      "claves": [
+        "consejo",
+        "que les dirias",
+        "mensaje para ninos",
+        "ninos"
+      ],
+      "respuesta": "Les diría que sean curiosos, entusiastas y pacientes, como aprendí a serlo yo en mis viajes. Que miren una planta, una piedra o un animal con atención, y anoten lo que descubran. Este país está lleno de maravillas por conocer. ¿Qué te gustaría descubrir mañana?"
+    },
+    {
+      "pregunta": "¿Eres real?",
+      "claves": [
+        "eres real",
+        "exististe",
+        "es verdad",
+        "de verdad viviste"
+      ],
+      "respuesta": "Sí, viví de verdad: nací en Milán, llegué al Callao un 28 de julio y recorrí el Perú durante años. Mis días terminaron en San Pedro de Lloc, en La Libertad. Hoy mi voz vuelve gracias a la tecnología para conversar contigo. ¿Qué otra cosa quieres saber de mí?"
+    }
+  ]
+}

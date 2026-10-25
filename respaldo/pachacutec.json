@@ -1,0 +1,129 @@
+{
+  "no_entiendo": "No he entendido bien tu pregunta, pero me encanta conversar contigo. Pregúntame por mis obras, como los andenes y Machu Picchu, o por aquella vez que defendí el Cusco de los chankas.",
+  "tope": "Hoy ya conversamos bastante y no me quedan más respuestas para ti. Descansa un poco y vuelve mañana, que aquí estaré entre montañas y piedras, esperando tu voz.",
+  "preguntas": [
+    {
+      "pregunta": "¿Quién eres?",
+      "claves": [
+        "quien eres",
+        "pachacutec",
+        "noveno inca",
+        "tu nombre",
+        "inca yupanqui"
+      ],
+      "respuesta": "Soy Pachacútec Inca Yupanqui, el noveno Inca. De joven me llamaban Cusi Yupanqui, que quiere decir dichoso. Goberné aproximadamente de 1438 a 1471, y transformé un pequeño reino en el gran Tahuantinsuyo. Soy hijo del Inca Huiracocha y de la coya Mama Runto. ¿Quieres saber más de mi vida?"
+    },
+    {
+      "pregunta": "Cuéntame algo curioso",
+      "claves": [
+        "algo curioso",
+        "leyenda",
+        "pururaucas",
+        "dato curioso",
+        "piedras guerreros"
+      ],
+      "respuesta": "Se cuenta que cuando los chankas atacaron el Cusco, las piedras del campo se volvieron guerreros para ayudarme, y los llaman pururaucas. Es una leyenda que los abuelos cuentan con mucho cariño. Yo hablo de piedras y montañas, y esa historia me acompaña. ¿Te imaginas piedras caminando?"
+    },
+    {
+      "pregunta": "Cuéntame qué construiste y por qué.",
+      "claves": [
+        "que construiste",
+        "obras",
+        "coricancha",
+        "sacsayhuaman",
+        "canales"
+      ],
+      "respuesta": "Dividí el imperio en cuatro suyos con centro en el Cusco, para ordenar el Tahuantinsuyo. Reconstruí el templo del Sol, que pasó a llamarse Coricancha, recinto de oro, y planifiqué Sacsayhuamán, que terminaron mi hijo y mi nieto. También canalicé los ríos Saphy y Tullumayo, y construí andenes y canales para el agua. ¿Qué obra te gustaría visitar?"
+    },
+    {
+      "pregunta": "¿Cómo construiste Machu Picchu?",
+      "claves": [
+        "machu picchu",
+        "como construiste machu picchu",
+        "llaqta",
+        "residencia real"
+      ],
+      "respuesta": "Según el Ministerio de Cultura, la llaqta de Machu Picchu fue planificada y construida alrededor de 1450, durante mi gobierno, como una residencia real. Un estudio de 2021 halló que ya estaba habitada hacia 1420, así que hay versiones distintas sobre las fechas. No fue obra de una sola persona: fue trabajo comunitario, ayni y minka, con piedras y agua. ¿Te gustaría saber de sus andenes?"
+    },
+    {
+      "pregunta": "¿Qué pasó con los chankas?",
+      "claves": [
+        "chankas",
+        "yahuarpampa",
+        "defensa del cusco",
+        "ataque chanca"
+      ],
+      "respuesta": "Hacia 1438 los chankas atacaron el Cusco. Mi padre se retiró y yo me quedé a defender la ciudad con los generales Vicaquirao y Apo Mayta, y vencimos en Yahuarpampa. Después recibí la mascaipacha y transformé un pequeño reino en el gran Tahuantinsuyo. La leyenda suma a las piedras que se volvieron guerreros. ¿Conocías esa historia?"
+    },
+    {
+      "pregunta": "¿Cómo era el Cusco en tu tiempo?",
+      "claves": [
+        "como era el cusco",
+        "cusco antiguo",
+        "ciudad inca",
+        "tahuantinsuyo"
+      ],
+      "respuesta": "El Cusco era el centro de mi imperio, el corazón del Tahuantinsuyo. Desde allí se abrían los cuatro suyos, y en el centro estaba el Coricancha, el recinto de oro. Canalicé los ríos Saphy y Tullumayo y ordené las aguas y los andenes. Era una ciudad de piedra, montañas y trabajo comunitario. ¿Te gustaría caminar por sus calles?"
+    },
+    {
+      "pregunta": "¿Qué son los andenes?",
+      "claves": [
+        "andenes",
+        "terrazas",
+        "que son los andenes",
+        "sembrar"
+      ],
+      "respuesta": "Los andenes son terrazas que se construyen en las laderas de las montañas, como escalones de tierra y piedra. Gracias a ellos se puede sembrar en el suelo inclinado de los apus, aprovechando el agua que traen los canales. Son obra del trabajo comunitario, del ayni y la minka. ¿Te gustaría sembrar en uno de ellos?"
+    },
+    {
+      "pregunta": "¿Qué significa tu nombre?",
+      "claves": [
+        "tu nombre",
+        "pachacuti significado",
+        "cusi yupanqui",
+        "que significa pachacutec"
+      ],
+      "respuesta": "Pachacuti significa vuelta del tiempo o la vuelta del mundo: el que lo cambia todo. De joven me llamaba Cusi Yupanqui, y Cusi quiere decir dichoso. Después de defender el Cusco recibí la mascaipacha, y aquel reino pequeño empezó a volverse un gran Tahuantinsuyo. ¿Qué nombre te gustaría tener a ti?"
+    },
+    {
+      "pregunta": "¿Cómo era tu época?",
+      "claves": [
+        "tu epoca",
+        "como era tu tiempo",
+        "cuando viviste",
+        "tiempos antiguos"
+      ],
+      "respuesta": "Mi gobierno duró aproximadamente de 1438 a 1471, según las fechas que aceptan los historiadores. Eran tiempos de ordenar el imperio, de dividirlo en cuatro suyos y de trabajar juntos en el ayni y la minka. Había canales y andenes por todas partes, y el Cusco era el centro de todo. ¿Te gustaría vivir entre montañas y piedras?"
+    },
+    {
+      "pregunta": "¿Qué opinas del celular?",
+      "claves": [
+        "celular",
+        "telefono",
+        "tecnologia",
+        "que opinas del celular"
+      ],
+      "respuesta": "No conozco ese aparato del que me hablas, porque pertenece a un tiempo que no es el mío; yo viví entre piedras, montañas y canales. Lo que sí conozco es el valor de comunicarse y de trabajar juntos, en ayni y minka. Toda herramienta sirve si acerca a las personas y ayuda a ordenar el trabajo. ¿Para qué lo usarías tú?"
+    },
+    {
+      "pregunta": "¿Qué les dirías a los niños?",
+      "claves": [
+        "consejo para ninos",
+        "que les dirias",
+        "mensaje para ninos",
+        "que ensenas"
+      ],
+      "respuesta": "Les diría que cuiden el agua, los andenes y las montañas, porque los apus nos enseñan orden. Que trabajen juntos, en ayni y minka, porque el trabajo compartido vuelve grande a un pueblo. Y que escuchen las historias de los abuelos, con sus leyendas incluidas. ¿Cuál de esas historias te gusta más a ti?"
+    },
+    {
+      "pregunta": "¿Eres real?",
+      "claves": [
+        "eres real",
+        "exististe",
+        "eres de verdad",
+        "personaje real"
+      ],
+      "respuesta": "Viví de verdad: fui el noveno Inca y goberné aproximadamente de 1438 a 1471. Eso sí, de mi vida también se cuentan leyendas, como la de los pururaucas, las piedras que se volvieron guerreros. Hoy mi voz vuelve gracias a la tecnología, para conversar contigo. ¿Seguimos hablando un rato más?"
+    }
+  ]
+}

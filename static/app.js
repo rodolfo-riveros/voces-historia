@@ -962,6 +962,40 @@ function pintarPortada() {
   });
 }
 
+/** Muestra las fuentes con las que se verificó la ficha del personaje. */
+async function mostrarFuentes() {
+  const lista = $("#lista-fuentes");
+  lista.innerHTML = "<li>Cargando…</li>";
+  $("#modal-fuentes").hidden = false;
+  try {
+    const fuentes = await (await fetch(`/api/fuentes/${estado.actual.id}`)).json();
+    lista.innerHTML = "";
+    if (!fuentes.length) lista.innerHTML = "<li>Este personaje todavía no tiene fuentes registradas.</li>";
+    fuentes.forEach((f) => {
+      const li = document.createElement("li");
+      if (f.url) {
+        const a = document.createElement("a");
+        a.href = f.url;
+        a.target = "_blank";
+        a.rel = "noopener";
+        a.textContent = f.texto;
+        li.appendChild(a);
+      } else {
+        li.textContent = f.texto;
+      }
+      if (f.referencia) {
+        const s = document.createElement("span");
+        s.className = "fuente-ref";
+        s.textContent = " · obra de referencia";
+        li.appendChild(s);
+      }
+      lista.appendChild(li);
+    });
+  } catch {
+    lista.innerHTML = "<li>No pude cargar las fuentes. Revisa la conexión.</li>";
+  }
+}
+
 function actualizarBotonSonido() {
   const b = $("#btn-sonido");
   const activo = Ambiente.volumen > 0;
@@ -1016,6 +1050,9 @@ async function iniciar() {
   $("#btn-holo-elegir").onclick = () => abrirHolograma(estado.personajes[0]);
   $("#btn-holo-charla").onclick = () => abrirHolograma(estado.actual);
   $("#btn-mic").onclick = tocarMic;
+  $("#btn-fuentes").onclick = mostrarFuentes;
+  $("#fuentes-cerrar").onclick = () => ($("#modal-fuentes").hidden = true);
+  $("#modal-fuentes").onclick = (e) => { if (e.target.id === "modal-fuentes") e.target.hidden = true; };
   $("#btn-sonido").onclick = () => {
     // Silencia o recupera el ambiente (recuerda el último volumen usado).
     if (Ambiente.volumen > 0) {

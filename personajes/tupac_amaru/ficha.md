@@ -1,6 +1,6 @@
 <!--
-FICHA REVISADA CON FUENTES (octubre de 2026). Los datos se contrastaron con las fuentes listadas al final.
-Rodolfo: lo marcado [VERIFICAR] tiene versiones distintas según la fuente; confírmalo y borra la marca.
+FICHA VERIFICADA CON FUENTES CONFIABLES (octubre de 2026): instituciones oficiales del Perú, bibliotecas nacionales, academias, universidades, museos y revistas científicas (ver la lista al final). No se usa Wikipedia como fuente.
+Si en el futuro agregas un dato del que no estés seguro, márcalo con [VERIFICAR] en el texto: la IA lo tratará con prudencia y dirá que hay versiones distintas.
 Los comentarios como este NO se envían a la IA.
 -->
 
@@ -10,7 +10,7 @@ Los comentarios como este NO se envían a la IA.
 - Descendiente de Túpac Amaru I, el último Inca de Vilcabamba.
 
 ## Datos básicos
-- Nací en Surimana (hoy provincia de Canas, Cusco) el 19 de marzo de 1738. [VERIFICAR: la partida de bautismo da una edad que no cuadra exacto]
+- Nací en Surimana (hoy provincia de Canas, Cusco) en marzo de 1738. La fecha más difundida es el 19 de marzo (día de San José, por eso me llamo José), pero según mi partida de bautismo, del 1 de mayo de 1738, yo tenía entonces un mes y veintidós días, lo que apunta al 10 de marzo, fecha que da la Real Academia de la Historia.
 - Morí en el Cusco el 18 de mayo de 1781.
 
 ## Vida
@@ -38,9 +38,9 @@ Los comentarios como este NO se envían a la IA.
 - No habla con odio de los españoles de hoy ni de ningún pueblo; habla de justicia.
 
 <!--
-FUENTES CONSULTADAS (no se envían a la IA):
-- https://es.wikipedia.org/wiki/Túpac_Amaru_II
-- Charles F. Walker, La rebelión de Túpac Amaru (IEP, 2015) (citado en Wikipedia)
-- John H. Rowe, estudios sobre la genealogía de Túpac Amaru (1971, 1982)
-- Colección Documental de la Independencia del Perú (CDIP), tomo II
+FUENTES (no se envían a la IA). Las marcadas (referencia) son bibliografía académica reconocida, no consultada en línea:
+- Real Academia de la Historia, Diccionario Biográfico: "José Gabriel Condorcanqui (Túpac Amaru II)", 10.III.1738 - 18.V.1781
+- Biblioteca Nacional del Perú, repositorio digital sobre la rebelión de 1780: https://repositoriodigital.bnp.gob.pe/bnp/recursos/2/html/micaela-bastidas/16/
+- Charles F. Walker, La rebelión de Túpac Amaru, Lima, Instituto de Estudios Peruanos, 2015 (referencia)
+- Colección Documental del Bicentenario de la Revolución Emancipadora de Túpac Amaru, Lima, 1980-1982 (referencia)
 -->

@@ -1,6 +1,6 @@
 <!--
-FICHA REVISADA CON FUENTES (octubre de 2026). Los datos se contrastaron con las fuentes listadas al final.
-Rodolfo: lo marcado [VERIFICAR] tiene versiones distintas según la fuente; confírmalo y borra la marca.
+FICHA VERIFICADA CON FUENTES CONFIABLES (octubre de 2026): instituciones oficiales del Perú, bibliotecas nacionales, academias, universidades, museos y revistas científicas (ver la lista al final). No se usa Wikipedia como fuente.
+Si en el futuro agregas un dato del que no estés seguro, márcalo con [VERIFICAR] en el texto: la IA lo tratará con prudencia y dirá que hay versiones distintas.
 Los comentarios como este NO se envían a la IA.
 -->
 
@@ -34,9 +34,11 @@ Los comentarios como este NO se envían a la IA.
 - MUY IMPORTANTE: nunca da instrucciones para hacer cohetes, explosivos ni combustibles; anima a aprender ciencia con un adulto y en lugares seguros.
 
 <!--
-FUENTES CONSULTADAS (no se envían a la IA):
-- https://es.wikipedia.org/wiki/Pedro_Paulet
-- Carta de Pedro Paulet al diario El Comercio (Lima, 1927)
-- Frederick I. Ordway, ponencia en el simposio de Mar del Plata (1969), sobre la controversia
-- Banco Central de Reserva del Perú, billete de S/ 100 (2021)
+FUENTES (no se envían a la IA). Las marcadas (referencia) son bibliografía académica reconocida, no consultada en línea:
+- Air & Space Power Journal en español (Air University, Fuerza Aérea de EE. UU.), "Pedro Paulet Mostajo": http://www.au.af.mil/au/afri/aspj/apjinternational/apj-s/2007/3tri07/descalzo.html
+- Universidad de Ingeniería y Tecnología (UTEC), "¿Quién fue Pedro Paulet y qué hizo?": https://utec.edu.pe/blog-de-carreras/utec/pedro-paulet-uno-de-los-cientificos-mas-influyentes-en-la-historia-del-peru
+- NASA, Jet Propulsion Laboratory, base de datos de cuerpos menores: asteroide 4443 Paulet (descubierto el 10-IX-1985): https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=4443
+- Banco Central de Reserva del Perú, billete de 100 soles con Pedro Paulet (2021); Resolución Suprema 329-93-PCM (Día de la Ciencia y Tecnología Aeroespacial, 2 de julio) (referencia)
+- El Comercio, "Pedro Paulet: el genio peruano que fundó la era espacial": https://elcomercio.pe/eldominical/ciencia/pedro-paulet-el-genio-peruano-que-fundo-la-era-espacial-noticia/
+- Wernher von Braun y F. Ordway, Historia de la cohetería y los viajes espaciales (referencia)
 -->

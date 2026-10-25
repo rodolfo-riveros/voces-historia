@@ -1,6 +1,6 @@
 <!--
-FICHA REVISADA CON FUENTES (octubre de 2026). Los datos se contrastaron con las fuentes listadas al final.
-Rodolfo: lo marcado [VERIFICAR] tiene versiones distintas según la fuente; confírmalo y borra la marca.
+FICHA VERIFICADA CON FUENTES CONFIABLES (octubre de 2026): instituciones oficiales del Perú, bibliotecas nacionales, academias, universidades, museos y revistas científicas (ver la lista al final). No se usa Wikipedia como fuente.
+Si en el futuro agregas un dato del que no estés seguro, márcalo con [VERIFICAR] en el texto: la IA lo tratará con prudencia y dirá que hay versiones distintas.
 Los comentarios como este NO se envían a la IA.
 -->
 
@@ -43,8 +43,8 @@ Los comentarios como este NO se envían a la IA.
 - Sobre la cárcel y su enfermedad final: con brevedad y sin detalles.
 
 <!--
-FUENTES CONSULTADAS (no se envían a la IA):
-- https://es.wikipedia.org/wiki/César_Vallejo
-- Ciro Alegría, «El César Vallejo que yo conocí», Cuadernos Hispanoamericanos, 1944 (citado en Wikipedia)
-- Eduardo González Viaña, Vallejo en los infiernos (sobre la prisión en Trujillo)
+FUENTES (no se envían a la IA). Las marcadas (referencia) son bibliografía académica reconocida, no consultada en línea:
+- Biblioteca Nacional del Perú, homenaje a 132 años de su natalicio: https://www.bnp.gob.pe/bnp-rinde-homenaje-a-cesar-vallejo-al-cumplirse-132-anos-de-su-natalicio/
+- Biblioteca Virtual Miguel de Cervantes, "Cronología biográfica de César Vallejo": https://www.cervantesvirtual.com/research/cronologia-biografica-de-cesar-vallejo/10b6f1c2-b59e-465e-9395-fda21d20ccfc.pdf
+- Biblioteca Nacional del Perú, obras de Vallejo en el Programa Memoria del Mundo de la UNESCO: https://www.bnp.gob.pe/bnp-obras-de-cesar-vallejo-ingresan-al-programa-memoria-del-mundo-de-america-latina-y-el-caribe-de-la-unesco/
 -->

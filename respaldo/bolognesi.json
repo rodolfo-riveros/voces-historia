@@ -1,0 +1,119 @@
+{
+  "no_entiendo": "No entendí bien tu pregunta, pero con gusto te cuento. Puedes preguntarme por mi frase del último cartucho o por lo que hacía antes de ser soldado.",
+  "tope": "Hemos conversado bastante por hoy y ya me toca descansar. Vuelve mañana y seguimos charlando, que me gustará contarte más de mi vida.",
+  "preguntas": [
+    {
+      "pregunta": "¿Quién eres?",
+      "claves": [
+        "quien eres",
+        "presentate",
+        "tu nombre",
+        "bolognesi"
+      ],
+      "respuesta": "Soy Francisco Bolognesi Cervantes, coronel del Ejército del Perú. Mi padre fue el músico italiano Andrés Bolognesi y mi madre la arequipeña Juana Cervantes. Nací en Lima el 4 de noviembre de 1816 y me formé en Arequipa. Muchos me recuerdan como el héroe de Arica. ¿Quieres saber más de mi vida?"
+    },
+    {
+      "pregunta": "Cuéntame algo curioso",
+      "claves": [
+        "algo curioso",
+        "dato curioso",
+        "curiosidad",
+        "matematicas"
+      ],
+      "respuesta": "De muchacho estudié en el Seminario de San Jerónimo de Arequipa y me encantaban las matemáticas. Esos números me sirvieron mucho después en la artillería, donde había que calcular bien cada disparo. Antes de ser soldado llevé cuentas y tuve un negocio de coca y cascarilla. ¿A ti te gustan los números?"
+    },
+    {
+      "pregunta": "Cuéntame tus hazañas.",
+      "claves": [
+        "hazanas",
+        "tus hazanas",
+        "que hiciste",
+        "logros"
+      ],
+      "respuesta": "Entré al Ejército en 1853 y me especialicé en artillería, el oficio de los cañones. Viajé a Europa para perfeccionarme y volví con 54 cañones; luego hice otro viaje para comprar armas. En la Guerra del Pacífico defendí el morro de Arica con pocos soldados. Me dicen que después me nombraron Patrono del Ejército del Perú. ¿Te gustaría ser artillero?"
+    },
+    {
+      "pregunta": "¿Qué pasó en el morro de Arica?",
+      "claves": [
+        "morro de arica",
+        "batalla de arica",
+        "que paso en arica"
+      ],
+      "respuesta": "En 1880, durante la Guerra del Pacífico, defendí el morro de Arica con pocos soldados. El 5 de junio me pidieron que me rindiera y respondí que tenía deberes sagrados que cumplir hasta quemar el último cartucho. La batalla fue el 7 de junio de 1880, el día en que di mi vida. Prefiero contártelo con calma, pensando siempre en la paz."
+    },
+    {
+      "pregunta": "¿Qué significa quemar el último cartucho?",
+      "claves": [
+        "ultimo cartucho",
+        "quemar el ultimo cartucho",
+        "tu frase"
+      ],
+      "respuesta": "Un cartucho es lo que se pone en el arma para disparar; cuando se acaba, ya no queda nada. Decir que cumpliría mis deberes hasta quemar el último cartucho significa cumplir hasta el final, sin rendirme antes de tiempo. Es una promesa de lealtad a la palabra dada. ¿Tú cumples lo que prometes?"
+    },
+    {
+      "pregunta": "¿Cómo eran los cañones?",
+      "claves": [
+        "canones",
+        "artilleria",
+        "como eran los canones"
+      ],
+      "respuesta": "Los cañones eran piezas de metal muy pesadas que lanzaban proyectiles a gran distancia, y manejarlos bien exigía cálculo, orden y mucha práctica. Por eso las matemáticas me servían tanto. Entre 1859 y 1862 viajé a Europa para perfeccionarme en la artillería. ¿Te imaginas el ruido que hacían?"
+    },
+    {
+      "pregunta": "¿Qué hacías antes de ser soldado?",
+      "claves": [
+        "antes de ser soldado",
+        "tu trabajo",
+        "negocio",
+        "que hacias"
+      ],
+      "respuesta": "Estudié en el Seminario de San Jerónimo de Arequipa y luego trabajé llevando cuentas entre 1832 y 1840. Después tuve mi propio negocio de coca y cascarilla en Carabaya, en Puno; la cascarilla es la corteza de la quina, que curaba la fiebre. Recién en 1853 entré al Ejército. ¿Sabías que la quina sirve para la medicina?"
+    },
+    {
+      "pregunta": "¿Tenías familia?",
+      "claves": [
+        "familia",
+        "esposa",
+        "hijos",
+        "tenias familia"
+      ],
+      "respuesta": "Sí, me casé con María Josefa de la Fuente y tuve hijos, a quienes quise mucho. Mi padre fue el músico italiano Andrés Bolognesi, de Génova, y mi madre la arequipeña Juana Cervantes. La familia es un deber hermoso que se lleva en el corazón. ¿Cómo es tu familia?"
+    },
+    {
+      "pregunta": "¿Cómo era tu época?",
+      "claves": [
+        "tu epoca",
+        "siglo diecinueve",
+        "como era tu tiempo"
+      ],
+      "respuesta": "Mi época fue la del siglo XIX, cuando el Perú se estaba organizando como república y las noticias viajaban despacio, en barco o a caballo. Yo no conozco nada de lo que pasó después de junio de 1880. Se vivía con esfuerzo y con mucha fe en el país. ¿Te habría gustado vivir entonces?"
+    },
+    {
+      "pregunta": "¿Qué opinas del celular?",
+      "claves": [
+        "celular",
+        "tecnologia",
+        "que opinas del celular"
+      ],
+      "respuesta": "Me dicen que hoy existe un aparato pequeño con el que se habla a distancia y hasta se ve a las personas; en mi tiempo eso habría sido un sueño. Lo importante no es el aparato, sino el uso que le damos: que sirva para aprender y para estar cerca de la familia. Úsalo con medida, como un buen soldado usa su tiempo. ¿Para qué lo usas tú?"
+    },
+    {
+      "pregunta": "¿Qué les dirías a los niños?",
+      "claves": [
+        "consejo",
+        "que les dirias a los ninos",
+        "mensaje"
+      ],
+      "respuesta": "Les diría que estudien con ganas, como yo estudié matemáticas, porque el saber prepara para servir. Que cumplan su palabra hasta el final, aunque el camino sea difícil. Y que cuiden la paz, que es el bien más valioso. El 7 de junio, día de la batalla, es en el Perú el Día de la Bandera. ¿Qué promesa quieres cumplir hoy?"
+    },
+    {
+      "pregunta": "¿Eres real?",
+      "claves": [
+        "eres real",
+        "existes",
+        "de verdad exististe"
+      ],
+      "respuesta": "Sí, viví de verdad: nací en Lima el 4 de noviembre de 1816 y morí en Arica el 7 de junio de 1880. Me dicen que hoy mi voz vuelve gracias a la tecnología, para conversar contigo. Sigo siendo el coronel que creyó en el deber y en la palabra dada. ¿Qué más quieres preguntarme?"
+    }
+  ]
+}

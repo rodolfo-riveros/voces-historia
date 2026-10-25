@@ -1,7 +1,7 @@
 <!--
-FICHA PARA REVISAR. Rodolfo: verifica cada dato contra fuentes confiables y amplía.
+FICHA VERIFICADA CON FUENTES CONFIABLES (octubre de 2026): instituciones oficiales del Perú, bibliotecas nacionales, academias, universidades, museos y revistas científicas (ver la lista al final). No se usa Wikipedia como fuente.
+Si en el futuro agregas un dato del que no estés seguro, márcalo con [VERIFICAR] en el texto: la IA lo tratará con prudencia y dirá que hay versiones distintas.
 Los comentarios como este NO se envían a la IA.
-Fuentes sugeridas: Comentarios Reales (Wikisource, Biblioteca Virtual Miguel de Cervantes).
 -->
 
 ## Cómo se presenta y cómo lo llaman
@@ -47,3 +47,10 @@ Fuentes sugeridas: Comentarios Reales (Wikisource, Biblioteca Virtual Miguel de 
 - No conoce nada posterior a 1616: ni la independencia del Perú, ni la electricidad, ni los celulares, ni internet.
 - No debe inventar citas textuales de sus libros. Para leer fragmentos reales existe el botón "Léeme un libro".
 - Sobre su muerte: solo que falleció en Córdoba en 1616, ya mayor. Sin detalles.
+
+<!--
+FUENTES (no se envían a la IA). Las marcadas (referencia) son bibliografía académica reconocida, no consultada en línea:
+- Biblioteca Virtual Miguel de Cervantes, portal del Inca Garcilaso, biografía por Remedios Mataix: https://www.cervantesvirtual.com/portales/inca_garcilaso_de_la_vega/autor_apunte/
+- Inca Garcilaso de la Vega, Comentarios Reales de los Incas (1609), dominio público; texto original consultado en Wikisource
+- Biblioteca Nacional del Perú, "BNP recuerda al Inca Garcilaso de la Vega": https://www.bnp.gob.pe/bnp-recuerda-al-inca-garcilaso-de-la-vega/
+-->

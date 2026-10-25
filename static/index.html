@@ -12,7 +12,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <link rel="preload" href="/fonts/baloo2.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/nunito.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/style.css?v=9">
+  <link rel="stylesheet" href="/style.css?v=11">
 </head>
 <body>
 <main id="app">
@@ -73,6 +73,9 @@
         <button class="btn-sonido" id="btn-sonido" aria-label="Silenciar sonido ambiente">
           <svg class="on" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg>
           <svg class="off" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5L6 9H2v6h4l5 4z"/><path d="M22 9l-6 6M16 9l6 6"/></svg>
+        </button>
+        <button class="btn-fuentes" id="btn-fuentes" aria-label="Ver las fuentes de lo que cuenta" title="Fuentes">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h11a3 3 0 0 1 3 3v13H7a3 3 0 0 1-3-3z"/><path d="M4 17a3 3 0 0 1 3-3h11"/><path d="M8.5 8.5l1.8 1.8 3.4-3.4"/></svg>
         </button>
         <button class="btn-holo btn-holo-chico" id="btn-holo-charla" aria-label="Ver en modo holograma">
           <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M12 3L3 19h18z"/><path d="M12 3v16M3 19l9-5 9 5"/></svg>
@@ -236,13 +239,25 @@
     </div>
   </section>
 
+  <!-- Fuentes verificadas del personaje (para profesores y alumnos) -->
+  <div class="modal-fuentes" id="modal-fuentes" role="dialog" aria-modal="true" aria-labelledby="fuentes-titulo" hidden>
+    <div class="modal-fuentes-caja">
+      <div class="modal-fuentes-cabeza">
+        <h2 id="fuentes-titulo">¿De dónde sale lo que cuento?</h2>
+        <button class="modal-cerrar" id="fuentes-cerrar" aria-label="Cerrar">✕</button>
+      </div>
+      <p class="modal-fuentes-nota">Lo que sé está verificado en estas fuentes confiables. Cuando algo es leyenda o tradición, o los historiadores no se ponen de acuerdo, te lo digo.</p>
+      <ol class="lista-fuentes" id="lista-fuentes"></ol>
+    </div>
+  </div>
+
   <div class="aviso" id="aviso" role="alert" hidden></div>
   <div class="sello-demo" id="sello-demo" hidden>DEMO</div>
 </main>
 
-<script src="/avatares.js?v=9"></script>
-<script src="/ambiente.js?v=9"></script>
-<script src="/oido.js?v=9"></script>
-<script src="/app.js?v=9"></script>
+<script src="/avatares.js?v=11"></script>
+<script src="/ambiente.js?v=11"></script>
+<script src="/oido.js?v=11"></script>
+<script src="/app.js?v=11"></script>
 </body>
 </html>

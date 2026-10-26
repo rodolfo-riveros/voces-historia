@@ -23,6 +23,9 @@ HISTORIAL_MAX = _entero("HISTORIAL_MAX", 6)
 LIMITE_POR_MIN = _entero("LIMITE_POR_MIN", 20)
 TOPE_DIARIO = _entero("TOPE_DIARIO", 1500)
 TIMEOUT_IA = _entero("TIMEOUT_IA", 20)
+# DeepSeek "piensa" antes de responder por defecto (4 a 10 s más). Para conversar por voz
+# conviene apagarlo. Solo se envía a DeepSeek: otros proveedores no conocen el parámetro.
+IA_SIN_RAZONAR = os.getenv("IA_RAZONAR", "0") != "1" and "deepseek" in DEEPSEEK_BASE_URL
 
 # Voz a texto en el servidor (Whisper), para navegadores que no reconocen voz por sí mismos.
 # Modelos: tiny, base (1–2 GB de RAM), small (4 GB o más; entiende mejor voces de niños).

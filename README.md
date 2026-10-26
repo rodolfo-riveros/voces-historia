@@ -152,7 +152,8 @@ Comprueba con `curl https://<tu-dominio>/health` → `ok`.
 | GET | `/api/estado` | modo demo, si hay voz a texto en el servidor y uso del día |
 | GET | `/api/personajes` | lista de personajes |
 | POST | `/api/chat` | `{personaje, mensajes:[{rol:"usuario"\|"personaje", texto}], demo?}` → `{texto, origen}` |
-| POST | `/api/tts` | `{personaje, texto}` → mp3 |
+| POST | `/api/tts` | `{personaje, texto}` → mp3 (se usa en las lecturas, que se descargan por adelantado) |
+| GET | `/api/voz?personaje=<id>&texto=...` | mp3 que llega por partes: la conversación lo reproduce mientras se genera (~1 s) |
 | POST | `/api/stt?personaje=<id>` | audio grabado (webm/ogg/mp4) en el cuerpo → `{texto}` |
 | GET | `/api/lecturas/{id}` y `/api/lecturas/{id}/{lectura}` | fragmentos para leer en voz alta |
 

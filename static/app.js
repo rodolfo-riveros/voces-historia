@@ -14,6 +14,7 @@ const estado = {
   demo: localStorage.getItem("voces-demo") === "1",
   ultimoTexto: "",
   reconocedor: null,
+  pedido: null,          // AbortController del pedido a la IA en curso
   lecturaActiva: null,   // {cancelada: bool}
   sesion: 0,             // sube al cambiar de pantalla para cancelar tareas viejas
   holo: false,           // true mientras se usa el modo holograma
@@ -94,6 +95,7 @@ function aplicarColores(p) {
 }
 
 // ---------- Audio: reproducción + boca animada ----------
+const SILENCIO = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=";
 const audio = new Audio();
 audio.preload = "auto";
 let ctxAudio = null, analizador = null, datosOnda = null;
@@ -120,7 +122,7 @@ function prepararAudio() {
   if (ctxAudio && ctxAudio.state === "suspended") ctxAudio.resume();
   if (!audioListo) {
     audioListo = true;
-    audio.src = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=";
+    audio.src = SILENCIO;
     audio.play().catch(() => {});
     if ("speechSynthesis" in window) {
       const u = new SpeechSynthesisUtterance(" ");
@@ -184,6 +186,9 @@ function detenerAudio() {
   pararBoca();
   if (finActual) finActual();
   finActual = null;
+  // Corta también la descarga de una voz que estaba llegando por partes
+  // (cambiar el src la cancela; un src vacío provocaría un error tardío).
+  if (audio.src.includes("/api/voz")) audio.src = SILENCIO;
 }
 
 /** Pide el audio al servidor (edge-tts). Devuelve un Blob o null si falla. */
@@ -220,6 +225,46 @@ function reproducirBlob(blob, onProgreso) {
     };
     if (ctxAudio && ctxAudio.state === "suspended") ctxAudio.resume();
     audio.play().then(() => animarBoca("analizador")).catch(fin);
+  });
+}
+
+/**
+ * Reproduce la voz a medida que llega del servidor (empieza en ~1 s, sin esperar el mp3 entero).
+ * Devuelve true si sonó, o false si falló antes de empezar (entonces se usa la voz del navegador).
+ */
+function reproducirEnVivo(texto, onProgreso, onInicio) {
+  return new Promise((resolver) => {
+    const url = `/api/voz?personaje=${encodeURIComponent(estado.actual.id)}&texto=${encodeURIComponent(texto)}`;
+    // Mientras llega por partes el navegador no sabe cuánto dura: se estima por el largo del texto.
+    const estimado = Math.max(2, texto.length * 0.072);
+    let empezo = false, terminado = false;
+    const fin = () => {
+      if (terminado) return;
+      terminado = true;
+      audio.onended = audio.onerror = audio.ontimeupdate = audio.onplaying = null;
+      pararBoca();
+      if (empezo) onProgreso && onProgreso(1);
+      resolver(empezo);
+    };
+    finActual = fin;
+    audio.src = url;
+    audio.onplaying = () => {
+      if (empezo || !audio.src.endsWith(url)) return;
+      empezo = true;
+      onInicio && onInicio();
+      animarBoca("analizador");
+    };
+    // Solo cuentan los eventos de ESTE audio (no los de uno anterior que se canceló).
+    const esEste = () => audio.src.endsWith(url);
+    audio.onended = () => esEste() && fin();
+    audio.onerror = () => esEste() && fin();
+    audio.ontimeupdate = () => {
+      if (!onProgreso || !empezo || !esEste()) return;
+      const total = Number.isFinite(audio.duration) && audio.duration > 0 ? audio.duration : estimado;
+      onProgreso(Math.min(0.98, audio.currentTime / total));
+    };
+    if (ctxAudio && ctxAudio.state === "suspended") ctxAudio.resume();
+    audio.play().catch(fin);
   });
 }
 
@@ -317,15 +362,14 @@ function fase(f) {
     izq.disabled = der.disabled = true;
   } else if (f === "pensando") {
     mic.innerHTML = ICONOS.mic.replace('width="62" height="62"', 'width="48" height="48"');
-    mic.disabled = true;
-    mic.setAttribute("aria-label", "Micrófono en pausa");
-    texto.textContent = "Espera un ratito…";
+    mic.setAttribute("aria-label", "Preguntar otra cosa");
+    texto.textContent = "Pensando… (toca para cambiar)";
     pastilla.innerHTML = ICONOS.idea + " Pensando…";
     izq.disabled = der.disabled = true;
   } else if (f === "hablando") {
     mic.innerHTML = ICONOS.parar;
-    mic.setAttribute("aria-label", "Parar");
-    texto.textContent = "Parar";
+    mic.setAttribute("aria-label", "Parar y preguntar otra cosa");
+    texto.textContent = "Toca para preguntar";
     $("#quien-habla").textContent = `${p.nombre_corto.split(" ").slice(-1)[0]} está hablando`;
     botonLateral(izq, ICONOS.otraVez, "Otra vez", repetir);
     botonLateral(der, p.tiene_lecturas ? ICONOS.libro : p.id === "grau" ? ICONOS.ancla : ICONOS.libro, p.boton_obras, abrirObras);
@@ -480,16 +524,36 @@ async function entrarCharla(p) {
   responderConVoz(saludo, sesion);
 }
 
+/** Corta todo lo que esté en curso (pedido a la IA, voz, micrófono) para empezar algo nuevo. */
+function cancelarTurno() {
+  estado.sesion++;
+  detenerTodo();
+}
+
+/** El personaje dice un texto: subtítulos que avanzan con la voz y boca animada. */
 async function responderConVoz(texto, sesion) {
   if (sesion !== estado.sesion) return;
   estado.ultimoTexto = texto;
   const sub = estado.holo ? null : $("#subtitulo");
   const avanzar = sub ? pintarSubtitulo(sub, texto) : null;
-  const blob = await pedirAudio(texto);
-  if (sesion !== estado.sesion) return;
-  fase("hablando");
-  avanzar && avanzar(0);
-  await decir(texto, avanzar, blob);
+  const empezar = () => {
+    if (sesion !== estado.sesion) return;
+    fase("hablando");
+    avanzar && avanzar(0);
+  };
+  Ambiente.voz(true);
+  try {
+    // La voz llega por partes y suena apenas llega el primer trozo.
+    const sono = await reproducirEnVivo(texto, avanzar, empezar);
+    if (sesion !== estado.sesion) return;
+    // Sin voz del servidor (sin internet o edge-tts caído): voz del navegador.
+    if (!sono) {
+      empezar();
+      await hablarNavegador(texto, avanzar);
+    }
+  } finally {
+    Ambiente.voz(false);
+  }
   if (sesion !== estado.sesion) return;
   if (estado.fase === "hablando") fase("listo");
   // Holograma en conversación continua: vuelve a escuchar solo.
@@ -502,25 +566,39 @@ async function responderConVoz(texto, sesion) {
 
 async function enviar(pregunta) {
   pregunta = (pregunta || "").trim();
-  if (!pregunta || estado.fase === "pensando") return;
+  if (!pregunta) return;
+  // Una pregunta nueva siempre gana: se cancela la anterior aunque siga pensando o hablando.
+  cancelarTurno();
   const sesion = estado.sesion;
-  detenerAudio();
   $("#form-teclado").hidden = true;
   if (!estado.holo) $("#texto-usuario").textContent = pregunta;
   $("#burbuja-usuario").hidden = false;
   fase("pensando");
+  // Si la pregunta anterior quedó sin respuesta (se cortó), se quita de la memoria:
+  // si no, la IA vería dos preguntas seguidas y podría contestar la vieja.
+  while (estado.historial.length && estado.historial[estado.historial.length - 1].rol === "usuario") {
+    estado.historial.pop();
+  }
   estado.historial.push({ rol: "usuario", texto: pregunta });
   estado.historial = estado.historial.slice(-HISTORIAL_MAX);
 
-  let texto;
+  let texto = null;
+  const control = new AbortController();
+  estado.pedido = control;
   try {
-    const r = await api("/api/chat", { personaje: estado.actual.id, mensajes: estado.historial, demo: estado.demo });
+    const r = await fetch("/api/chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ personaje: estado.actual.id, mensajes: estado.historial, demo: estado.demo }),
+      signal: control.signal,
+    });
     const datos = await r.json();
     texto = datos.texto || datos.detail;
   } catch {
     texto = null;
   }
   if (sesion !== estado.sesion) return;
+  estado.pedido = null;
   if (!texto) {
     texto = "Parece que se cortó la conexión y no pude escucharte bien. ¿Me preguntas otra vez?";
   }
@@ -535,7 +613,7 @@ function escuchar() {
     aviso("Este navegador no puede escucharte. ¡Escribe tu pregunta!");
     return alternarTeclado(true);
   }
-  detenerAudio();
+  cancelarTurno();
   const sesion = estado.sesion;
 
   if (!estado.holo) {
@@ -593,17 +671,14 @@ function escuchar() {
 }
 
 function tocarMic() {
-  if (estado.fase === "listo") escuchar();
-  else if (estado.fase === "escuchando") estado.reconocedor && estado.reconocedor.detener();
-  else if (estado.fase === "hablando") {
-    detenerAudio();
-    fase("listo");
-  }
+  if (estado.fase === "escuchando") return estado.reconocedor && estado.reconocedor.detener();
+  // Listo, pensando o hablando: se escucha una pregunta nueva (lo anterior se cancela).
+  escuchar();
 }
 
 function repetir() {
   if (!estado.ultimoTexto) return;
-  detenerAudio();
+  cancelarTurno();
   responderConVoz(estado.ultimoTexto, estado.sesion);
 }
 
@@ -619,6 +694,10 @@ function alternarTeclado(forzar) {
 }
 
 function detenerTodo() {
+  if (estado.pedido) {
+    estado.pedido.abort();
+    estado.pedido = null;
+  }
   if (estado.reconocedor) {
     estado.reconocedor.cancelar();
     estado.reconocedor = null;

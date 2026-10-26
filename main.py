@@ -8,8 +8,8 @@ import re
 from contextlib import asynccontextmanager
 from pathlib import Path
 
-from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import FileResponse, JSONResponse, PlainTextResponse, Response
+from fastapi import FastAPI, HTTPException, Query, Request
+from fastapi.responses import FileResponse, JSONResponse, PlainTextResponse, Response, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from openai import AsyncOpenAI
 from pydantic import BaseModel, Field
@@ -245,12 +245,17 @@ async def chat(pedido: PedidoChat, request: Request):
         return {"texto": aviso, "origen": "tope"}
 
     historial = pedido.mensajes[-config.HISTORIAL_MAX:]
-    mensajes = [{"role": "system", "content": p["_sistema"]}] + [
-        {"role": "user" if m.rol == "usuario" else "assistant", "content": m.texto}
-        for m in historial
-    ]
-    # A veces el modelo "piensa" tanto que no le queda espacio para responder:
-    # se reintenta una vez antes de usar el respaldo.
+    mensajes = [{"role": "system", "content": p["_sistema"]}]
+    for m in historial:
+        rol = "user" if m.rol == "usuario" else "assistant"
+        # Dos preguntas seguidas (la primera quedó sin respuesta): solo vale la última.
+        if rol == "user" and mensajes[-1]["role"] == "user":
+            mensajes[-1] = {"role": rol, "content": m.texto}
+        else:
+            mensajes.append({"role": rol, "content": m.texto})
+    # Sin "pensar" antes de responder: la respuesta llega en ~2 s en vez de 4 a 10 s.
+    extra = {"extra_body": {"thinking": {"type": "disabled"}}} if config.IA_SIN_RAZONAR else {}
+    # Si aun así llega vacía, se reintenta una vez antes de usar el respaldo.
     for intento in (1, 2):
         try:
             r = await cliente_ia.chat.completions.create(
@@ -258,6 +263,7 @@ async def chat(pedido: PedidoChat, request: Request):
                 messages=mensajes,
                 max_tokens=config.MAX_TOKENS,
                 temperature=0.6,
+                **extra,
             )
             texto = prompts.limpiar_respuesta(r.choices[0].message.content)
             if texto:
@@ -287,6 +293,23 @@ async def tts(pedido: PedidoVoz):
         log.warning("Falló edge-tts: %s", type(e).__name__)
         raise HTTPException(503, "La voz del servidor no está disponible.")
     return Response(audio, media_type="audio/mpeg", headers={"Cache-Control": "no-store"})
+
+
+@app.get("/api/voz")
+async def voz_en_vivo(personaje: str, texto: str = Query(min_length=1, max_length=1500)):
+    """Como /api/tts, pero el mp3 llega por partes: el navegador lo usa como <audio src>
+    y empieza a sonar en ~1 s. Los audios pregenerados (saludos, respaldo) salen del disco."""
+    p = _personaje(personaje)
+    ajustes = p.get("voz", {})
+    guardado = voz.ruta_respaldo(p["id"], ajustes, texto)
+    if guardado.exists():
+        return FileResponse(guardado, media_type="audio/mpeg")
+    try:
+        partes = await voz.flujo(ajustes, texto)
+    except Exception as e:
+        log.warning("Falló edge-tts: %s", type(e).__name__)
+        raise HTTPException(503, "La voz del servidor no está disponible.")
+    return StreamingResponse(partes, media_type="audio/mpeg", headers={"Cache-Control": "no-store"})
 
 
 @app.post("/api/stt")

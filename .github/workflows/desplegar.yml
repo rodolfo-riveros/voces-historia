@@ -27,6 +27,10 @@ jobs:
           HOST: ${{ secrets.VPS_HOST }}
           PUERTO: ${{ secrets.VPS_PUERTO || '22' }}
         run: |
+          if [ -z "$CLAVE" ] || [ -z "$HOST" ]; then
+            echo "::error::Faltan los secrets VPS_HOST, VPS_USUARIO o VPS_CLAVE_SSH. Ver README, sección 'Actualización automática desde GitHub'."
+            exit 1
+          fi
           mkdir -p ~/.ssh
           printf '%s\n' "$CLAVE" > ~/.ssh/id_vps
           chmod 600 ~/.ssh/id_vps

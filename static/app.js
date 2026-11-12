@@ -256,10 +256,16 @@ function elegirVozNavegador(genero) {
 /**
  * Reproduce la voz a medida que llega del servidor (empieza en ~1 s, sin esperar el mp3 entero).
  * Devuelve true si sonó, o false si falló antes de empezar (entonces se usa la voz del navegador).
+ * Si el celular bloquea el audio por falta de un toque, espera el toque en vez de fallar.
  */
 function reproducirEnVivo(texto, onProgreso, onInicio) {
   return new Promise((resolver) => {
-    const url = `/api/voz?personaje=${encodeURIComponent(estado.actual.id)}&texto=${encodeURIComponent(texto)}`;
+    // Se compara con la dirección tal como la escribe el navegador (por ejemplo, el apóstrofo
+    // de las palabras quechuas se vuelve %27); si no, no reconocería su propio audio.
+    const url = new URL(
+      `/api/voz?personaje=${encodeURIComponent(estado.actual.id)}&texto=${encodeURIComponent(texto)}`,
+      location.href
+    ).href;
     // Mientras llega por partes el navegador no sabe cuánto dura: se estima por el largo del texto.
     const estimado = Math.max(2, texto.length * 0.072);
     let empezo = false, terminado = false;
@@ -274,13 +280,13 @@ function reproducirEnVivo(texto, onProgreso, onInicio) {
     finActual = fin;
     audio.src = url;
     audio.onplaying = () => {
-      if (empezo || !audio.src.endsWith(url)) return;
+      if (empezo || audio.src !== url) return;
       empezo = true;
       onInicio && onInicio();
       animarBoca("analizador");
     };
     // Solo cuentan los eventos de ESTE audio (no los de uno anterior que se canceló).
-    const esEste = () => audio.src.endsWith(url);
+    const esEste = () => audio.src === url;
     audio.onended = () => esEste() && fin();
     audio.onerror = () => esEste() && fin();
     audio.ontimeupdate = () => {
@@ -289,7 +295,23 @@ function reproducirEnVivo(texto, onProgreso, onInicio) {
       onProgreso(Math.min(0.98, audio.currentTime / total));
     };
     if (ctxAudio && ctxAudio.state === "suspended") ctxAudio.resume();
-    audio.play().catch(fin);
+    audio.play().catch((e) => {
+      if (terminado || !esEste()) return;
+      // El celular no deja sonar audio sin un toque (no es que falle el servidor): en vez de
+      // pasar a la voz robótica del navegador, se espera un toque y suena la voz del personaje.
+      if (e && e.name === "NotAllowedError") {
+        aviso("Toca la pantalla para escuchar 🔊", 8000);
+        const tocar = () => {
+          document.removeEventListener("pointerdown", tocar, true);
+          if (terminado || !esEste()) return;
+          prepararAudio();
+          audio.play().catch(() => fin());
+        };
+        document.addEventListener("pointerdown", tocar, true);
+        return;
+      }
+      fin();
+    });
   });
 }
 

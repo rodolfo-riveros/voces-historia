@@ -18,9 +18,10 @@
     "gracilazo",
     "garcilazo"
   ],
+  "genero": "hombre",
   "voz": {
     "voz": "es-ES-AlvaroNeural",
-    "velocidad": "-8%",
+    "velocidad": "-6%",
     "tono": "-4Hz"
   },
   "colores": {

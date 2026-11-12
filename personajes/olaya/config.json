@@ -17,6 +17,7 @@
     "josé olaya",
     "pescador"
   ],
+  "genero": "hombre",
   "voz": {
     "voz": "es-VE-SebastianNeural",
     "velocidad": "-4%",

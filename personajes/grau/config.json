@@ -20,10 +20,11 @@
     "huáscar",
     "grao"
   ],
+  "genero": "hombre",
   "voz": {
     "voz": "es-BO-MarceloNeural",
     "velocidad": "-5%",
-    "tono": "-6Hz"
+    "tono": "-4Hz"
   },
   "colores": {
     "fondo": "#D9ECFF",

@@ -19,6 +19,7 @@
     "isabel",
     "santa rosa de lima"
   ],
+  "genero": "mujer",
   "voz": {
     "voz": "es-PE-CamilaNeural",
     "velocidad": "-6%",

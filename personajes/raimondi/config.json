@@ -18,10 +18,11 @@
     "antonio raimondi",
     "raimundi"
   ],
+  "genero": "hombre",
   "voz": {
-    "voz": "es-UY-MateoNeural",
-    "velocidad": "-6%",
-    "tono": "-6Hz"
+    "voz": "it-IT-GiuseppeMultilingualNeural",
+    "velocidad": "-4%",
+    "tono": "+0Hz"
   },
   "colores": {
     "fondo": "#DCEFDD",

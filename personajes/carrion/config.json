@@ -18,6 +18,7 @@
     "alcides",
     "daniel alcides carrion"
   ],
+  "genero": "hombre",
   "voz": {
     "voz": "es-PE-AlexNeural",
     "velocidad": "+0%",

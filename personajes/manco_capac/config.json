@@ -18,6 +18,7 @@
     "capac",
     "cápac"
   ],
+  "genero": "hombre",
   "voz": {
     "voz": "es-GT-AndresNeural",
     "velocidad": "-6%",

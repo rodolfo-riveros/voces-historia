@@ -19,9 +19,10 @@
     "valleja",
     "vayejo"
   ],
+  "genero": "hombre",
   "voz": {
     "voz": "es-EC-LuisNeural",
-    "velocidad": "-8%",
+    "velocidad": "-6%",
     "tono": "-4Hz"
   },
   "colores": {

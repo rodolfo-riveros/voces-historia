@@ -19,6 +19,7 @@
     "macías",
     "fray juan"
   ],
+  "genero": "hombre",
   "voz": {
     "voz": "es-CL-LorenzoNeural",
     "velocidad": "-6%",

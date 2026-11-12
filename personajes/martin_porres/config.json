@@ -20,6 +20,7 @@
     "fray escoba",
     "porres"
   ],
+  "genero": "hombre",
   "voz": {
     "voz": "es-CU-ManuelNeural",
     "velocidad": "-6%",

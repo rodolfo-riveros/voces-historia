@@ -18,10 +18,11 @@
     "pacha",
     "yupanqui"
   ],
+  "genero": "hombre",
   "voz": {
     "voz": "es-HN-CarlosNeural",
-    "velocidad": "-8%",
-    "tono": "-10Hz"
+    "velocidad": "-6%",
+    "tono": "-4Hz"
   },
   "colores": {
     "fondo": "#F5D6D6",

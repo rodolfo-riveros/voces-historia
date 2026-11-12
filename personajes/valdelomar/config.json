@@ -18,6 +18,7 @@
     "valdelomá",
     "carmelo"
   ],
+  "genero": "hombre",
   "voz": {
     "voz": "es-CO-GonzaloNeural",
     "velocidad": "+0%",

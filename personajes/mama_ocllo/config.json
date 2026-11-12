@@ -18,9 +18,10 @@
     "oclo",
     "mama"
   ],
+  "genero": "mujer",
   "voz": {
     "voz": "es-EC-AndreaNeural",
-    "velocidad": "-8%",
+    "velocidad": "-6%",
     "tono": "-4Hz"
   },
   "colores": {

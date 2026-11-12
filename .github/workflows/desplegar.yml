@@ -1,0 +1,52 @@
+# Cada push a main actualiza el VPS automáticamente.
+# Necesita estos "secrets" en GitHub (Settings → Secrets and variables → Actions):
+#   VPS_HOST      IP o dominio del servidor
+#   VPS_USUARIO   usuario SSH (por ejemplo, voces)
+#   VPS_CLAVE_SSH clave privada SSH (la pública va en ~/.ssh/authorized_keys del servidor)
+#   VPS_PUERTO    (opcional) puerto SSH, por defecto 22
+#   VPS_RUTA      (opcional) carpeta del proyecto, por defecto /opt/voces
+name: Desplegar en el VPS
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: # botón "Run workflow" para desplegar a mano
+
+concurrency:
+  group: desplegar
+  cancel-in-progress: false
+
+jobs:
+  desplegar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Preparar la llave SSH
+        env:
+          CLAVE: ${{ secrets.VPS_CLAVE_SSH }}
+          HOST: ${{ secrets.VPS_HOST }}
+          PUERTO: ${{ secrets.VPS_PUERTO || '22' }}
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$CLAVE" > ~/.ssh/id_vps
+          chmod 600 ~/.ssh/id_vps
+          ssh-keyscan -p "$PUERTO" -H "$HOST" >> ~/.ssh/known_hosts 2>/dev/null
+
+      - name: Actualizar el servidor
+        env:
+          HOST: ${{ secrets.VPS_HOST }}
+          USUARIO: ${{ secrets.VPS_USUARIO }}
+          PUERTO: ${{ secrets.VPS_PUERTO || '22' }}
+          RUTA: ${{ secrets.VPS_RUTA || '/opt/voces' }}
+        run: |
+          # Primero se baja el código (así el script existe aunque sea el primer despliegue).
+          ssh -i ~/.ssh/id_vps -p "$PUERTO" "$USUARIO@$HOST" \
+            "cd '$RUTA' && ANTES=\$(git rev-parse HEAD) && git fetch -q origin main && git reset -q --hard origin/main && ANTES=\$ANTES RUTA_VOCES='$RUTA' bash deploy/actualizar.sh"
+
+      - name: Comprobar el sitio público
+        run: |
+          for i in $(seq 1 10); do
+            curl -fsS https://voces-historia.profito.io/health | grep -q ok && echo "✔ El sitio responde" && exit 0
+            sleep 3
+          done
+          echo "✘ https://voces-historia.profito.io no responde"; exit 1

@@ -188,13 +188,17 @@ function detenerAudio() {
 
 /** Pide el audio al servidor (edge-tts). Devuelve un Blob o null si falla. */
 async function pedirAudio(texto, pid = estado.actual.id) {
-  try {
-    const r = await api("/api/tts", { personaje: pid, texto });
-    if (!r.ok) return null;
-    return await r.blob();
-  } catch {
-    return null;
+  // Un reintento: edge-tts a veces falla una vez y a la segunda responde.
+  for (let intento = 0; intento < 2; intento++) {
+    try {
+      const r = await api("/api/tts", { personaje: pid, texto });
+      if (r.ok) return await r.blob();
+      if (r.status !== 503) return null;
+    } catch {
+      /* se reintenta */
+    }
   }
+  return null;
 }
 
 /** Reproduce un Blob mp3 animando la boca. onProgreso recibe 0..1. */
@@ -223,6 +227,27 @@ function reproducirBlob(blob, onProgreso) {
   });
 }
 
+// Nombres de voces del sistema (Windows, Edge, Chrome, Apple) para reconocer si son de hombre o de mujer.
+const VOZ_HOMBRE = /\b(male|hombre|masculin|raul|pablo|jorge|alvaro|alonso|tomas|dario|gonzalo|juan|carlos|alex|diego|enrique|andres|lorenzo|manuel|mateo|federico|sebastian|marcelo|gerardo|rodrigo|luis|javier|mario|roberto|emilio|arnau|eddy|reed|rocko|grandpa)\b/i;
+const VOZ_MUJER = /\b(female|mujer|femen|helena|laura|sabina|elvira|paulina|monica|camila|dalia|elena|lucia|paloma|marisol|esperanza|sofia|andrea|ximena|salome|isabel|soledad|google español)\b/i;
+
+/** Elige la voz del navegador según el género del personaje. Devuelve {voz, tono}. */
+function elegirVozNavegador(genero) {
+  const voces = speechSynthesis.getVoices().filter((v) => v.lang.toLowerCase().startsWith("es"));
+  const latina = (v) => /PE|419|US|MX|AR|CO|CL/i.test(v.lang);
+  const natural = (v) => /natural|online|neural|premium|enhanced/i.test(v.name);
+  // Primero las voces naturales y latinoamericanas: suenan menos robóticas.
+  const orden = [...voces].sort((a, b) => (natural(b) - natural(a)) || (latina(b) - latina(a)));
+  const buscada = genero === "mujer" ? VOZ_MUJER : VOZ_HOMBRE;
+  const contraria = genero === "mujer" ? VOZ_HOMBRE : VOZ_MUJER;
+  const exacta = orden.find((v) => buscada.test(normalizar(v.name)));
+  if (exacta) return { voz: exacta, tono: 1 };
+  // Sin una voz del género correcto: una que no sea del contrario, y si es hombre, más grave.
+  const neutra = orden.find((v) => !contraria.test(normalizar(v.name))) || orden[0] || null;
+  const tono = genero === "mujer" ? 1 : neutra && !contraria.test(normalizar(neutra.name)) ? 0.85 : 0.6;
+  return { voz: neutra, tono };
+}
+
 /** Respaldo: voz del navegador. */
 function hablarNavegador(texto, onProgreso) {
   return new Promise((resolver) => {
@@ -230,8 +255,10 @@ function hablarNavegador(texto, onProgreso) {
     speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(texto);
     u.lang = "es-PE";
-    const voces = speechSynthesis.getVoices().filter((v) => v.lang.toLowerCase().startsWith("es"));
-    u.voice = voces.find((v) => /PE|419|US|MX/i.test(v.lang)) || voces[0] || null;
+    const { voz, tono } = elegirVozNavegador(estado.actual?.genero || "hombre");
+    u.voice = voz;
+    if (voz) u.lang = voz.lang;
+    u.pitch = tono;
     u.rate = 0.95;
     let terminado = false;
     const fin = () => {

@@ -18,10 +18,11 @@
     "francisco",
     "coronel"
   ],
+  "genero": "hombre",
   "voz": {
     "voz": "es-MX-JorgeNeural",
-    "velocidad": "-8%",
-    "tono": "-12Hz"
+    "velocidad": "-6%",
+    "tono": "-4Hz"
   },
   "colores": {
     "fondo": "#EBE3E0",

@@ -20,10 +20,11 @@
     "nazca",
     "raiche"
   ],
+  "genero": "mujer",
   "voz": {
-    "voz": "es-ES-ElviraNeural",
-    "velocidad": "-8%",
-    "tono": "-6Hz"
+    "voz": "de-DE-SeraphinaMultilingualNeural",
+    "velocidad": "-4%",
+    "tono": "+0Hz"
   },
   "colores": {
     "fondo": "#F4E6D7",

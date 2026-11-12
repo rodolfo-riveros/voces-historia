@@ -138,6 +138,29 @@ sudo cp deploy/Caddyfile /etc/caddy/Caddyfile && sudo systemctl reload caddy
 
 Comprueba con `curl https://<tu-dominio>/health` → `ok`.
 
+### Actualización automática desde GitHub
+
+Cada `git push` a `main` actualiza el VPS solo (`.github/workflows/desplegar.yml`): entra por SSH,
+deja el código igual a GitHub, instala dependencias si cambió `requirements.txt`, reinicia el
+servicio y comprueba `/health`. El `.env` del servidor no se toca. Se configura una sola vez:
+
+1. En el VPS, crea una llave solo para GitHub y autorízala para el usuario `voces`:
+   ```bash
+   sudo -u voces ssh-keygen -t ed25519 -N "" -f /opt/voces/.ssh/github_deploy
+   sudo -u voces sh -c 'cat /opt/voces/.ssh/github_deploy.pub >> /opt/voces/.ssh/authorized_keys'
+   sudo cat /opt/voces/.ssh/github_deploy      # esta es la clave PRIVADA para GitHub
+   ```
+2. Permite que `voces` reinicie solo su servicio sin contraseña:
+   ```bash
+   echo 'voces ALL=(root) NOPASSWD: /usr/bin/systemctl restart voces' | sudo tee /etc/sudoers.d/voces-deploy
+   ```
+3. Si el repositorio es privado, el VPS necesita poder hacer `git fetch` (una *deploy key* de solo lectura en GitHub).
+4. En GitHub → Settings → Secrets and variables → Actions, crea: `VPS_HOST`, `VPS_USUARIO` (`voces`),
+   `VPS_CLAVE_SSH` (la clave privada del paso 1) y, si hace falta, `VPS_PUERTO` y `VPS_RUTA`.
+
+Para ver si salió bien: pestaña **Actions** del repositorio. También se puede desplegar a mano con
+el botón *Run workflow*, o en el servidor con `bash deploy/actualizar.sh`.
+
 ## Privacidad (menores de edad)
 
 - No se guarda audio. En Chrome el reconocimiento ocurre en el navegador; en los demás, el audio llega al servidor, Whisper lo transcribe en memoria y se descarta sin escribirse en disco.

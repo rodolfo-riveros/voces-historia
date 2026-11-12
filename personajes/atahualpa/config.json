@@ -17,6 +17,7 @@
     "atawallpa",
     "ataualpa"
   ],
+  "genero": "hombre",
   "voz": {
     "voz": "es-CR-JuanNeural",
     "velocidad": "-6%",

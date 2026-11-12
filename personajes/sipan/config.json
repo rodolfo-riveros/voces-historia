@@ -19,10 +19,11 @@
     "mochica",
     "moche"
   ],
+  "genero": "hombre",
   "voz": {
     "voz": "es-SV-RodrigoNeural",
-    "velocidad": "-10%",
-    "tono": "-10Hz"
+    "velocidad": "-6%",
+    "tono": "-4Hz"
   },
   "colores": {
     "fondo": "#F6E5D5",

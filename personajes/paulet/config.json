@@ -18,6 +18,7 @@
     "paule",
     "cohete"
   ],
+  "genero": "hombre",
   "voz": {
     "voz": "es-PA-RobertoNeural",
     "velocidad": "+4%",

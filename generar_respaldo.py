@@ -14,7 +14,7 @@ import voz
 
 
 async def generar(solo: list[str]):
-    total = nuevos = fallidos = 0
+    total = nuevos = fallidos = borrados = 0
     for pid, p in main.PERSONAJES.items():
         if solo and pid not in solo:
             continue
@@ -23,9 +23,11 @@ async def generar(solo: list[str]):
         for lectura in p["_lecturas"].values():
             textos += lectura["partes"]
         print(f"\n{p['nombre']}: {len(textos)} audios")
+        vigentes = set()
         for texto in textos:
             total += 1
             ruta = voz.ruta_respaldo(pid, ajustes, texto)
+            vigentes.add(ruta.name)
             if ruta.exists():
                 continue
             ruta.parent.mkdir(parents=True, exist_ok=True)
@@ -36,7 +38,13 @@ async def generar(solo: list[str]):
             except Exception as e:
                 fallidos += 1
                 print("  ✗", texto[:60], "->", type(e).__name__)
-    print(f"\nListo: {total} textos, {nuevos} audios nuevos, {fallidos} fallidos.")
+        # Se borran los audios viejos (de una voz o un texto que ya no se usa).
+        carpeta = voz.ruta_respaldo(pid, ajustes, "x").parent
+        for viejo in carpeta.glob("*.mp3") if carpeta.exists() else []:
+            if viejo.name not in vigentes:
+                viejo.unlink()
+                borrados += 1
+    print(f"\nListo: {total} textos, {nuevos} audios nuevos, {fallidos} fallidos, {borrados} viejos borrados.")
 
 
 if __name__ == "__main__":

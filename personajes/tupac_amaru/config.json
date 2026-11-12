@@ -20,10 +20,11 @@
     "condorcanqui",
     "jose gabriel"
   ],
+  "genero": "hombre",
   "voz": {
     "voz": "es-PY-MarioNeural",
     "velocidad": "-6%",
-    "tono": "-6Hz"
+    "tono": "-4Hz"
   },
   "colores": {
     "fondo": "#DBF0DC",

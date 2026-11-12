@@ -17,10 +17,11 @@
     "ricardo palma",
     "tradiciones"
   ],
+  "genero": "hombre",
   "voz": {
     "voz": "es-PE-AlexNeural",
-    "velocidad": "-10%",
-    "tono": "-12Hz"
+    "velocidad": "-6%",
+    "tono": "-4Hz"
   },
   "colores": {
     "fondo": "#F7D4E2",
